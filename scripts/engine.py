@@ -181,7 +181,7 @@ def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | No
         "It collected outlines, probabilities, recurring shapes. Yet the human stepped outside the diagram, "
         "taking with them the power to consent, to dissent, and to decide what the picture meant.",
         source_line,
-        f"The {theme.lower()} offered one law: {axiom}. The law here is a philosophical premise, "
+        f"The theme of {theme.lower()} offered one law: {axiom}. The law here is a philosophical premise, "
         "not a technical claim that every system obeys it.",
         "And so the manuscript kept the question open. It recorded a witness, a challenge, and an authorial boundary. "
         "The next page would be written, but the human name would not be overwritten.",

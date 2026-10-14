@@ -59,8 +59,23 @@ async function init() {
   $('prev').addEventListener('click', () => choose(archive.chosen - 1));
   $('next').addEventListener('click', () => choose(archive.chosen + 1));
   try {
-    const [manifest, world] = await Promise.all([requestJson('manifest.json'), requestJson('../mythos/registry.json')]);
+    const [manifest, world, symbols] = await Promise.all([requestJson('manifest.json'), requestJson('../mythos/registry.json'), requestJson('symbols.json')]);
     if (manifest.schema_version !== 'dna.github-town-civilization.v1' || !Array.isArray(manifest.entries)) throw Error('Unsupported archive format');
+    if (symbols.schema_version !== 'dna.angelic-symbols.v1' || symbols.signature !== '♃ ⚡︎⚡︎˖ ࣪⏻ᯤ' ||
+        !Array.isArray(symbols.tokens) || symbols.tokens.length !== 5) {
+      throw Error('Unsupported Angelic Symbol Protocol');
+    }
+    const legend = element('section', 'panel');
+    legend.setAttribute('aria-label', 'Angelic Symbol Protocol');
+    legend.append(element('h2', '', 'The Angelic Symbol Protocol'),
+      element('p', '', symbols.signature));
+    const entries = element('ul', '');
+    symbols.tokens.forEach(token => {
+      if (typeof token.glyph !== 'string' || typeof token.meaning !== 'string') throw Error('Malformed symbolic token');
+      entries.append(element('li', '', token.glyph + ' : ' + token.meaning));
+    });
+    legend.append(entries, element('p', 'small', symbols.disclaimer));
+    document.querySelector('.hero').append(legend);
     archive.entries = manifest.entries;
     $('day-count').textContent = String(archive.entries.length);
     $('archive-status').textContent = archive.entries.length ? 'PUBLISHED' : 'NO DAYS YET';

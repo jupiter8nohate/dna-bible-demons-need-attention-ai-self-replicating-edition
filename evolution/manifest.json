@@ -4,6 +4,11 @@
       "path": "lessons/lesson-000001.json",
       "previous_sha256": null,
       "sha256": "5df7044bcc094df8a990804c5c3d023a8981ff0bfe69e7ec1ec5a417e4d08332"
+    },
+    {
+      "path": "lessons/lesson-000002.json",
+      "previous_sha256": "5df7044bcc094df8a990804c5c3d023a8981ff0bfe69e7ec1ec5a417e4d08332",
+      "sha256": "a26fb12fe8fc6d37a4b61e49e2f3f4c0cb202e5af25785f80c825cf570c6573a"
     }
   ],
   "schema_version": "dna.evolution.v1",

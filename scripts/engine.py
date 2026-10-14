@@ -318,7 +318,7 @@ def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | No
                    "The headline remains unverified metadata, not confirmation of the reported event.") if subject else (
                    "The observatory reported no suitable new headline; the witnesses used their own fictional record instead.")
     anomaly_line = ("The Anomaly Observatory registered a detected, unverified structural signal: "
-                    + anomaly["story_premise"] + " Detection did not establish a cause or hidden intention.") if anomaly else (
+                    + anomaly["story_premise"] + " An unusual pattern is not proof of its cause or any hidden intention.") if anomaly else (
                     "The anomaly ledger had no unused verified-by-bytes structural observation for this passage.")
     insight_line = (
         "A new evidence-to-insight observation raises this unresolved question: "

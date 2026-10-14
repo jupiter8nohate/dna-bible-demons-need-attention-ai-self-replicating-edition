@@ -28,6 +28,15 @@
       "previous_sha256": "3b53a30d5ad941a0a4631abdf7e70942e0f2bd94d53610e6be65116ecd9e58d8",
       "source_generated_at": "2026-10-14T11:56:37.990343Z",
       "article_count": 9
+    },
+    {
+      "captured_at": "2026-10-14T18:43:37.082918Z",
+      "path": "snapshots/20261014T184337Z-8744daf98e1f.json",
+      "sha256": "63ef504c54319be2d391cdb9c01e2aef4d030a98b1f6239005ff47e0196f28cc",
+      "content_fingerprint": "fc9b11a747ea06ce31487d554e6137a3f266622d34543ae4ae63dc26aa0a6ceb",
+      "previous_sha256": "9e5718c855337d25be39b1a00e27e7848c87a820b4643c1e9de56a9d131e1031",
+      "source_generated_at": "2026-10-14T17:13:31.384602Z",
+      "article_count": 8
     }
   ]
 }

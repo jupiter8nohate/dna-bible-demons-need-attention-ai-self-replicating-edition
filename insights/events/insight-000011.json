@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-14T18:43:37.150952Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000011",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261014T184337Z-8744daf98e1f.json",
+  "snapshot_sha256": "63ef504c54319be2d391cdb9c01e2aef4d030a98b1f6239005ff47e0196f28cc",
+  "source_key": "bf36e2b66c18a7be4849bc87408b630e5e7911ee84199ba0d84b2527251e188a",
+  "source_seen_at": "2026-10-14T15:16:04Z",
+  "source_title": "Deezer will soon let you filter out AI-generated music",
+  "source_url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
+}

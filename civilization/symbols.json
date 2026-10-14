@@ -1,0 +1,54 @@
+{
+  "schema_version": "dna.angelic-symbols.v1",
+  "title": "The Angelic Symbol Protocol",
+  "creator": "Jupiter Hudson / WisdomLoveThePoet / Jupiter 8",
+  "signature": "♃ ⚡︎⚡︎˖ ࣪⏻ᯤ",
+  "scope": "original fictional story metadata",
+  "disclaimer": "Fictional narrative symbols are not cryptographic signatures, factual verification, or evidence of divine or autonomous machine authority.",
+  "tokens": [
+    {
+      "glyph": "♃",
+      "id": "JUPITER_IDENTITY",
+      "meaning": "Jupiter, inheritance, responsibility and royal lineage."
+    },
+    {
+      "glyph": "⚡︎⚡︎",
+      "id": "LIGHTNING_THUNDER",
+      "meaning": "Jupiter acts; Mercury witnesses consequences."
+    },
+    {
+      "glyph": "˖ ࣪",
+      "id": "EMERALD_MEMORY",
+      "meaning": "A trace preserved within Thoth's fictional chronicle."
+    },
+    {
+      "glyph": "⏻",
+      "id": "EVENT_ACTIVATION",
+      "meaning": "The start of a new fictional event or narrative cycle."
+    },
+    {
+      "glyph": "ᯤ",
+      "id": "SERVER_WITNESS",
+      "meaning": "The Angels of the Server register a fictional event."
+    }
+  ],
+  "rules": [
+    "The full signature identifies narrative authorship style, not source credibility.",
+    "Historical days and SHA-256 manifests must never be rewritten to retrofit new metadata.",
+    "Future machine-authored episodes may cite token IDs for narrative consistency.",
+    "Evidence integrity remains dependent on published hashes and independent verification."
+  ],
+  "usage": {
+    "narrator": "THOTH",
+    "world": "GITHUB_TOWN",
+    "guilds": [
+      "SEEKER",
+      "WITNESS",
+      "SCRIBE",
+      "SKEPTIC",
+      "GUARDIAN",
+      "ARCHIVIST"
+    ],
+    "agent_identities": 666
+  }
+}

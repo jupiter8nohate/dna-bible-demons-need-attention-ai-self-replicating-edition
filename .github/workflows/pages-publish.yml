@@ -1,0 +1,59 @@
+name: D.N.A Bible - Publish GitHub Pages
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - D.N.A Bible - 666 Agent Living Manuscript
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'static/**'
+      - '.github/workflows/pages-publish.yml'
+permissions:
+  contents: read
+concurrency:
+  group: dna-pages-publish
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Verify published manuscript before site packaging
+        run: |
+          python3 scripts/engine.py --verify
+          python3 scripts/collect.py --verify
+          python3 scripts/reality.py --verify
+          python3 scripts/branching.py --verify
+          python3 scripts/anomaly.py --verify
+      - name: Package only public static site materials
+        run: |
+          mkdir -p /tmp/dna-pages
+          cp index.html /tmp/dna-pages/index.html
+          cp -R static book realities interactive archive anomaly /tmp/dna-pages/
+          if test -f health/status.json; then
+            mkdir -p /tmp/dna-pages/health
+            cp health/status.json /tmp/dna-pages/health/status.json
+          fi
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
+        with:
+          path: /tmp/dna-pages
+      - name: Deploy D.N.A. Bible to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

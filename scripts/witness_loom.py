@@ -184,6 +184,15 @@ def create_plan(root: Path, slot: str, max_active: int = MAX_HEXADS) -> bool:
                    "evidence_status": "fictional_only", "publication_authority": "fictional_proposal_only"}]
     selected = ranked[:max_active]
     duty = [hexad(i, p) for i, p in enumerate(selected, 1)]
+    # Provenance-linked, read-only experience memory. Lessons cannot authorize
+    # changes to authority rules, code or factual claims.
+    learning = []
+    if (root / "evolution/manifest.json").exists():
+        try:
+            from scripts.evolution import recent_lessons
+        except ModuleNotFoundError:
+            from evolution import recent_lessons
+        learning = recent_lessons(root, limit=3)
     plan = {
         "schema_version": SCHEMA, "slot": slot, "chapter_count_at_planning": chapter_count,
         "source_chapter_sha256": chapter_sha,
@@ -193,6 +202,7 @@ def create_plan(root: Path, slot: str, max_active: int = MAX_HEXADS) -> bool:
         "resting_hexads": 111 - len(duty), "model_calls_authorized": 0,
         "attention_budget_hexads": max_active, "human_canon_write_allowed": False,
         "strategy": "priority_then_dissent_v1", "missions": duty,
+        "learning_memory": learning, "learning_authority": "provisional_advisory_only",
         "focus": selected[0], "witness_debt": "unverified observations must not be promoted into facts",
         "counterfactual_test": ["Could the observation be incomplete or misclassified?",
                                 "What independent evidence would falsify the proposed interpretation?"],
@@ -243,6 +253,11 @@ def verify(root: Path) -> int:
             raise ValueError("Hexad role or lease violation")
         if plan.get("focus", {}).get("id") != row.get("primary_id"):
             raise ValueError("Focus identity mismatch")
+        memory = plan.get("learning_memory", [])
+        if (not isinstance(memory, list) or len(memory) > 3 or
+            any(not isinstance(item, dict) or item.get("authority") != "advisory_only"
+                or not isinstance(item.get("sha256"), str) for item in memory)):
+            raise ValueError("Invalid inherited experience reference")
         previous = row["sha256"]
         slots.add(row["slot"])
     return len(manifest["entries"])

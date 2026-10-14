@@ -344,7 +344,7 @@ def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | No
     ])
 
 
-def optional_model_passage(cycle: int, theme: str, subject: dict | None, anomaly: dict | None = None, insight: dict | None = None, memory: dict | None = None) -> tuple[str | None, str | None]:
+def optional_model_passage(cycle: int, theme: str, subject: dict | None, anomaly: dict | None = None, insight: dict | None = None, memory: dict | None = None, learning: list[dict] | None = None) -> tuple[str | None, str | None]:
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
     model = os.environ.get("DNA_MODEL", "").strip()
     if not api_key or not model:
@@ -356,6 +356,7 @@ def optional_model_passage(cycle: int, theme: str, subject: dict | None, anomaly
         "anomaly_observation_not_fact": anomaly,
         "evidence_to_insight_unverified": insight,
         "verified_fictional_world_memory": memory,
+        "provisional_lessons_with_no_authority": (learning or [])[:3],
         "axioms": INVARIANTS,
         "rules": "150-350 words, original evocative prose, no quoted article bodies, no unverifiable claims stated as fact",
     }
@@ -413,13 +414,20 @@ def append(folder: Path, archive: Path, day: str, allow_model: bool = True, edit
     theme = THEMES[(n - 1) % len(THEMES)]
     title = f"Chapter {n:06d}: {theme}"
     memory = latest_world_memory(folder.parent)
+    learning = []
+    if (folder.parent / "evolution/manifest.json").exists():
+        try:
+            from scripts.evolution import recent_lessons
+        except ModuleNotFoundError:
+            from evolution import recent_lessons
+        learning = recent_lessons(folder.parent, limit=3)
     ballots, guild_counts = run_agents(n, len(articles))
     mode = "deterministic_code_poetry"
     model_name = None
     body = deterministic_passage(n, title, theme, subject, anomaly, insight, memory)
     if allow_model and os.getenv("OPENAI_API_KEY") and os.getenv("DNA_MODEL"):
         try:
-            generated, model_name = optional_model_passage(n, theme, subject, anomaly, insight, memory)
+            generated, model_name = optional_model_passage(n, theme, subject, anomaly, insight, memory, learning)
             if generated:
                 body = generated
                 mode = "ai_generated"
@@ -448,6 +456,7 @@ def append(folder: Path, archive: Path, day: str, allow_model: bool = True, edit
         "author_type": "automated_machine_testament", "mode": mode, "model": model_name,
         "agent_count": len(ballots), "guild_counts": guild_counts,
         "source_watch_sha256": watch_sha, "source_metadata": subject,
+        "learned_experience_sha256": [item["sha256"] for item in learning],
         "insight_reference": {"id": insight["id"], "sha256": insight["sha256"], "evidence_status": insight["evidence_status"]} if insight else None,
         "anomaly_reference": ({k: anomaly[k] for k in ("id", "sha256", "detector")} if anomaly else None),
         "body": body,

@@ -1,0 +1,96 @@
+name: D.N.A Bible - Guarded Self-Repair Proposal
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - D.N.A Bible - 666 Agent Living Manuscript
+      - D.N.A Bible - Publish GitHub Pages
+    types: [completed]
+permissions:
+  contents: read
+concurrency:
+  group: dna-guarded-repair
+  cancel-in-progress: false
+jobs:
+  propose-only:
+    if: github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      actions: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Collect bounded failure diagnostics
+        id: diag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FAILED_RUN_ID: ${{ github.event.workflow_run.id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh run view "$FAILED_RUN_ID" --log-failed > /tmp/dna-failure-raw.log 2>&1 || true
+          head -c 16000 /tmp/dna-failure-raw.log > /tmp/dna-failure.log
+          echo "run_id=$FAILED_RUN_ID" >> "$GITHUB_OUTPUT"
+      - name: Generate bounded repair suggestion if configured
+        id: patch
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DNA_REPAIR_MODEL: ${{ vars.DNA_REPAIR_MODEL }}
+        run: |
+          python3 scripts/repair_guard.py --propose --logs /tmp/dna-failure.log --proposal /tmp/dna-repair.json
+          python3 scripts/repair_guard.py --apply --proposal /tmp/dna-repair.json
+          git diff --check
+          python3 -m unittest discover -s tests -v
+          python3 scripts/engine.py --verify
+          python3 scripts/collect.py --verify
+          python3 scripts/reality.py --verify
+          python3 scripts/branching.py --verify
+          python3 scripts/anomaly.py --verify
+          python3 scripts/insight.py --verify
+          python3 scripts/witness_loom.py --verify
+          python3 scripts/evolution.py --verify
+      - name: Open draft PR or review issue, never merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FAILED_RUN_ID: ${{ steps.diag.outputs.run_id }}
+          PATCH_OUTCOME: ${{ steps.patch.outcome }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch="dna-repair/run-${FAILED_RUN_ID}"
+          if [[ "$PATCH_OUTCOME" == 'success' ]] && [[ -n "$(git diff --name-only)" ]]; then
+            changed="$(git diff --name-only)"
+            allowed="$(python3 - <<'PY'
+          from scripts.repair_guard import EDITABLE
+          import subprocess
+          changed = subprocess.check_output(['git','diff','--name-only'], text=True).splitlines()
+          print('true' if changed and all(name in EDITABLE for name in changed) else 'false')
+          PY
+          )"
+            test "$allowed" = true || exit 1
+            git config user.name 'dna-repair-proposer[bot]'
+            git config user.email 'dna-repair-proposer[bot]@users.noreply.github.com'
+            git switch -c "$branch"
+            git add -- $changed
+            git commit -m "repair: candidate for failed CI run $FAILED_RUN_ID"
+            gh auth setup-git
+            git push origin "HEAD:refs/heads/$branch"
+            if ! gh pr create --base main --head "$branch" --draft \
+              --title "repair: review candidate for CI run $FAILED_RUN_ID" \
+              --body "Automated bounded repair candidate for run $FAILED_RUN_ID. Tests passed in a temporary checkout. No automated merge is authorized. Review logic and security manually before approval."; then
+              gh issue create --title "D.N.A repair branch awaiting human review" \
+                --body "Repair candidate for failed run $FAILED_RUN_ID is preserved in branch $branch. GitHub blocked automatic draft PR creation; open a PR manually and review before merging." || true
+            fi
+          else
+            existing="$(gh issue list --state open --limit 100 --search 'D.N.A CI repair needed' --json title --jq 'length' || echo 0)"
+            if [[ "$existing" == '0' ]]; then
+              gh issue create --title 'D.N.A CI repair needed' \
+                --body "Manuscript/Pages workflow failed in run $FAILED_RUN_ID. No verified automated patch available. Inspect Actions logs and repair with a reviewed PR. Logs and credentials were not posted here."
+            fi
+          fi

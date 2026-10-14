@@ -158,3 +158,21 @@ See [Insight Engine design](docs/INSIGHT_ENGINE.md) for provenance, limitations 
 An original D.N.A. Bible-specific protocol now groups the 666 bounded logical software identities into 111 six-role **hexads**. A finite attention lease authorizes at most six hexads (36 logical seats) per cycle to examine research and structural anomalies; the remaining cells rest. Each plan preserves evidence digests, unverified-source disclosure, dissent questions, and a strict no-canon-write rule. This is an advisory mission-planning system, not 666 independently running models or automatic model self-training.
 
 See [`docs/WITNESS_LOOM_666.md`](docs/WITNESS_LOOM_666.md). Run `python3 scripts/witness_loom.py --verify` to verify the historical plan ledger. The `covenant/` directory is published on GitHub Pages. Original authored design and implementation are attributed to Jupiter Hudson / WisdomLoveThePoet; copyright and rights terms are stated in the protocol specification.
+
+## Witness Loom v2-v4: governed self-improvement
+
+The new `scripts/evolution.py` validates the relationship between a Witness Loom mission and a published chapter, stores **provisional, evidence-linked lessons**, and compares bounded champion/challenger attention strategies on an explicit 10-case benchmark. The script does not update model weights or edit programs. Winning candidates are proposals for human review, never self-certified improvements.
+
+The 666 workers retain their deterministic roles. The next Loom plan can access a maximum of three previous verified lessons, and the optional configured Scribe receives their bounded context. The original D.N.A. canon remains read-only and outside this repository.
+
+If manuscript or Pages CI fails, `.github/workflows/evolution-self-repair.yml` can record a review issue. With separately supplied `OPENAI_API_KEY` and `DNA_REPAIR_MODEL`, it may propose one allowlisted Python repair, test it in an isolated CI checkout, and open a *draft* PR. It cannot change its own policies, tests, workflows, evaluator benchmarks, original canon, or automatically merge.
+
+To verify:
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/evolution.py --verify
+python3 scripts/evolution.py --reflect --trial
+```
+
+For capabilities, limitations, intellectual-property boundaries and security controls, see [Witness Loom Evolution](docs/WITNESS_LOOM_EVOLUTION.md). Enable branch protection and independent review under GitHub Settings for stronger protections than code-level checks alone.

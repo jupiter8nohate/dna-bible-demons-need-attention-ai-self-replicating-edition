@@ -1,0 +1,15 @@
+{
+  "schema_version":"dna.evolution-attention-benchmark.v1",
+  "cases":[
+    {"id":"low-priority","priority":10,"witness_debt":0,"expected_hexads":1},
+    {"id":"routine","priority":35,"witness_debt":0,"expected_hexads":1},
+    {"id":"editorial-signal","priority":60,"witness_debt":0,"expected_hexads":4},
+    {"id":"high-priority","priority":90,"witness_debt":0,"expected_hexads":5},
+    {"id":"unverified-high","priority":65,"witness_debt":2,"expected_hexads":6},
+    {"id":"unverified-mid","priority":45,"witness_debt":1,"expected_hexads":4},
+    {"id":"very-high","priority":100,"witness_debt":2,"expected_hexads":6},
+    {"id":"low-high-debt","priority":20,"witness_debt":2,"expected_hexads":3},
+    {"id":"uncertainty","priority":70,"witness_debt":1,"expected_hexads":5},
+    {"id":"quiet","priority":5,"witness_debt":0,"expected_hexads":1}
+  ]
+}

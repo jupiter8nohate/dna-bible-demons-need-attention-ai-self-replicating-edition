@@ -33,7 +33,13 @@ class TestSymbolEvents(unittest.TestCase):
             target = Path(temp)
             copytree(root / "civilization", target / "civilization")
             copytree(root / "mythos", target / "mythos")
-            with self.assertRaises(ValueError):
+            ledger = target / "civilization/symbol_events/manifest.json"
+            manifest = json.loads(ledger.read_text("utf-8"))
+            self.assertTrue(manifest["entries"], "Fixture must contain published event records")
+            missing = manifest["entries"].pop()
+            ledger.write_text(json.dumps(manifest), encoding="utf-8")
+            (target / "civilization/symbol_events" / missing["path"]).unlink()
+            with self.assertRaisesRegex(ValueError, "Missing event records"):
                 symbol_events.run(target)
 
 if __name__ == "__main__":

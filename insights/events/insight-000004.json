@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-14T02:39:18.904998Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000004",
+  "priority_score": 65,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261014T020832Z-a90366b16bb7.json",
+  "snapshot_sha256": "3b53a30d5ad941a0a4631abdf7e70942e0f2bd94d53610e6be65116ecd9e58d8",
+  "source_key": "7f3e1417d1dd483406b7514e2509f981deeca838829b918cef6f2db5957f4047",
+  "source_seen_at": "2026-10-13T14:00:06Z",
+  "source_title": "AFL tells Sportsbet to stop using players in AI-generated content",
+  "source_url": "https://www.theguardian.com/australia-news/2026/oct/14/afl-tells-sportsbet-to-stop-using-players-in-ai-generated-content"
+}

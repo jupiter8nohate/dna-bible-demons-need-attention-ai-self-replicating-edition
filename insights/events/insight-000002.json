@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-14T02:39:18.904998Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000002",
+  "priority_score": 65,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261014T020832Z-a90366b16bb7.json",
+  "snapshot_sha256": "3b53a30d5ad941a0a4631abdf7e70942e0f2bd94d53610e6be65116ecd9e58d8",
+  "source_key": "48ec211ad07235a1abca32294bfccb365399e955b9a47daf2c048270c734dd47",
+  "source_seen_at": "2026-10-12T13:30:07Z",
+  "source_title": "OpenAI’s GPT-6 may lead to robotics breakthrough  as soon as next year: Unitree founder",
+  "source_url": "https://www.scmp.com/tech/big-tech/article/3370603/openais-gpt-6-may-lead-robotics-breakthrough-soon-next-year-unitree-founder"
+}

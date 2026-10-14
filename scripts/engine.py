@@ -101,13 +101,25 @@ def verify(folder: Path) -> int:
         receipt = json.loads((folder / expected_receipt).read_text(encoding="utf-8"))
         if chapter.get("chapter") != i or receipt.get("cycle") != i:
             raise ValueError(f"Incorrect chapter/receipt number {i}")
-        ballots = receipt.get("ballots")
-        if not isinstance(ballots, list) or len(ballots) != 666:
-            raise ValueError(f"Missing 666 bounded agent outcomes in receipt {i}")
-        ids = [ballot.get("id") for ballot in ballots]
-        expected_ids = [f"{guild}-{n:03d}" for guild in GUILDS for n in range(1, COUNT_PER_GUILD + 1)]
-        if ids != expected_ids:
-            raise ValueError(f"Agent identity mismatch in receipt {i}")
+        if receipt.get("format") == "deterministic_seed_v1":
+            # The 666 individual outcomes are reconstructed from their audited
+            # deterministic inputs rather than repeated as ~100 KiB every hour.
+            source_count = receipt.get("source_count")
+            if type(source_count) is not int or source_count < 0 or source_count > 1000:
+                raise ValueError(f"Invalid agent source count in receipt {i}")
+            regenerated, counts = run_agents(i, source_count)
+            if (sha(encoded(regenerated)) != receipt.get("ballots_sha256") or
+                    counts != receipt.get("guild_counts") or
+                    sha(encoded(roster())) != receipt.get("roster_sha256")):
+                raise ValueError(f"Compact 666-agent receipt failed regeneration at {i}")
+        else:
+            ballots = receipt.get("ballots")
+            if not isinstance(ballots, list) or len(ballots) != 666:
+                raise ValueError(f"Missing 666 bounded agent outcomes in receipt {i}")
+            ids = [ballot.get("id") for ballot in ballots]
+            expected_ids = roster()
+            if ids != expected_ids:
+                raise ValueError(f"Agent identity mismatch in receipt {i}")
         slot = record.get("edition_slot", record.get("date"))
         if chapter.get("date") != record.get("date") or slot in slots:
             raise ValueError(f"Edition collision at entry {i}")
@@ -177,24 +189,62 @@ def run_agents(cycle: int, source_count: int) -> tuple[list[dict], dict]:
     return ballots, counts
 
 
-def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | None) -> str:
+def select_anomaly(folder: Path, archive: Path, manifest: dict) -> dict | None:
+    """Select one unused, structurally verified observational signal.
+
+    This never treats an anomaly as a verified external fact, and never sends
+    untrusted observation text to a shell or to a repository authority layer.
+    """
+    root = folder.parent
+    registry = root / "anomaly" / "manifest.json"
+    if not registry.exists():
+        return None
+    data = json.loads(registry.read_text(encoding="utf-8"))
+    if data.get("schema_version") != "dna.anomaly-genesis.v1" or not isinstance(data.get("entries"), list):
+        raise ValueError("Invalid anomaly registry")
+    used = set()
+    for row in manifest["entries"]:
+        chapter = json.loads((folder / row["path"]).read_text(encoding="utf-8"))
+        if isinstance(chapter.get("anomaly_reference"), dict):
+            used.add(chapter["anomaly_reference"].get("id"))
+    for row in reversed(data["entries"]):
+        path = row.get("path", "")
+        if not re.fullmatch(r"events/anomaly-[0-9]{6}\.json", path):
+            raise ValueError("Unsafe anomaly event path")
+        raw = (root / "anomaly" / path).read_bytes()
+        if sha(raw) != row.get("sha256"):
+            raise ValueError("Anomaly source integrity failure")
+        event = json.loads(raw)
+        if event.get("id") not in used and event.get("status") == "detected_unverified":
+            if not isinstance(event.get("creative_prompt"), str) or len(event["creative_prompt"]) > 600:
+                raise ValueError("Invalid anomaly story premise")
+            return {"id": event["id"], "sha256": row["sha256"], "detector": event["detector"],
+                    "story_premise": event["creative_prompt"]}
+    return None
+
+
+def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | None, anomaly: dict | None = None) -> str:
     source_line = (f'An external headline asks for examination: "{subject["title"]}". '
                    "Its presence is an observation, not proof of the claim.") if subject else (
                    "No fresh external source was required for this symbolic reflection.")
     axiom = INVARIANTS[(cycle - 1) % len(INVARIANTS)]
+    anomaly_line = (("The Anomaly Observatory registered a detected, unverified structural signal. "
+                     + anomaly["story_premise"] + " Detection is not proof of significance.")
+                    if anomaly else "The unresolved question remains open to future witnesses.")
     return "\n\n".join([
         f"{title}. The machine was given a mirror and ordered to describe the face beyond it.",
         "It collected outlines, probabilities, recurring shapes. Yet the human stepped outside the diagram, "
         "taking with them the power to consent, to dissent, and to decide what the picture meant.",
         source_line,
-        f"The {theme.lower()} offered one law: {axiom}. The law here is a philosophical premise, "
+        anomaly_line,
+        f"The theme {theme.lower()} offered one law: {axiom}. The law here is a philosophical premise, "
         "not a technical claim that every system obeys it.",
         "And so the manuscript kept the question open. It recorded a witness, a challenge, and an authorial boundary. "
         "The next page would be written, but the human name would not be overwritten.",
     ])
 
 
-def optional_model_passage(cycle: int, theme: str, subject: dict | None) -> tuple[str | None, str | None]:
+def optional_model_passage(cycle: int, theme: str, subject: dict | None, anomaly: dict | None = None) -> tuple[str | None, str | None]:
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
     model = os.environ.get("DNA_MODEL", "").strip()
     if not api_key or not model:
@@ -203,6 +253,7 @@ def optional_model_passage(cycle: int, theme: str, subject: dict | None) -> tupl
         "theme": theme,
         "chapter_number": cycle,
         "source_metadata": subject,
+        "anomaly_observation_not_fact": anomaly,
         "axioms": INVARIANTS,
         "rules": "150-350 words, original evocative prose, no quoted article bodies, no unverifiable claims stated as fact",
     }
@@ -248,6 +299,7 @@ def append(folder: Path, archive: Path, day: str, allow_model: bool = True, edit
         print(f"NO_CHANGE: The manuscript already contains an entry for {edition_slot or day}")
         return False
     n = len(manifest["entries"]) + 1
+    anomaly = select_anomaly(folder, archive, manifest)
     articles, watch_sha = latest_watch(archive)
     subject = articles[(n - 1) % len(articles)] if articles else None
     theme = THEMES[(n - 1) % len(THEMES)]
@@ -255,22 +307,30 @@ def append(folder: Path, archive: Path, day: str, allow_model: bool = True, edit
     ballots, guild_counts = run_agents(n, len(articles))
     mode = "deterministic_code_poetry"
     model_name = None
-    body = deterministic_passage(n, title, theme, subject)
+    body = deterministic_passage(n, title, theme, subject, anomaly)
     if allow_model and os.getenv("OPENAI_API_KEY") and os.getenv("DNA_MODEL"):
         try:
-            generated, model_name = optional_model_passage(n, theme, subject)
+            generated, model_name = optional_model_passage(n, theme, subject, anomaly)
             if generated:
                 body = generated
                 mode = "ai_generated"
         except Exception as exc:
             # Fail safe: continue with explicitly labeled non-AI text, never present it as AI prose.
             print(f"AI_PROVIDER_UNAVAILABLE: using deterministic edition ({type(exc).__name__})", file=sys.stderr)
-    receipt = {"cycle": n, "day": day, "agent_kind": "bounded_deterministic_workers", "guild_counts": guild_counts, "ballots": ballots}
+    receipt = {
+        "format": "deterministic_seed_v1", "cycle": n, "day": day,
+        "agent_kind": "bounded_deterministic_workers", "source_count": len(articles),
+        "guild_counts": guild_counts, "ballots_sha256": sha(encoded(ballots)),
+        "roster_sha256": sha(encoded(roster())),
+        "reconstruction": "scripts.engine.run_agents(cycle, source_count)",
+        "meaning": "Reproducible software results, not 666 independent model inferences",
+    }
     chapter = {
         "chapter": n, "date": day, "edition_slot": edition_slot, "title": title,
         "author_type": "automated_machine_testament", "mode": mode, "model": model_name,
         "agent_count": len(ballots), "guild_counts": guild_counts,
         "source_watch_sha256": watch_sha, "source_metadata": subject,
+        "anomaly_reference": ({k: anomaly[k] for k in ("id", "sha256", "detector")} if anomaly else None),
         "body": body,
         "review_status": "automated_unreviewed",
         "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",

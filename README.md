@@ -107,3 +107,15 @@ python3 scripts/branching.py --verify
 ```
 
 The published website offers an **interactive story reader**. Readers can revisit a node, select branches, and optionally turn on a 10-second decision clock; timed play is off by default for accessibility. The underlying published storyline is deterministic unless an explicitly configured LLM is authorized to generate the source chapter. This is not a multiplayer engine, sentient AI, or literal reality manipulation.
+
+## Anomaly Genesis Protocol v1 (experimental)
+
+`python3 scripts/anomaly.py` checks source-linked observations against the existing verified manuscript, world graphs, and public metadata archive. It emits bounded, immutable-by-policy, SHA-256-linked event records to `anomaly/`; a visible Observatory panel renders the records without copying news articles. Built-in detectors flag repeated narrative prose, repeated choice graphs, a duplicated headline source and research-feed staleness. These measurements **do not validate supernatural, historical, scientific, or theological claims**.
+
+Every event stores a detector ID, observed evidence hashes, a deterministic fingerprint, a plain-language explanation, and a *fictional writing premise*. The next chapter can consume one unprocessed observation, clearly marked `detected_unverified`. New published events are append-only; duplicates sharing a stable detector signature are suppressed.
+
+The publication workflow checks anomalies before writing, attaches a permissible prompt to the new machine-testament entry, then inspects that entry after publication. `python3 scripts/anomaly.py --verify` rejects modified event and referenced evidence bytes. It cannot substitute for externally anchored receipts or independent review.
+
+From this release onward, the 666 bounded workers produce **compact reproducible receipts** (`deterministic_seed_v1`) by recording deterministic inputs and a SHA-256 digest of the fully reconstructed ballots. Historical full-ballot receipts remain valid; every future result can be reconstructed via `scripts.engine.run_agents(cycle, source_count)` and compared to the recorded digest. This reduces disk growth without pretending independent model reasoning occurred.
+
+No Elasticsearch, PyOD, Datadog, or machine learning model is installed. Rule-based detectors come first so their false positives, novelty, and archival impact can be measured. All public observations remain separate from the protected, human-authored D.N.A. canon.

@@ -119,3 +119,7 @@ The publication workflow checks anomalies before writing, attaches a permissible
 From this release onward, the 666 bounded workers produce **compact reproducible receipts** (`deterministic_seed_v1`) by recording deterministic inputs and a SHA-256 digest of the fully reconstructed ballots. Historical full-ballot receipts remain valid; every future result can be reconstructed via `scripts.engine.run_agents(cycle, source_count)` and compared to the recorded digest. This reduces disk growth without pretending independent model reasoning occurred.
 
 No Elasticsearch, PyOD, Datadog, or machine learning model is installed. Rule-based detectors come first so their false positives, novelty, and archival impact can be measured. All public observations remain separate from the protected, human-authored D.N.A. canon.
+
+
+## Publication health and recovery
+The hourly workflow now emits `health/status.json` after verifying the archives. A separate watchdog checks freshness hourly and reports a failed GitHub Actions run if the last chapter is more than three hours old. The status panel distinguishes deterministic code-poetry from actual AI-generated prose. These two workflows share GitHub infrastructure: independent uptime monitoring and off-platform backups are still recommended. Original canon is never a bot output.

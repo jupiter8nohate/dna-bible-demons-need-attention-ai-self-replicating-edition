@@ -151,3 +151,10 @@ Test locally: `python3 -m unittest discover -s tests -v` and `python3 scripts/in
 - **Model-assisted writing:** Requires an authorized API key and `DNA_MODEL` repository variable. Without them, worker actions and research packets are deterministic, and chapters are explicitly labeled accordingly.
 
 See [Insight Engine design](docs/INSIGHT_ENGINE.md) for provenance, limitations and follow-on work.
+
+
+## Witness Loom-666: Governed Agent Coordination
+
+An original D.N.A. Bible-specific protocol now groups the 666 bounded logical software identities into 111 six-role **hexads**. A finite attention lease authorizes at most six hexads (36 logical seats) per cycle to examine research and structural anomalies; the remaining cells rest. Each plan preserves evidence digests, unverified-source disclosure, dissent questions, and a strict no-canon-write rule. This is an advisory mission-planning system, not 666 independently running models or automatic model self-training.
+
+See [`docs/WITNESS_LOOM_666.md`](docs/WITNESS_LOOM_666.md). Run `python3 scripts/witness_loom.py --verify` to verify the historical plan ledger. The `covenant/` directory is published on GitHub Pages. Original authored design and implementation are attributed to Jupiter Hudson / WisdomLoveThePoet; copyright and rights terms are stated in the protocol specification.

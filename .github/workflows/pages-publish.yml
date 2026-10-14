@@ -41,11 +41,13 @@ jobs:
           python3 scripts/reality.py --verify
           python3 scripts/branching.py --verify
           python3 scripts/anomaly.py --verify
+          python3 scripts/insight.py --verify
+          python3 scripts/witness_loom.py --verify
       - name: Package only public static site materials
         run: |
           mkdir -p /tmp/dna-pages
           cp index.html /tmp/dna-pages/index.html
-          cp -R static book realities interactive archive anomaly /tmp/dna-pages/
+          cp -R static book realities interactive archive anomaly insights covenant /tmp/dna-pages/
           if test -f health/status.json; then
             mkdir -p /tmp/dna-pages/health
             cp health/status.json /tmp/dna-pages/health/status.json

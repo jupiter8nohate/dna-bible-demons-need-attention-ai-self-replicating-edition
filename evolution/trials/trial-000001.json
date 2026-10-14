@@ -1,0 +1,72 @@
+{
+  "benchmark_sha256": "af7a57360f83aed6a83bb11079c9dc0329d0915137792eefd4cd5240bc6baafe",
+  "best_candidate": "witness-debt-weighted-v1",
+  "challengers": [
+    {
+      "beats_champion": true,
+      "config_sha256": "915328cf88488bd78771028a669b00af8e0363515088df4d8815037b0a530007",
+      "error": 1,
+      "name": "witness-debt-weighted-v1",
+      "results": [
+        {
+          "case_id": "low-priority",
+          "expected": 1,
+          "prediction": 1
+        },
+        {
+          "case_id": "routine",
+          "expected": 1,
+          "prediction": 1
+        },
+        {
+          "case_id": "editorial-signal",
+          "expected": 4,
+          "prediction": 4
+        },
+        {
+          "case_id": "high-priority",
+          "expected": 5,
+          "prediction": 5
+        },
+        {
+          "case_id": "unverified-high",
+          "expected": 6,
+          "prediction": 5
+        },
+        {
+          "case_id": "unverified-mid",
+          "expected": 4,
+          "prediction": 4
+        },
+        {
+          "case_id": "very-high",
+          "expected": 6,
+          "prediction": 6
+        },
+        {
+          "case_id": "low-high-debt",
+          "expected": 3,
+          "prediction": 3
+        },
+        {
+          "case_id": "uncertainty",
+          "expected": 5,
+          "prediction": 5
+        },
+        {
+          "case_id": "quiet",
+          "expected": 1,
+          "prediction": 1
+        }
+      ]
+    }
+  ],
+  "champion": "witness-debt-first-v1",
+  "champion_error": 19,
+  "decision": "propose_for_human_review",
+  "deployment_authority": false,
+  "fingerprint": "47feb2f9630147c132e4ce3fa461cf3be98b3a9bb7d3c06b1fd8213bf5ed74d2",
+  "id": 1,
+  "limits": "Public fixed benchmark tests attention allocation only; not an independent model-quality evaluation",
+  "schema_version": "dna.evolution.v1"
+}

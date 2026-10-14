@@ -1,1 +1,17 @@
-{"schema_version":"dna.evolution.v1","lessons":[],"trials":[]}
+{
+  "lessons": [
+    {
+      "path": "lessons/lesson-000001.json",
+      "previous_sha256": null,
+      "sha256": "5df7044bcc094df8a990804c5c3d023a8981ff0bfe69e7ec1ec5a417e4d08332"
+    }
+  ],
+  "schema_version": "dna.evolution.v1",
+  "trials": [
+    {
+      "path": "trials/trial-000001.json",
+      "previous_sha256": null,
+      "sha256": "52f55dcf15c43c7a275fced680170dc150a60188c040da9ef8f3a203e6238b40"
+    }
+  ]
+}

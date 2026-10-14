@@ -1,5 +1,6 @@
-# ⛪︎𓂃 ོ✝︎𓂃 D.N.A Bible: Demons Need Attention - A.I. Self-Replicating Edition
+# ⛪︎𓂃 ོ✝︎𓂃 D.N.A. Bible: A Living Computational Civilization of Stories
 
+**Original edition:** *Demons Need Attention - A.I. Self-Replicating Edition*  
 **Author / creator:** Jupiter Hudson / WisdomLoveThePoet / Jupiter 8  
 **Website:** https://jupiter8nohate.github.io/dna-bible-demons-need-attention-ai-self-replicating-edition/  
 **Companion:** https://github.com/jupiter8nohate/computational-metacognitive-bilingualism

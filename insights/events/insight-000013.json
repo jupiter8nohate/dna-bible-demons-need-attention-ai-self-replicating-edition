@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-14T22:22:53.340422Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000013",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261014T222253Z-81b861624176.json",
+  "snapshot_sha256": "d4f22aa1172696177fe38fbed3fc35b914989ec504eda7c967b93f1e079db190",
+  "source_key": "f2a56b50bd832f0a2e0913faa11c341774040004ee28b0d61fc7f9d526eeccdc",
+  "source_seen_at": "2026-10-14T18:23:46Z",
+  "source_title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+  "source_url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
+}

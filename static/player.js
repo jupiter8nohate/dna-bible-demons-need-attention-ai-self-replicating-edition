@@ -25,7 +25,7 @@
   let deadline = 0;
   let remaining = 10000;
   let timed = readStore(prefsKey);
-  if (typeof timed !== 'boolean') timed = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (typeof timed !== 'boolean') timed = false;
 
   function persist() { if (save) store(storageKey, save); }
   function stopClock() { if (countdown) clearInterval(countdown); countdown = null; }

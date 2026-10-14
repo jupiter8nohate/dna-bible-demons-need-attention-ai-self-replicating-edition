@@ -106,4 +106,4 @@ python3 scripts/branching.py
 python3 scripts/branching.py --verify
 ```
 
-The published website offers a **Read the interactive story** panel. Readers can revisit a node, select branches, and optionally turn on a 10-second decision clock; timed play is off by default for accessibility. The underlying published storyline is deterministic unless an explicitly configured LLM is authorized to generate the source chapter. This is not a multiplayer engine, sentient AI, or literal reality manipulation.
+The published website offers an **interactive story reader**. Readers can revisit a node, select branches, and optionally turn on a 10-second decision clock; timed play is off by default for accessibility. The underlying published storyline is deterministic unless an explicitly configured LLM is authorized to generate the source chapter. This is not a multiplayer engine, sentient AI, or literal reality manipulation.

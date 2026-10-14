@@ -239,6 +239,21 @@ STORY_SEEDS = (
     ("The Genetic Observatory printed a child's destiny before their first choice.", "A teacher found the forecast omitted education, circumstance and human dissent.", "The child filled the empty margin with a different plan.", "Is correlation ever destiny?"),
 )
 
+EPILOGUES = (
+    "Outside the bell tower, the caretaker hung twelve blank pages in the public square so the missing hours could be questioned by anyone.",
+    "The citizen left the mirror unbroken, but placed their own handwritten name beside its mechanically predicted label.",
+    "The cartographer stitched a small paper door into every map, leaving room for the future visitors to draw a new direction.",
+    "The observatory placed the disputed star reports in separate windows, permitting disagreement without deleting a single observation.",
+    "The gardener saved the unplanted seeds in a transparent box and wrote a right of refusal into the greenhouse rules.",
+    "The passenger carried the notebooks to the station museum; none of them could replace the journey that produced the others.",
+    "The forecasters watched the kindness travel through the town without trying to turn it into another mandatory score.",
+    "The recipient returned the forged masks and kept the unopened envelope as a reminder that appearance is not a signature.",
+    "The apprentice engraved every revision in the threshold, so entering the house no longer required trust in invisible rules.",
+    "The curator removed the numbered pedestals and invited every observer to add their own question to the walls.",
+    "The theater fell quiet while the performers sought permission, and the empty stage became an honest part of its history.",
+    "The child folded the forecast into a paper boat and carried it down a river whose next bend had never been measured.",
+)
+
 def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | None, anomaly: dict | None = None) -> str:
     opening, conflict, action, question = STORY_SEEDS[(cycle - 1) % len(STORY_SEEDS)]
     axiom = INVARIANTS[(cycle - 1) % len(INVARIANTS)]
@@ -262,7 +277,8 @@ def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | No
         action,
         source_line,
         anomaly_line,
-        question + " The following fictional generation inherits this question, never the authority to redefine its human author.",
+        question + " " + EPILOGUES[(cycle - 1) % len(EPILOGUES)],
+        "The next fictional chapter remains open to further witnesses, while human authorship and consent stay outside machine authority.",
     ])
 
 

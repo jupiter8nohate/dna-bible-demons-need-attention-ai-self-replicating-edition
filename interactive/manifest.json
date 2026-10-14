@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "chapter": 1,
+      "path": "stories/story-000001.json",
+      "previous_sha256": null,
+      "sha256": "84444241be9aa3d1dfa382eb85cf446b59d6db9bfcc47efb4929938bccf5d83f",
+      "world_lens": "CLOCK_WITHOUT_MIDNIGHT"
+    },
+    {
+      "chapter": 2,
+      "path": "stories/story-000002.json",
+      "previous_sha256": "84444241be9aa3d1dfa382eb85cf446b59d6db9bfcc47efb4929938bccf5d83f",
+      "sha256": "0a578cfe51169996f1d09cd583c14360c13b4654e5d4f82b6fdd1b8e4be87425",
+      "world_lens": "MIRROR_OF_CONSENT"
+    }
+  ],
+  "schema_version": "dna.interactive-manuscript.v1"
+}

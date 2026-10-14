@@ -82,7 +82,7 @@ def load_manifest(folder: Path) -> dict:
 def verify(folder: Path) -> int:
     manifest = load_manifest(folder)
     last_sha = None
-    days = set()
+    slots = set()
     for i, record in enumerate(manifest["entries"], start=1):
         expected_chapter = f"chapters/chapter-{i:06d}.json"
         expected_receipt = f"receipts/cycle-{i:06d}.json"
@@ -108,9 +108,15 @@ def verify(folder: Path) -> int:
         expected_ids = [f"{guild}-{n:03d}" for guild in GUILDS for n in range(1, COUNT_PER_GUILD + 1)]
         if ids != expected_ids:
             raise ValueError(f"Agent identity mismatch in receipt {i}")
-        if chapter.get("date") != record.get("date") or record["date"] in days:
-            raise ValueError(f"Date collision at entry {i}")
-        days.add(record["date"])
+        slot = record.get("edition_slot", record.get("date"))
+        if chapter.get("date") != record.get("date") or slot in slots:
+            raise ValueError(f"Edition collision at entry {i}")
+        if record.get("edition_slot") is not None:
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}T(?:[01]\d|2[0-3])Z", slot) or not slot.startswith(record["date"]):
+                raise ValueError(f"Invalid UTC edition slot at entry {i}")
+            if chapter.get("edition_slot") != slot:
+                raise ValueError(f"Chapter slot disagreement at entry {i}")
+        slots.add(slot)
         if chapter.get("author_type") != "automated_machine_testament":
             raise ValueError(f"Mislabelled author type at entry {i}")
         if chapter.get("agent_count") != 666:
@@ -181,7 +187,7 @@ def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | No
         "It collected outlines, probabilities, recurring shapes. Yet the human stepped outside the diagram, "
         "taking with them the power to consent, to dissent, and to decide what the picture meant.",
         source_line,
-        f"The theme of {theme.lower()} offered one law: {axiom}. The law here is a philosophical premise, "
+        f"The {theme.lower()} offered one law: {axiom}. The law here is a philosophical premise, "
         "not a technical claim that every system obeys it.",
         "And so the manuscript kept the question open. It recorded a witness, a challenge, and an authorial boundary. "
         "The next page would be written, but the human name would not be overwritten.",
@@ -231,12 +237,15 @@ def optional_model_passage(cycle: int, theme: str, subject: dict | None) -> tupl
     return body, model
 
 
-def append(folder: Path, archive: Path, day: str, allow_model: bool = True) -> bool:
+def append(folder: Path, archive: Path, day: str, allow_model: bool = True, edition_slot: str | None = None) -> bool:
     datetime.strptime(day, "%Y-%m-%d")
+    if edition_slot is not None:
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}T(?:[01]\d|2[0-3])Z", edition_slot) or not edition_slot.startswith(day):
+            raise ValueError("Invalid edition slot")
     verify(folder)
     manifest = load_manifest(folder)
-    if any(item.get("date") == day for item in manifest["entries"]):
-        print(f"NO_CHANGE: The manuscript already contains an entry for {day}")
+    if any((item.get("edition_slot", item.get("date")) == (edition_slot or day)) for item in manifest["entries"]):
+        print(f"NO_CHANGE: The manuscript already contains an entry for {edition_slot or day}")
         return False
     n = len(manifest["entries"]) + 1
     articles, watch_sha = latest_watch(archive)
@@ -258,7 +267,7 @@ def append(folder: Path, archive: Path, day: str, allow_model: bool = True) -> b
             print(f"AI_PROVIDER_UNAVAILABLE: using deterministic edition ({type(exc).__name__})", file=sys.stderr)
     receipt = {"cycle": n, "day": day, "agent_kind": "bounded_deterministic_workers", "guild_counts": guild_counts, "ballots": ballots}
     chapter = {
-        "chapter": n, "date": day, "title": title,
+        "chapter": n, "date": day, "edition_slot": edition_slot, "title": title,
         "author_type": "automated_machine_testament", "mode": mode, "model": model_name,
         "agent_count": len(ballots), "guild_counts": guild_counts,
         "source_watch_sha256": watch_sha, "source_metadata": subject,
@@ -275,6 +284,8 @@ def append(folder: Path, archive: Path, day: str, allow_model: bool = True) -> b
     # Verified outputs are written without touching canon, scripts, workflows or other files.
     atomic(folder / chapter_path, encoded(chapter))
     atomic(folder / receipt_path, encoded(receipt))
+    if edition_slot is not None:
+        record["edition_slot"] = edition_slot
     manifest["entries"].append(record)
     atomic(folder / "manifest.json", encoded(manifest))
     print(f"PUBLISHED: chapter {n:06d} | 666 workers | {mode} | {day}")
@@ -288,12 +299,14 @@ def main() -> int:
     parser.add_argument("--book-dir", type=Path, default=BOOK)
     parser.add_argument("--archive-dir", type=Path, default=ARCHIVE)
     parser.add_argument("--no-model", action="store_true", help="Disable external AI calls")
+    parser.add_argument("--hourly", action="store_true", help="Append once per UTC hour instead of once per date")
     args = parser.parse_args()
     try:
         if args.verify:
             print(f"VERIFIED: {verify(args.book_dir)} chapters")
         else:
-            append(args.book_dir, args.archive_dir, args.day, allow_model=not args.no_model)
+            slot = datetime.now(timezone.utc).strftime("%Y-%m-%dT%HZ") if args.hourly else None
+            append(args.book_dir, args.archive_dir, args.day, allow_model=not args.no_model, edition_slot=slot)
             verify(args.book_dir)
         return 0
     except (ValueError, KeyError, OSError, json.JSONDecodeError) as error:

@@ -2,7 +2,7 @@ name: D.N.A Bible - 666 Agent Living Manuscript
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 8 * * *'
+    - cron: '23 * * * *'
   push:
     branches: [main]
     paths:
@@ -12,7 +12,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: dna-book-daily-main
+  group: dna-book-hourly-main
   cancel-in-progress: false
 jobs:
   write-and-preserve:
@@ -29,24 +29,34 @@ jobs:
         run: |
           python3 scripts/engine.py --verify
           python3 scripts/collect.py --verify
+          python3 scripts/reality.py --verify
+          python3 scripts/branching.py --verify
       - name: Collect authorized public headline metadata
         run: python3 scripts/collect.py || echo 'Discovery unavailable - proceed with last verified snapshot or timeless theme'
-      - name: Run 666 workers and publish one daily machine entry
+      - name: Run 666 workers and publish one hourly machine entry
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DNA_MODEL: ${{ vars.DNA_MODEL }}
-        run: python3 scripts/engine.py
+        run: python3 scripts/engine.py --hourly
+      - name: Generate original twelve-lens reality world
+        run: python3 scripts/reality.py
+      - name: Create branching interactive scenes
+        run: python3 scripts/branching.py
+      - name: Create interactive story branches with three reachable endings
+        run: python3 scripts/branching.py
       - name: Reverify output integrity
         run: |
           python3 scripts/engine.py --verify
           python3 scripts/collect.py --verify
+          python3 scripts/reality.py --verify
+          python3 scripts/branching.py --verify
       - name: Commit generated entries only
         run: |
           git config user.name 'dna-bible-666[bot]'
           git config user.email 'dna-bible-666[bot]@users.noreply.github.com'
-          git add -- archive/manifest.json archive/snapshots/ book/manifest.json book/chapters/ book/receipts/
+          git add -- archive/manifest.json archive/snapshots/ book/manifest.json book/chapters/ book/receipts/ realities/manifest.json realities/worlds/ interactive/manifest.json interactive/stories/ interactive/manifest.json interactive/stories/
           if ! git diff --cached --quiet; then
-            git commit -m 'book: append verified 666-agent daily edition [skip ci]'
+            git commit -m 'book: append verified 666-agent interactive edition [skip ci]'
             git push
           else
             echo 'No changes to publish.'

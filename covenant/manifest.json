@@ -1,4 +1,12 @@
 {
-  "schema_version": "dna.witness-loom.v1",
-  "entries": []
+  "entries": [
+    {
+      "path": "plans/plan-000001.json",
+      "previous_sha256": null,
+      "primary_id": "DNA-INSIGHT-000001",
+      "sha256": "3d39f4afb9038040f00e9df6dffb22e920c1143103e9e6b64cbe5779dffde589",
+      "slot": "2026-10-14T03Z"
+    }
+  ],
+  "schema_version": "dna.witness-loom.v1"
 }

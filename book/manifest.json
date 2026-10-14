@@ -1,5 +1,17 @@
 {
-  "schema_version": "dna.machine-testament.v1",
+  "entries": [
+    {
+      "date": "2026-10-14",
+      "id": 1,
+      "mode": "deterministic_code_poetry",
+      "model": null,
+      "path": "chapters/chapter-000001.json",
+      "previous_sha256": null,
+      "receipt_path": "receipts/cycle-000001.json",
+      "receipt_sha256": "50046e552851b3b118b5cd0e47cdb304037913edad5445b9ca8dc71bd00c5a16",
+      "sha256": "9b452bb2f7d863896c137199bf89f32568decce61bdfa0eae5a48df37a9537e2"
+    }
+  ],
   "human_canon": "https://github.com/jupiter8nohate/computational-metacognitive-bilingualism",
-  "entries": []
+  "schema_version": "dna.machine-testament.v1"
 }

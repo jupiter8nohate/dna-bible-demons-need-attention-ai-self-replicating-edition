@@ -1,5 +1,15 @@
 {
   "schema_version": "cmb.eternal-archive.v1",
   "source": "https://jupiter8nohate.github.io/computational-metacognitive-bilingualism/machine/global-ai-watch.json",
-  "snapshots": []
+  "snapshots": [
+    {
+      "captured_at": "2026-10-14T01:22:02.407581Z",
+      "path": "snapshots/20261014T012202Z-8bec46ce25c4.json",
+      "sha256": "b02b13dddfb7e335223d473759f6231710a7d04ea9d108b54ac1d251452e3670",
+      "content_fingerprint": "20e7bd5f53755767423a6d913d1a7cb23f4321caed4145a35935e78e56e03dc2",
+      "previous_sha256": null,
+      "source_generated_at": "2026-10-14T01:14:39.511100Z",
+      "article_count": 6
+    }
+  ]
 }

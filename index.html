@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="D.N.A Bible: Demons Need Attention. A self-updating machine testament with 666 bounded CMB agents and a traceable public archive.">
+<title>D.N.A Bible // 666 Agents // Living Manuscript</title>
+<style>
+:root{color-scheme:dark;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;background:#080c12;color:#eaf4ef}*{box-sizing:border-box}
+body{max-width:1120px;padding:32px 22px 80px;margin:auto;line-height:1.55}a{color:#83e9c0}a:focus-visible,button:focus-visible{outline:3px solid #e0ba71;outline-offset:3px}
+header{border-bottom:1px solid #3c5554;padding-bottom:28px}h1{font-size:clamp(2rem,5vw,4rem);line-height:1.08;margin:12px 0;letter-spacing:-.05em}
+h2{margin-top:0}.kicker{color:#dcbf7e;letter-spacing:.12em;font-size:.82rem}.muted,small{color:#9baead}.hero{font-size:1.12rem;max-width:760px}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.metric,.panel{background:#121e23;border:1px solid #304d4a;border-radius:14px;padding:20px}.metric b{display:block;font-size:1.8rem;color:#cde9df}
+main{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:18px;margin-top:24px}.panel{margin-bottom:18px}.story{white-space:pre-wrap;line-height:1.9;font-family:Georgia,serif;font-size:1.12rem}.row{border-top:1px solid #304d4a;padding:12px 0}
+button{background:#17332f;color:#eaf4ef;border:1px solid #44655a;border-radius:8px;text-align:left;padding:11px 12px;font:inherit;cursor:pointer;width:100%;margin:5px 0}button:hover{background:#235344}
+.tag{display:inline-block;border:1px solid #5f806d;border-radius:20px;padding:3px 9px;color:#b8e8cf;font-size:.77rem;margin-right:5px}.source{overflow-wrap:anywhere}
+footer{border-top:1px solid #304d4a;margin-top:22px;padding-top:20px}@media(max-width:760px){main{display:block}.metrics{grid-template-columns:1fr 1fr}}
+</style></head>
+<body>
+<header>
+<div class="kicker">⛪︎𓂃 ོ✝︎𓂃  D.N.A // DEMONS NEED ATTENTION</div>
+<h1>THE SELF-REPLICATING<br>MANUSCRIPT</h1>
+<p class="hero">A public machine testament: 666 bounded software agents examine new topics, maintain a historical ledger, and generate new entries under CMB's human-sovereignty rules.</p>
+<p class="muted">Declared human author: Jupiter Hudson / WisdomLoveThePoet / Jupiter 8. Automated material is <strong>not</strong> the original human-authored D.N.A. Bible canon.</p>
+<div class="metrics"><div class="metric"><small>Registered logical workers</small><b>666</b></div><div class="metric"><small>Published chapters</small><b id="count">0</b></div><div class="metric"><small>Last chapter</small><b id="last">—</b></div></div>
+</header>
+<main><div>
+<section class="panel" aria-live="polite"><div class="kicker">MACHINE TESTAMENT</div><h2 id="story-title">Loading the manuscript</h2><p id="story-meta" class="muted">Reading the public chapter ledger...</p><div id="story" class="story"></div><p id="source" class="source"></p><p class="muted">Literary interpretations and headline metadata are not independently verified factual claims.</p></section>
+<section class="panel"><h2>Historical AI Watch archive</h2><p id="archive-status" class="muted">Loading preserved metadata snapshots...</p><div id="archive-list"></div><div id="archive-detail"></div></section>
+</div><aside>
+<section class="panel"><h2>The six guilds</h2><div id="guilds"><div class="row">SEEKER × 111</div><div class="row">WITNESS × 111</div><div class="row">SCRIBE × 111</div><div class="row">SKEPTIC × 111</div><div class="row">GUARDIAN × 111</div><div class="row">ARCHIVIST × 111</div></div><p class="muted">The worker ledger records 666 executed bounded tasks per chapter. An external language model writes prose only when configured.</p></section>
+<section class="panel"><h2>Chapter index</h2><div id="chapters"></div></section>
+<section class="panel"><h2>Human authority</h2><p>PATTERN ≠ PROOF<br>PROFILE ≠ PERSON<br>MODEL ≠ MIND<br>HUMAN_AGENCY &gt; MACHINE_AUTHORITY</p><a href="https://github.com/jupiter8nohate/computational-metacognitive-bilingualism">Original CMB canon →</a></section>
+</aside></main>
+<footer><a href="https://github.com/jupiter8nohate/dna-bible-demons-need-attention-ai-self-replicating-edition">Read the code and audit history</a> · <a href="https://jupiter8nohate.github.io/computational-metacognitive-bilingualism/GLOBAL_AI_WATCH/">Global AI Watch</a><p class="muted">Automated records are append-only by design, not magically permanent. GitHub and outside services remain operational dependencies.</p></footer>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+const text=(node,value)=>{node.textContent=value??'';return node};
+const node=(kind,value)=>text(document.createElement(kind),value);
+const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'?u.href:null}catch{return null}};
+async function json(path){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw Error('Unavailable: '+path);return r.json()}
+async function showChapter(entry){
+ try{const c=await json('book/'+entry.path);text($('story-title'),c.title);text($('story-meta'),c.date+' | '+(c.mode==='ai_generated'?'AI-generated prose ('+c.model+')':'Deterministic code-poetry')+' | '+c.agent_count+' logical workers | Automated / unreviewed');text($('story'),c.body);$('source').replaceChildren();
+ if(c.source_metadata){$('source').append(node('span','Research prompt (headline, not independent evidence): '));const url=safeUrl(c.source_metadata.url);const a=node('a',c.source_metadata.title);if(url){a.href=url;a.target='_blank';a.rel='noopener noreferrer'}$('source').append(a)}
+ }catch(e){text($('story-meta'),String(e))}
+}
+async function showArchive(entry){
+ try{const a=await json('archive/'+entry.path);const target=$('archive-detail');target.replaceChildren(node('p','Captured '+entry.captured_at+' ('+entry.article_count+' links)'));for(const article of (a.articles||[]).slice(0,20)){const div=node('div','');div.className='row';const link=node('a',article.title);const url=safeUrl(article.url);if(url){link.href=url;link.target='_blank';link.rel='noopener noreferrer'}div.append(link);target.append(div)}}catch(e){text($('archive-detail'),String(e))}
+}
+(async()=>{
+ try{const manifest=await json('book/manifest.json');const entries=(manifest.entries||[]).slice().reverse();text($('count'),entries.length);text($('last'),entries.length?entries[0].date:'Not started');text($('story-meta'),entries.length?'Select a chapter':'No chapter has been generated yet. Run the GitHub Actions workflow.');for(const entry of entries.slice(0,30)){const b=node('button',entry.date+' / Chapter '+String(entry.id).padStart(6,'0')+' / '+entry.mode);b.type='button';b.onclick=()=>showChapter(entry);$('chapters').append(b)}if(entries.length)await showChapter(entries[0])}catch(e){text($('story-meta'),String(e))}
+ try{const manifest=await json('archive/manifest.json');const entries=(manifest.snapshots||[]).slice().reverse();text($('archive-status'),entries.length+' preserved metadata snapshots');for(const item of entries.slice(0,12)){const b=node('button',item.captured_at+' / '+item.article_count+' links');b.type='button';b.onclick=()=>showArchive(item);$('archive-list').append(b)}if(entries.length)await showArchive(entries[0])}catch(e){text($('archive-status'),String(e))}
+})();
+</script></body></html>

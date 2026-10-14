@@ -123,3 +123,7 @@ No Elasticsearch, PyOD, Datadog, or machine learning model is installed. Rule-ba
 
 ## Publication health and recovery
 The hourly workflow now emits `health/status.json` after verifying the archives. A separate watchdog checks freshness hourly and reports a failed GitHub Actions run if the last chapter is more than three hours old. The status panel distinguishes deterministic code-poetry from actual AI-generated prose. These two workflows share GitHub infrastructure: independent uptime monitoring and off-platform backups are still recommended. Original canon is never a bot output.
+
+
+## Narrative novelty safeguards
+When no paid model is available, the deterministic author uses twelve original fictional mechanisms rather than a single repeated passage. `tests/test_novelty.py` evaluates consecutive text similarity and fails if fallback output clones adjacent chapters. This is a baseline quality check, not a substitute for creative editorial judgment, independent AI reasoning, or a competitive Grok/Muse benchmark.

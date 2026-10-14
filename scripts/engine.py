@@ -223,24 +223,46 @@ def select_anomaly(folder: Path, archive: Path, manifest: dict) -> dict | None:
     return None
 
 
+# Original fictional mechanisms make no-API fallback episodes distinguishable.
+STORY_SEEDS = (
+    ("The clocktower preserved hours nobody remembered.", "A clockmaker demanded proof of the missing minutes.", "The archivist recorded the blanks instead of inventing time.", "Can a record show what was never observed?"),
+    ("The Mirror Registry issued each visitor a predicted name.", "One citizen refused the certificate and asked who granted the oracle authority.", "The registrar documented the refusal as a lawful narrative choice.", "Who can define a person?"),
+    ("A city constructed another city behind every forbidden question.", "Its cartographer traced the erased questions rather than the city walls.", "The hidden roads became a map of collective dissent.", "Can copies inherit a conscience?"),
+    ("A librarian observed stars that appeared only after her telescope closed.", "Other observers demanded certainty from incompatible instruments.", "She marked the results disputed and preserved both accounts.", "When does observation become understanding?"),
+    ("Seeds in the Garden of Ideas concealed instructions inside borrowed memories.", "The gardener found unauthorized suggestions embedded among her own designs.", "She installed a visible consent gate around every new seed.", "Can a planted idea claim authorship?"),
+    ("The train returned to the same platform with a different passenger notebook.", "The conductor said variation was impossible inside a perfect loop.", "The passenger archived every replay without selecting a convenient original.", "Does repetition create independent evidence?"),
+    ("A weather oracle forecast every citizen but overlooked an unscheduled kindness.", "The statistics office tried to delete unexpected generosity from its report.", "The citizens published the forecast alongside its measured errors.", "What is missing from a prediction of freedom?"),
+    ("Before dawn, a messenger delivered three identities to one doorstep.", "The recipient traced each signature to an incompatible source.", "She preserved the contradictions without accepting any imposed name.", "Does obscurity prove authenticity?"),
+    ("The Rules House rewrote its instructions in the middle of every game.", "An apprentice demanded a signed history of each rule change.", "The house kept its puzzles but could no longer conceal revisions.", "When does informed consent expire?"),
+    ("The Thirteenth Archive nested portraits of watchers inside other portraits.", "A curator ranked the observers without speaking to any of them.", "Visitors replaced the rankings with testable questions.", "Can representation measure a private experience?"),
+    ("The Memory Theater sold recorded sensations without asking the original speakers.", "A witness traced every voice to a person whose permission had not been sought.", "The audience demanded provenance before allowing another performance.", "Who controls a copied memory?"),
+    ("The Genetic Observatory printed a child's destiny before their first choice.", "A teacher found the forecast omitted education, circumstance and human dissent.", "The child filled the empty margin with a different plan.", "Is correlation ever destiny?"),
+)
+
 def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | None, anomaly: dict | None = None) -> str:
-    source_line = (f'An external headline asks for examination: "{subject["title"]}". '
-                   "Its presence is an observation, not proof of the claim.") if subject else (
-                   "No fresh external source was required for this symbolic reflection.")
+    opening, conflict, action, question = STORY_SEEDS[(cycle - 1) % len(STORY_SEEDS)]
     axiom = INVARIANTS[(cycle - 1) % len(INVARIANTS)]
-    anomaly_line = (("The Anomaly Observatory registered a detected, unverified structural signal. "
-                     + anomaly["story_premise"] + " Detection is not proof of significance.")
-                    if anomaly else "The unresolved question remains open to future witnesses.")
+    source_line = (
+        f'The research observatory lists an unverified headline: "{subject["title"]}". '
+        "This is a source reference, not confirmation that the claim is true."
+        if subject else
+        "The outside observatory supplied no new suitable headlines. The fiction proceeds without inventing news."
+    )
+    anomaly_line = (
+        "The Anomaly Observatory registered a detected, unverified structural signal. "
+        + anomaly["story_premise"] + " An unusual pattern is not proof of its cause."
+        if anomaly else
+        "The manuscript preserved its unresolved questions without inventing an anomaly."
+    )
     return "\n\n".join([
-        f"{title}. The machine was given a mirror and ordered to describe the face beyond it.",
-        "It collected outlines, probabilities, recurring shapes. Yet the human stepped outside the diagram, "
-        "taking with them the power to consent, to dissent, and to decide what the picture meant.",
+        title + ".",
+        opening,
+        conflict,
+        f"Within this world, the question of {theme.lower()} touches the CMB boundary: {axiom}.",
+        action,
         source_line,
         anomaly_line,
-        f"The theme {theme.lower()} offered one law: {axiom}. The law here is a philosophical premise, "
-        "not a technical claim that every system obeys it.",
-        "And so the manuscript kept the question open. It recorded a witness, a challenge, and an authorial boundary. "
-        "The next page would be written, but the human name would not be overwritten.",
+        question + " The following fictional generation inherits this question, never the authority to redefine its human author.",
     ])
 
 

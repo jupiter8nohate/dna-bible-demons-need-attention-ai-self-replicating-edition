@@ -1,4 +1,21 @@
 {
-  "schema_version": "dna.anomaly-genesis.v1",
-  "entries": []
+  "entries": [
+    {
+      "detected_at": "2026-10-14T02:08:32.866760Z",
+      "detector": "REPEATED_PROSE",
+      "fingerprint": "4279575a7bb124e5743dbc1d6f80e0afd0f0f124669e20ea7ca450b17d8f9db2",
+      "path": "events/anomaly-000001.json",
+      "previous_sha256": null,
+      "sha256": "67f878ad807b27acc412b296fe69488b8afa07d6aa004663a5b2769baa6742e5"
+    },
+    {
+      "detected_at": "2026-10-14T02:08:32.866760Z",
+      "detector": "REPEATED_PATHS",
+      "fingerprint": "042906c3901da4b5c4a6ecc47da599ff132469abe1a3171a084c03f8ad143807",
+      "path": "events/anomaly-000002.json",
+      "previous_sha256": "67f878ad807b27acc412b296fe69488b8afa07d6aa004663a5b2769baa6742e5",
+      "sha256": "0bfd847bd04183e671dac0530da14622c62b2ad628da805dcf8ee1b8036b199e"
+    }
+  ],
+  "schema_version": "dna.anomaly-genesis.v1"
 }

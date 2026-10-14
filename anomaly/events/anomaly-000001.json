@@ -1,0 +1,23 @@
+{
+  "classification": "operational_or_fictional_pattern",
+  "creative_prompt": "An echo returns in the manuscript. Have witnesses investigate the difference between remembering and merely repeating a pattern.",
+  "detected_at": "2026-10-14T02:08:32.866760Z",
+  "detector": "REPEATED_PROSE",
+  "evidence": [
+    {
+      "path": "book/chapters/chapter-000001.json",
+      "sha256": "9b452bb2f7d863896c137199bf89f32568decce61bdfa0eae5a48df37a9537e2"
+    },
+    {
+      "path": "book/chapters/chapter-000002.json",
+      "sha256": "aae28609f194c465f58b2e097e0324db1d1220ed3c33918d2d5082f62cbe8ee1"
+    }
+  ],
+  "explanation": "Consecutive chapter text similarity is 0.885 (sequence ratio; not a truth score).",
+  "fingerprint": "4279575a7bb124e5743dbc1d6f80e0afd0f0f124669e20ea7ca450b17d8f9db2",
+  "human_canon_write_allowed": false,
+  "id": "ANOM-000001",
+  "previous_sha256": null,
+  "source_truth_claim": false,
+  "status": "detected_unverified"
+}

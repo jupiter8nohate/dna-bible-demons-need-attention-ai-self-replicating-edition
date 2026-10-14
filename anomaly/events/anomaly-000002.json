@@ -1,0 +1,23 @@
+{
+  "classification": "operational_or_fictional_pattern",
+  "creative_prompt": "Two purportedly different fictional realities share the same decision geometry. Ask how freedom changes when the routes remain fixed.",
+  "detected_at": "2026-10-14T02:08:32.866760Z",
+  "detector": "REPEATED_PATHS",
+  "evidence": [
+    {
+      "path": "interactive/stories/story-000001.json",
+      "sha256": "84444241be9aa3d1dfa382eb85cf446b59d6db9bfcc47efb4929938bccf5d83f"
+    },
+    {
+      "path": "interactive/stories/story-000002.json",
+      "sha256": "0a578cfe51169996f1d09cd583c14360c13b4654e5d4f82b6fdd1b8e4be87425"
+    }
+  ],
+  "explanation": "Two adjacent interactive chapters have identical scene transitions. This is a structural observation, not a moral judgment.",
+  "fingerprint": "042906c3901da4b5c4a6ecc47da599ff132469abe1a3171a084c03f8ad143807",
+  "human_canon_write_allowed": false,
+  "id": "ANOM-000002",
+  "previous_sha256": "67f878ad807b27acc412b296fe69488b8afa07d6aa004663a5b2769baa6742e5",
+  "source_truth_claim": false,
+  "status": "detected_unverified"
+}

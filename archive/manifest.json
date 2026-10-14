@@ -10,6 +10,15 @@
       "previous_sha256": null,
       "source_generated_at": "2026-10-14T01:14:39.511100Z",
       "article_count": 6
+    },
+    {
+      "captured_at": "2026-10-14T02:08:32.795304Z",
+      "path": "snapshots/20261014T020832Z-a90366b16bb7.json",
+      "sha256": "3b53a30d5ad941a0a4631abdf7e70942e0f2bd94d53610e6be65116ecd9e58d8",
+      "content_fingerprint": "a50fea34b5198e552eaced233879db9ae1f83c75d50d76a619c979713aeabd5d",
+      "previous_sha256": "b02b13dddfb7e335223d473759f6231710a7d04ea9d108b54ac1d251452e3670",
+      "source_generated_at": "2026-10-14T01:38:09.434339Z",
+      "article_count": 10
     }
   ]
 }

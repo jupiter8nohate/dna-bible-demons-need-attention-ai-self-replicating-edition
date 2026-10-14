@@ -12,6 +12,16 @@ function element(tag, cls, content) {
   if (content !== undefined) node.textContent = content;
   return node;
 }
+async function verifiedDay(path, expectedSha256) {
+  if (!/^[a-f0-9]{64}$/.test(expectedSha256)) throw Error('Invalid publication fingerprint');
+  const response = await fetch(path, {cache: 'no-store'});
+  if (!response.ok) throw Error('Story day unavailable: HTTP ' + response.status);
+  const raw = await response.arrayBuffer();
+  const bytes = await crypto.subtle.digest('SHA-256', raw);
+  const actual = Array.from(new Uint8Array(bytes), n => n.toString(16).padStart(2, '0')).join('');
+  if (actual !== expectedSha256) throw Error('Story integrity verification failed');
+  return JSON.parse(new TextDecoder().decode(raw));
+}
 function dayNumber(entry) {return Number(entry.day);}
 function indexFromUrl() {
   const day = Number(new URLSearchParams(location.search).get('day'));
@@ -28,7 +38,7 @@ async function choose(index) {
     let day = archive.days.get(index);
     if (!day) {
       if (!/^days\/day-[0-9]{6}\.json$/.test(record.path)) throw Error('Unsafe chronicle record path');
-      day = await requestJson(record.path);
+      day = await verifiedDay(record.path, record.sha256);
       if (day.day !== record.day || day.schema_version !== 'dna.github-town-civilization.v1') throw Error('Chronicle day metadata mismatch');
       archive.days.set(index, day);
     }

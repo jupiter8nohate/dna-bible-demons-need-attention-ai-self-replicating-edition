@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "day": 1,
+      "path": "days/day-000001.json",
+      "previous_sha256": null,
+      "sha256": "f9518a8f906674912a1cb1ed31f2b6652c9d22dda19e771f29e9b9ba1d7b4329"
+    },
+    {
+      "day": 2,
+      "path": "days/day-000002.json",
+      "previous_sha256": "f9518a8f906674912a1cb1ed31f2b6652c9d22dda19e771f29e9b9ba1d7b4329",
+      "sha256": "785b13cd2e1a5336ef8682b30cf5a72f27d892d3813031b2d5365144c662816a"
+    }
+  ],
+  "schema_version": "dna.symbol-events.v1"
+}

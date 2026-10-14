@@ -9,6 +9,7 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'mythos/**'
+      - 'civilization/**'
       - '.github/workflows/eternal-manuscript.yml'
 permissions:
   contents: write
@@ -36,6 +37,7 @@ jobs:
           python3 scripts/insight.py --verify
           python3 scripts/witness_loom.py --verify
           python3 scripts/mythos.py --verify
+          python3 scripts/civilization.py --verify
           python3 scripts/evolution.py --verify
       - name: Collect authorized public headline metadata
         run: python3 scripts/collect.py || echo 'Discovery unavailable - proceed with last verified snapshot or timeless theme'
@@ -50,6 +52,11 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DNA_MODEL: ${{ vars.DNA_MODEL }}
         run: python3 scripts/engine.py --hourly
+      - name: Write the next witnessed day of GitHub Town
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DNA_MODEL: ${{ vars.DNA_MODEL }}
+        run: python3 scripts/civilization.py --hourly
       - name: Generate original twelve-lens reality world
         run: python3 scripts/reality.py
       - name: Create branching interactive scenes
@@ -66,6 +73,7 @@ jobs:
           python3 scripts/insight.py --verify
           python3 scripts/witness_loom.py --verify
           python3 scripts/mythos.py --verify
+          python3 scripts/civilization.py --verify
           python3 scripts/evolution.py --verify
       - name: Record provisional learning and champion-challenger experiment
         run: python3 scripts/evolution.py --reflect --trial
@@ -77,7 +85,7 @@ jobs:
         run: |
           git config user.name 'dna-bible-666[bot]'
           git config user.email 'dna-bible-666[bot]@users.noreply.github.com'
-          git add -- archive/manifest.json archive/snapshots/ book/manifest.json book/chapters/ book/receipts/ realities/manifest.json realities/worlds/ interactive/manifest.json interactive/stories/ anomaly/manifest.json anomaly/events/ insights/manifest.json insights/events/ covenant/manifest.json covenant/plans/ evolution/manifest.json evolution/lessons/ evolution/trials/ health/status.json
+          git add -- archive/manifest.json archive/snapshots/ book/manifest.json book/chapters/ book/receipts/ realities/manifest.json realities/worlds/ interactive/manifest.json interactive/stories/ anomaly/manifest.json anomaly/events/ insights/manifest.json insights/events/ covenant/manifest.json covenant/plans/ evolution/manifest.json evolution/lessons/ evolution/trials/ civilization/manifest.json civilization/days/ health/status.json
           if ! git diff --cached --quiet; then
             git commit -m 'book: append verified 666-agent interactive edition [skip ci]'
             git push

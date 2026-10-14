@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "creative_mode": "deterministic_fiction",
+      "day": 1,
+      "path": "days/day-000001.json",
+      "previous_sha256": null,
+      "sha256": "bc2e9de6272d3954a070aa22e29ee45b91351fa89f1f0c7b8fb476caadfe54bc",
+      "slot": "2026-10-14T03Z"
+    }
+  ],
+  "schema_version": "dna.github-town-civilization.v1"
+}

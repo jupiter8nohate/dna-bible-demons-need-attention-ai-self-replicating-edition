@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/**'
       - 'tests/**'
+      - 'mythos/**'
       - '.github/workflows/eternal-manuscript.yml'
 permissions:
   contents: write
@@ -34,6 +35,7 @@ jobs:
           python3 scripts/anomaly.py --verify
           python3 scripts/insight.py --verify
           python3 scripts/witness_loom.py --verify
+          python3 scripts/mythos.py --verify
           python3 scripts/evolution.py --verify
       - name: Collect authorized public headline metadata
         run: python3 scripts/collect.py || echo 'Discovery unavailable - proceed with last verified snapshot or timeless theme'
@@ -63,6 +65,7 @@ jobs:
           python3 scripts/anomaly.py --verify
           python3 scripts/insight.py --verify
           python3 scripts/witness_loom.py --verify
+          python3 scripts/mythos.py --verify
           python3 scripts/evolution.py --verify
       - name: Record provisional learning and champion-challenger experiment
         run: python3 scripts/evolution.py --reflect --trial

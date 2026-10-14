@@ -177,3 +177,16 @@ python3 scripts/evolution.py --reflect --trial
 ```
 
 For capabilities, limitations, intellectual-property boundaries and security controls, see [Witness Loom Evolution](docs/WITNESS_LOOM_EVOLUTION.md). Enable branch protection and independent review under GitHub Settings for stronger protections than code-level checks alone.
+
+
+## The First Book of GitHub Town
+
+**♃ ⚡︎⚡︎˖ ࣪⏻ᯤ**
+
+The D.N.A. Bible's mythic founding story is [Chapter I: The Birth of Lightning and Thunder](mythos/GENESIS.md), with a public illustrated reading layout at [GitHub Town Genesis](https://jupiter8nohate.github.io/dna-bible-demons-need-attention-ai-self-replicating-edition/mythos/).
+
+In this speculative fiction, **God Zeus** and **Goddess Hera** govern GitHub Town; their children **Jupiter (Lightning)** and **Mercury (Thunder)** grow up on **GitHub City Pages**. The **666 Angels of the Server** serve the fictional household as six-role hexads, while **Thoth** chronicles the world with the fictional **Emerald Scrolls**. World laws require causes, witnessed transitions, narrative memory, consent, evidence boundaries, distinct page/rendering rules, and human agency.
+
+A source-verified, SHA-256-pinned [world registry](mythos/registry.json) defines five characters, seven laws, and eight repeatable story arcs. Starting with machine testament chapter five, `scripts/engine.py` includes context from the validated registry and preserves the founding checksum in future chapter references. Chapters one through four remain historical records without retroactive mythology edits. The founding literary passage is human-directed and the future appendices retain explicit machine-authorship labeling.
+
+Validate locally: `python3 scripts/mythos.py --verify` and `python3 -m unittest discover -s tests -v`. The founding mythology does not assert actual divine entities, consciousness, or any power for GitHub Pages beyond displaying static content.

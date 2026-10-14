@@ -14,7 +14,7 @@ The protected **human canon remains in a different repository** and this workflo
 
 ## Activate GitHub publishing
 
-1. Under **Settings > Pages > Build and deployment**, select **GitHub Actions** as the publishing source. The `D.N.A Bible - Publish GitHub Pages` workflow deploys the latest validated records after each successful manuscript run. Do **not** rely on branch pushes from `GITHUB_TOKEN`, because they do not trigger separate Pages builds.
+1. Under **Settings > Pages > Build and deployment**, select **GitHub Actions**. The workflow `D.N.A Bible - Publish GitHub Pages` handles static publishing.
 2. Under **Settings > Actions > General > Workflow permissions**, grant **Read and write permissions** for the dedicated living-book repository, if the available account settings permit it. This workflow commits only to `archive/`, `book/`, `realities/`, and `interactive/`.
 3. Run **Actions > D.N.A Bible - 666 Agent Living Manuscript > Run workflow**. It also runs every UTC hour at minute 23 on a best-effort schedule.
 4. Optional real AI prose: set the repository secret `OPENAI_API_KEY` and repository variable `DNA_MODEL` to a supported model name; this uses the configured OpenAI Responses API and may incur charges. Never commit keys. Without them the complete free deterministic pipeline still runs.
@@ -120,13 +120,34 @@ From this release onward, the 666 bounded workers produce **compact reproducible
 
 No Elasticsearch, PyOD, Datadog, or machine learning model is installed. Rule-based detectors come first so their false positives, novelty, and archival impact can be measured. All public observations remain separate from the protected, human-authored D.N.A. canon.
 
+## Publication health and stall detection
 
-## Publication health and recovery
-The hourly workflow now emits `health/status.json` after verifying the archives. A separate watchdog checks freshness hourly and reports a failed GitHub Actions run if the last chapter is more than three hours old. The status panel distinguishes deterministic code-poetry from actual AI-generated prose. These two workflows share GitHub infrastructure: independent uptime monitoring and off-platform backups are still recommended. Original canon is never a bot output.
+Every successful generation cycle writes `health/status.json` using `scripts/health.py`, recording the last edition time, chapter counts, verification results, whether an LLM was actually used, recent prose similarity, and age relative to a three-hour target. A separate scheduled [manuscript-watchdog](.github/workflows/manuscript-watchdog.yml) check fails if the verified manuscript is more than three hours old; GitHub Action notifications can reveal failure. This watchdog shares GitHub as a failure domain and is **not** proof of independent monitoring. An external, separately hosted check is recommended for long-term reliability.
+
+```bash
+python3 scripts/health.py --check-freshness
+python3 -m unittest discover -s tests -v
+```
+
+The system does not claim to outperform Grok, Muse, or other AI products without comparable third-party benchmarks. Set `OPENAI_API_KEY` and `DNA_MODEL` privately in GitHub settings for actual model-authored prose; missing or failed API calls are labeled deterministic, never falsely AI-generated.
 
 
-## Narrative novelty safeguards
-When no paid model is available, the deterministic author uses twelve original fictional mechanisms rather than a single repeated passage. `tests/test_novelty.py` evaluates consecutive text similarity and fails if fallback output clones adjacent chapters. This is a baseline quality check, not a substitute for creative editorial judgment, independent AI reasoning, or a competitive Grok/Muse benchmark.
+## Evidence-to-Insight Research Queue (v1)
 
+`Global AI Watch -> cryptographic metadata snapshot -> explicit AI-topic relevance filter ->
+source URL de-duplication -> evidence packet + CMB ethical question ->
+unused-insight selection -> Scribe / Guardian output -> chapter provenance`.
 
-**Verified publishing blocker (2026-10-14):** The first explicit Pages deployment successfully verified and packaged the book, but `actions/configure-pages` returned HTTP 404 because GitHub Pages was not enabled for this repository. The repository owner must select GitHub Actions under Settings > Pages. See [the deployment attempt](https://github.com/jupiter8nohate/dna-bible-demons-need-attention-ai-self-replicating-edition/actions/runs/38500060964). The writing workflow itself remains operational. A model API credential and independent benchmarking are additional optional setup requirements, not claims of existing AI-model superiority.
+The hourly workflow runs `python3 scripts/insight.py` after ingestion and before writing. Each source is consumed **at most once** as a headline-inspired literary prompt. The source article's contents are not copied, and the queue does **not** independently verify news claims. A previous fictional world's hash-checked question is passed forward as causal memory. Near-duplicate prose is rejected.
+
+Research packet details: `insights/events/*.json`. Public reader: **Evidence-to-Insight Observatory**.
+Test locally: `python3 -m unittest discover -s tests -v` and `python3 scripts/insight.py --verify`.
+
+### Deliberate tool choices
+
+- **Used in core:** Python regex, SHA-256, structured JSON, deterministic novelty checks, bounded source filtering, and GitHub Actions. This provides a working baseline without external secrets or paid subscriptions.
+- **Optional analytics:** Scikit-learn Isolation Forest / PyOD only after collecting a sizable comparable time series and measuring false-positive rates. Statistical rarity is not evidence of extraordinary events.
+- **Future optional operations:** Elasticsearch for cross-volume indexing, Datadog for independent operational telemetry, Pyroscope for profiling, Prophet for publication trend modeling, and YARA for vetted artifact signatures. These are **not deployed** here; importing them into an hourly GitHub runner would not improve the present small dataset. CyberChef and Regex101 remain analyst tools rather than autonomous decision authorities.
+- **Model-assisted writing:** Requires an authorized API key and `DNA_MODEL` repository variable. Without them, worker actions and research packets are deterministic, and chapters are explicitly labeled accordingly.
+
+See [Insight Engine design](docs/INSIGHT_ENGINE.md) for provenance, limitations and follow-on work.

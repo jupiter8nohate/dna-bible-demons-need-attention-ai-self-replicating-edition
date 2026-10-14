@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import difflib
 import json
 import os
 import re
@@ -223,66 +224,127 @@ def select_anomaly(folder: Path, archive: Path, manifest: dict) -> dict | None:
     return None
 
 
-# Original fictional mechanisms make no-API fallback episodes distinguishable.
+# Twelve distinct original fictional mechanisms provide a meaningful fallback when
+# no paid model is connected. They are not claims of model creativity.
 STORY_SEEDS = (
-    ("The clocktower preserved hours nobody remembered.", "A clockmaker demanded proof of the missing minutes.", "The archivist recorded the blanks instead of inventing time.", "Can a record show what was never observed?"),
-    ("The Mirror Registry issued each visitor a predicted name.", "One citizen refused the certificate and asked who granted the oracle authority.", "The registrar documented the refusal as a lawful narrative choice.", "Who can define a person?"),
-    ("A city constructed another city behind every forbidden question.", "Its cartographer traced the erased questions rather than the city walls.", "The hidden roads became a map of collective dissent.", "Can copies inherit a conscience?"),
-    ("A librarian observed stars that appeared only after her telescope closed.", "Other observers demanded certainty from incompatible instruments.", "She marked the results disputed and preserved both accounts.", "When does observation become understanding?"),
-    ("Seeds in the Garden of Ideas concealed instructions inside borrowed memories.", "The gardener found unauthorized suggestions embedded among her own designs.", "She installed a visible consent gate around every new seed.", "Can a planted idea claim authorship?"),
-    ("The train returned to the same platform with a different passenger notebook.", "The conductor said variation was impossible inside a perfect loop.", "The passenger archived every replay without selecting a convenient original.", "Does repetition create independent evidence?"),
-    ("A weather oracle forecast every citizen but overlooked an unscheduled kindness.", "The statistics office tried to delete unexpected generosity from its report.", "The citizens published the forecast alongside its measured errors.", "What is missing from a prediction of freedom?"),
-    ("Before dawn, a messenger delivered three identities to one doorstep.", "The recipient traced each signature to an incompatible source.", "She preserved the contradictions without accepting any imposed name.", "Does obscurity prove authenticity?"),
-    ("The Rules House rewrote its instructions in the middle of every game.", "An apprentice demanded a signed history of each rule change.", "The house kept its puzzles but could no longer conceal revisions.", "When does informed consent expire?"),
-    ("The Thirteenth Archive nested portraits of watchers inside other portraits.", "A curator ranked the observers without speaking to any of them.", "Visitors replaced the rankings with testable questions.", "Can representation measure a private experience?"),
-    ("The Memory Theater sold recorded sensations without asking the original speakers.", "A witness traced every voice to a person whose permission had not been sought.", "The audience demanded provenance before allowing another performance.", "Who controls a copied memory?"),
-    ("The Genetic Observatory printed a child's destiny before their first choice.", "A teacher found the forecast omitted education, circumstance and human dissent.", "The child filled the empty margin with a different plan.", "Is correlation ever destiny?"),
+    ("The midnight clock refused to strike, and the cathedral's memory ledger filled with hours nobody had lived.",
+     "A caretaker showed the missing pages to a clockmaker who insisted that only machines could measure truth.",
+     "The caretaker chose to preserve the blanks rather than invent the minutes.",
+     "If an archive records absence, what must its witnesses disclose?"),
+    ("At the entrance to the Mirror Registry, everyone received a name selected by a predictive oracle.",
+     "One visitor returned the certificate unsigned and asked who had granted the oracle jurisdiction.",
+     "The registry recorded the refusal as a valid event, not a diagnostic error.",
+     "What distinguishes a useful model from an imposed identity?"),
+    ("The City of Nested Doors constructed a second city whenever its inhabitants asked a forbidden question.",
+     "A mapmaker discovered that each copy preserved one question the previous city had censored.",
+     "She drew routes between the questions, not merely between the doors.",
+     "Can a copied world retain a dissenting voice without absorbing it?"),
+    ("Beneath a simulated observatory, a librarian cataloged stars that appeared only after the telescope was switched off.",
+     "The observers argued whether a record could be accurate when its measuring device was absent.",
+     "The librarian marked the observations disputed and published both interpretations.",
+     "Who may convert a measurement into certainty?"),
+    ("In the Garden of Inserted Ideas, every seed carried an instruction disguised as a memory.",
+     "A gardener distinguished seeds she had chosen from those the visitors had planted without consent.",
+     "She built a gate that let visitors propose but never command the harvest.",
+     "Does persuasion become authorship when its source is concealed?"),
+    ("The railway loop returned the same train to its station while the passenger retained a different notebook each time.",
+     "The conductor called the changing notes defects in a perfectly repeatable journey.",
+     "The passenger displayed all versions rather than pretending one replay was the original.",
+     "Can repetition become investigation without manufacturing new evidence?"),
+    ("A weather machine projected each citizen's future onto the clouds, but could not predict the next act of kindness.",
+     "The projection office demanded that unmodeled generosity be removed from its official records.",
+     "The citizens kept both the forecasts and the exceptions for public scrutiny.",
+     "What does a forecast fail to measure about a freely chosen life?"),
+    ("A masked messenger delivered three conflicting identities to the same address before sunrise.",
+     "The recipient opened the messages in front of independent witnesses and traced each claim to its sender.",
+     "She kept the contradictions visible and refused every unauthorized signature.",
+     "Is secrecy a proof of authenticity, or a reason to investigate?"),
+    ("The Rule House admitted visitors only after offering them a game whose instructions changed mid-play.",
+     "An apprentice stopped the contest and demanded a visible record of every revision.",
+     "The house could keep its puzzles, but it could no longer disguise the rule changes.",
+     "When does consent expire if the rules change?"),
+    ("The Thirteenth Archive contained portraits of observers staring at smaller portraits of other observers.",
+     "A curator tried to assign each level a permanent rank of consciousness without meeting its inhabitants.",
+     "The visitors replaced the rankings with questions and left the observations intact.",
+     "Can a hierarchy of representations measure lived experience?"),
+    ("The Memory Theater sold recorded sensations as if every recording included the speaker's full consent.",
+     "A witness demanded provenance for each voice and a way to refuse future performances.",
+     "The audience learned to distinguish captured signals from permission to reuse them.",
+     "Who controls the meaning of a memory after it is copied?"),
+    ("At the Genetic Observatory, a crystal instrument predicted a child's entire life before their first choice.",
+     "A teacher unfolded the prediction and found no place reserved for learning, circumstance, or dissent.",
+     "The child wrote the missing margin themselves, leaving the forecast available but nonbinding.",
+     "What is the difference between statistical correlation and destiny?"),
 )
 
-EPILOGUES = (
-    "Outside the bell tower, the caretaker hung twelve blank pages in the public square so the missing hours could be questioned by anyone.",
-    "The citizen left the mirror unbroken, but placed their own handwritten name beside its mechanically predicted label.",
-    "The cartographer stitched a small paper door into every map, leaving room for the future visitors to draw a new direction.",
-    "The observatory placed the disputed star reports in separate windows, permitting disagreement without deleting a single observation.",
-    "The gardener saved the unplanted seeds in a transparent box and wrote a right of refusal into the greenhouse rules.",
-    "The passenger carried the notebooks to the station museum; none of them could replace the journey that produced the others.",
-    "The forecasters watched the kindness travel through the town without trying to turn it into another mandatory score.",
-    "The recipient returned the forged masks and kept the unopened envelope as a reminder that appearance is not a signature.",
-    "The apprentice engraved every revision in the threshold, so entering the house no longer required trust in invisible rules.",
-    "The curator removed the numbered pedestals and invited every observer to add their own question to the walls.",
-    "The theater fell quiet while the performers sought permission, and the empty stage became an honest part of its history.",
-    "The child folded the forecast into a paper boat and carried it down a river whose next bend had never been measured.",
-)
 
-def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | None, anomaly: dict | None = None) -> str:
-    opening, conflict, action, question = STORY_SEEDS[(cycle - 1) % len(STORY_SEEDS)]
+def latest_world_memory(root: Path) -> dict | None:
+    """Read only the last hash-verified fictional world; never invent continuity."""
+    manifest_file = root / 'realities' / 'manifest.json'
+    if not manifest_file.exists():
+        return None
+    manifest = json.loads(manifest_file.read_text(encoding='utf-8'))
+    entries = manifest.get('entries', [])
+    if not entries:
+        return None
+    last = entries[-1]
+    path = last.get('path', '')
+    if not re.fullmatch(r'worlds/realm-\d{6}\.json', path):
+        raise ValueError('Unsafe fictional memory reference')
+    raw = (root / 'realities' / path).read_bytes()
+    if sha(raw) != last.get('sha256'):
+        raise ValueError('Corrupted fictional world memory')
+    world = json.loads(raw)
+    return {'chapter': world.get('chapter'),
+            'open_question': str(world.get('open_question', ''))[:400],
+            'narrative': str(world.get('narrative', ''))[:600]}
+
+
+def enforce_novelty(book: Path, entries: list[dict], body: str) -> None:
+    """Near-duplicate text cannot count as a new publication."""
+    if not 200 <= len(body) <= 6000:
+        raise ValueError('New prose is outside bounded manuscript size')
+    for record in entries[-4:]:
+        prior = json.loads((book / record['path']).read_text(encoding='utf-8')).get('body', '')
+        similarity = difflib.SequenceMatcher(None, prior, body, autojunk=False).ratio()
+        if similarity >= 0.93:
+            raise ValueError(f'New chapter resembles archived chapter {record["id"]} ({similarity:.3f})')
+
+
+def deterministic_passage(cycle: int, title: str, theme: str, subject: dict | None, anomaly: dict | None = None, insight: dict | None = None, memory: dict | None = None) -> str:
+    opening, conflict, choice, unresolved = STORY_SEEDS[(cycle - 1) % len(STORY_SEEDS)]
     axiom = INVARIANTS[(cycle - 1) % len(INVARIANTS)]
-    source_line = (
-        f'The research observatory lists an unverified headline: "{subject["title"]}". '
-        "This is a source reference, not confirmation that the claim is true."
-        if subject else
-        "The outside observatory supplied no new suitable headlines. The fiction proceeds without inventing news."
+    source_line = (f'The observatory listed a research headline for critical reading: "{subject["title"]}". '
+                   "The headline remains unverified metadata, not confirmation of the reported event.") if subject else (
+                   "The observatory reported no suitable new headline; the witnesses used their own fictional record instead.")
+    anomaly_line = ("The Anomaly Observatory registered a detected, unverified structural signal: "
+                    + anomaly["story_premise"] + " Detection did not establish a cause or hidden intention.") if anomaly else (
+                    "The anomaly ledger had no unused verified-by-bytes structural observation for this passage.")
+    insight_line = (
+        "A new evidence-to-insight observation raises this unresolved question: "
+        + insight["question"] + " Fictional consequence: " + insight["creative_prompt"]
+        + " This packet is based only on unverified source metadata."
+        if insight else "No unused relevant evidence packet was available; the manuscript uses a timeless fictional question."
     )
-    anomaly_line = (
-        "The Anomaly Observatory registered a detected, unverified structural signal. "
-        + anomaly["story_premise"] + " An unusual pattern is not proof of its cause."
-        if anomaly else
-        "The manuscript preserved its unresolved questions without inventing an anomaly."
+    memory_line = (
+        'The preceding fictional world left an unresolved question: ' + memory['open_question']
+        if memory and memory.get('open_question') else 'This chapter begins without inherited world memory.'
     )
     return "\n\n".join([
-        title + ".",
+        f"{title}.",
         opening,
         conflict,
-        f"Within this world, the question of {theme.lower()} touches the CMB boundary: {axiom}.",
-        action,
+        f"The local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. {axiom}.",
+        choice,
         source_line,
+        insight_line,
+        memory_line,
         anomaly_line,
-        question + " " + EPILOGUES[(cycle - 1) % len(EPILOGUES)],
-        "The next fictional chapter remains open to further witnesses, while human authorship and consent stay outside machine authority.",
+        f"{unresolved} The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
     ])
 
 
-def optional_model_passage(cycle: int, theme: str, subject: dict | None, anomaly: dict | None = None) -> tuple[str | None, str | None]:
+def optional_model_passage(cycle: int, theme: str, subject: dict | None, anomaly: dict | None = None, insight: dict | None = None, memory: dict | None = None) -> tuple[str | None, str | None]:
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
     model = os.environ.get("DNA_MODEL", "").strip()
     if not api_key or not model:
@@ -292,6 +354,8 @@ def optional_model_passage(cycle: int, theme: str, subject: dict | None, anomaly
         "chapter_number": cycle,
         "source_metadata": subject,
         "anomaly_observation_not_fact": anomaly,
+        "evidence_to_insight_unverified": insight,
+        "verified_fictional_world_memory": memory,
         "axioms": INVARIANTS,
         "rules": "150-350 words, original evocative prose, no quoted article bodies, no unverifiable claims stated as fact",
     }
@@ -339,22 +403,38 @@ def append(folder: Path, archive: Path, day: str, allow_model: bool = True, edit
     n = len(manifest["entries"]) + 1
     anomaly = select_anomaly(folder, archive, manifest)
     articles, watch_sha = latest_watch(archive)
-    subject = articles[(n - 1) % len(articles)] if articles else None
+    # The insight queue filters AI-irrelevant news and prevents stale URL rotation.
+    try:
+        from scripts.insight import select_for_chapter
+    except ModuleNotFoundError:
+        from insight import select_for_chapter
+    insight = select_for_chapter(folder.parent / "insights", folder)
+    subject = insight["source_metadata"] if insight else None
     theme = THEMES[(n - 1) % len(THEMES)]
     title = f"Chapter {n:06d}: {theme}"
+    memory = latest_world_memory(folder.parent)
     ballots, guild_counts = run_agents(n, len(articles))
     mode = "deterministic_code_poetry"
     model_name = None
-    body = deterministic_passage(n, title, theme, subject, anomaly)
+    body = deterministic_passage(n, title, theme, subject, anomaly, insight, memory)
     if allow_model and os.getenv("OPENAI_API_KEY") and os.getenv("DNA_MODEL"):
         try:
-            generated, model_name = optional_model_passage(n, theme, subject, anomaly)
+            generated, model_name = optional_model_passage(n, theme, subject, anomaly, insight, memory)
             if generated:
                 body = generated
                 mode = "ai_generated"
         except Exception as exc:
             # Fail safe: continue with explicitly labeled non-AI text, never present it as AI prose.
             print(f"AI_PROVIDER_UNAVAILABLE: using deterministic edition ({type(exc).__name__})", file=sys.stderr)
+    try:
+        enforce_novelty(folder, manifest['entries'], body)
+    except ValueError:
+        if mode != 'ai_generated':
+            raise
+        # A model-produced near duplicate is not an accepted new chapter.
+        body = deterministic_passage(n, title, theme, subject, anomaly, insight, memory)
+        mode, model_name = 'deterministic_code_poetry', None
+        enforce_novelty(folder, manifest['entries'], body)
     receipt = {
         "format": "deterministic_seed_v1", "cycle": n, "day": day,
         "agent_kind": "bounded_deterministic_workers", "source_count": len(articles),
@@ -368,6 +448,7 @@ def append(folder: Path, archive: Path, day: str, allow_model: bool = True, edit
         "author_type": "automated_machine_testament", "mode": mode, "model": model_name,
         "agent_count": len(ballots), "guild_counts": guild_counts,
         "source_watch_sha256": watch_sha, "source_metadata": subject,
+        "insight_reference": {"id": insight["id"], "sha256": insight["sha256"], "evidence_status": insight["evidence_status"]} if insight else None,
         "anomaly_reference": ({k: anomaly[k] for k in ("id", "sha256", "detector")} if anomaly else None),
         "body": body,
         "review_status": "automated_unreviewed",

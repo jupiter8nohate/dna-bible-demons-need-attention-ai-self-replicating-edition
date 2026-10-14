@@ -32,8 +32,11 @@ jobs:
           python3 scripts/reality.py --verify
           python3 scripts/branching.py --verify
           python3 scripts/anomaly.py --verify
+          python3 scripts/insight.py --verify
       - name: Collect authorized public headline metadata
         run: python3 scripts/collect.py || echo 'Discovery unavailable - proceed with last verified snapshot or timeless theme'
+      - name: Filter AI-relevant evidence into an immutable insight queue
+        run: python3 scripts/insight.py
       - name: Detect evidence-backed structural anomalies before writing
         run: python3 scripts/anomaly.py
       - name: Run 666 workers and publish one hourly machine entry
@@ -54,13 +57,14 @@ jobs:
           python3 scripts/reality.py --verify
           python3 scripts/branching.py --verify
           python3 scripts/anomaly.py --verify
-      - name: Update public production health
+          python3 scripts/insight.py --verify
+      - name: Publish transparent operational health report
         run: python3 scripts/health.py --output health/status.json
       - name: Commit generated entries only
         run: |
           git config user.name 'dna-bible-666[bot]'
           git config user.email 'dna-bible-666[bot]@users.noreply.github.com'
-          git add -- archive/manifest.json archive/snapshots/ book/manifest.json book/chapters/ book/receipts/ realities/manifest.json realities/worlds/ interactive/manifest.json interactive/stories/ anomaly/manifest.json anomaly/events/ health/status.json
+          git add -- archive/manifest.json archive/snapshots/ book/manifest.json book/chapters/ book/receipts/ realities/manifest.json realities/worlds/ interactive/manifest.json interactive/stories/ anomaly/manifest.json anomaly/events/ insights/manifest.json insights/events/ health/status.json
           if ! git diff --cached --quiet; then
             git commit -m 'book: append verified 666-agent interactive edition [skip ci]'
             git push

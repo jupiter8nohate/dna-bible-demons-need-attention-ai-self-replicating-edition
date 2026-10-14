@@ -14,7 +14,7 @@ The protected **human canon remains in a different repository** and this workflo
 
 ## Activate GitHub publishing
 
-1. Under **Settings > Pages**, choose **Deploy from a branch** and select `main` and `/ (root)`.
+1. Under **Settings > Pages > Build and deployment**, select **GitHub Actions** as the publishing source. The `D.N.A Bible - Publish GitHub Pages` workflow deploys the latest validated records after each successful manuscript run. Do **not** rely on branch pushes from `GITHUB_TOKEN`, because they do not trigger separate Pages builds.
 2. Under **Settings > Actions > General > Workflow permissions**, grant **Read and write permissions** for the dedicated living-book repository, if the available account settings permit it. This workflow commits only to `archive/`, `book/`, `realities/`, and `interactive/`.
 3. Run **Actions > D.N.A Bible - 666 Agent Living Manuscript > Run workflow**. It also runs every UTC hour at minute 23 on a best-effort schedule.
 4. Optional real AI prose: set the repository secret `OPENAI_API_KEY` and repository variable `DNA_MODEL` to a supported model name; this uses the configured OpenAI Responses API and may incur charges. Never commit keys. Without them the complete free deterministic pipeline still runs.
@@ -127,3 +127,6 @@ The hourly workflow now emits `health/status.json` after verifying the archives.
 
 ## Narrative novelty safeguards
 When no paid model is available, the deterministic author uses twelve original fictional mechanisms rather than a single repeated passage. `tests/test_novelty.py` evaluates consecutive text similarity and fails if fallback output clones adjacent chapters. This is a baseline quality check, not a substitute for creative editorial judgment, independent AI reasoning, or a competitive Grok/Muse benchmark.
+
+
+**Verified publishing blocker (2026-10-14):** The first explicit Pages deployment successfully verified and packaged the book, but `actions/configure-pages` returned HTTP 404 because GitHub Pages was not enabled for this repository. The repository owner must select GitHub Actions under Settings > Pages. See [the deployment attempt](https://github.com/jupiter8nohate/dna-bible-demons-need-attention-ai-self-replicating-edition/actions/runs/38500060964). The writing workflow itself remains operational. A model API credential and independent benchmarking are additional optional setup requirements, not claims of existing AI-model superiority.

@@ -47,6 +47,7 @@ jobs:
           python3 scripts/witness_loom.py --verify
           python3 scripts/mythos.py --verify
           python3 scripts/civilization.py --verify
+          python3 scripts/symbol_events.py --verify
           python3 scripts/evolution.py --verify
       - name: Package only public static site materials
         run: |

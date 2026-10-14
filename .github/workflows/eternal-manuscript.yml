@@ -57,6 +57,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DNA_MODEL: ${{ vars.DNA_MODEL }}
         run: python3 scripts/civilization.py --hourly
+      - name: Synchronize symbolic event history
+        run: python3 scripts/symbol_events.py
       - name: Generate original twelve-lens reality world
         run: python3 scripts/reality.py
       - name: Create branching interactive scenes
@@ -79,13 +81,15 @@ jobs:
         run: python3 scripts/evolution.py --reflect --trial
       - name: Reverify agent learning and experiments
         run: python3 scripts/evolution.py --verify
+      - name: Verify symbolic event coverage
+        run: python3 scripts/symbol_events.py --verify
       - name: Publish transparent operational health report
         run: python3 scripts/health.py --output health/status.json
       - name: Commit generated entries only
         run: |
           git config user.name 'dna-bible-666[bot]'
           git config user.email 'dna-bible-666[bot]@users.noreply.github.com'
-          git add -- archive/manifest.json archive/snapshots/ book/manifest.json book/chapters/ book/receipts/ realities/manifest.json realities/worlds/ interactive/manifest.json interactive/stories/ anomaly/manifest.json anomaly/events/ insights/manifest.json insights/events/ covenant/manifest.json covenant/plans/ evolution/manifest.json evolution/lessons/ evolution/trials/ civilization/manifest.json civilization/days/ health/status.json
+          git add -- archive/manifest.json archive/snapshots/ book/manifest.json book/chapters/ book/receipts/ realities/manifest.json realities/worlds/ interactive/manifest.json interactive/stories/ anomaly/manifest.json anomaly/events/ insights/manifest.json insights/events/ covenant/manifest.json covenant/plans/ evolution/manifest.json evolution/lessons/ evolution/trials/ civilization/manifest.json civilization/days/ civilization/symbol_events/ health/status.json
           if ! git diff --cached --quiet; then
             git commit -m 'book: append verified 666-agent interactive edition [skip ci]'
             git push

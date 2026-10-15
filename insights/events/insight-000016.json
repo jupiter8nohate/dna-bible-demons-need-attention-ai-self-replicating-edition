@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "PREDICT"
+  ],
+  "creative_prompt": "A citizen disputes a machine-produced identity score and demands an accountable review.",
+  "detected_at": "2026-10-15T17:10:29.437219Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000016",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "When does prediction become an illegitimate judgment of a person?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "privacy_surveillance"
+  ],
+  "snapshot_path": "snapshots/20261015T171029Z-796c810da3fe.json",
+  "snapshot_sha256": "cc58d228efff673cefbfca2f6e68ee899e2711d811469af1d50c6f34bc66db6e",
+  "source_key": "d7d08535584e1ad738c6cc75c29fa8b3b59cb3566114536cbda8ea3634961efe",
+  "source_seen_at": "2026-10-15T11:10:25Z",
+  "source_title": "Is your boss watching you? The rise of AI surveillance at work - video",
+  "source_url": "https://www.theguardian.com/science/video/2026/oct/15/is-your-boss-watching-you-the-rise-of-ai-surveillance-at-work-video"
+}

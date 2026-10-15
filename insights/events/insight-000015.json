@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-15T17:10:29.437219Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000015",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261015T171029Z-796c810da3fe.json",
+  "snapshot_sha256": "cc58d228efff673cefbfca2f6e68ee899e2711d811469af1d50c6f34bc66db6e",
+  "source_key": "72c9fb61eb837aea964be0c02ebd60729c8ef2d2415be502fdc92bd45ead5c08",
+  "source_seen_at": "2026-10-15T15:02:36Z",
+  "source_title": "AI agents are coming to Rivian’s cars",
+  "source_url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/"
+}

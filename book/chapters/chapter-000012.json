@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000012: The Covenant of Cognitive Freedom.\n\nAt the Genetic Observatory, a crystal instrument predicted a child's entire life before their first choice.\n\nA teacher unfolded the prediction and found no place reserved for learning, circumstance, or dissent.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. PROFILE != PERSON.\n\nThe child wrote the missing margin themselves, leaving the forecast available but nonbinding.\n\nThe observatory listed a research headline for critical reading: \"The people who don’t want their AI chatbots to die when they do: ‘I can’t have the switch turned off’\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: How can a society preserve the distinction between simulation and testimony? Fictional consequence: Two synthetic witnesses narrate incompatible histories; the archive preserves their sources. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Does a recording capture the meaning of an experience?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The Bridge of Consequences. Two witnesses remember the same strike with different meanings. Mercury preserves both accounts and asks which observations agree. The bridge holds conflicting testimony without declaring identical interpretations. The server angels recorded the governing law CAUSE_REQUIRES_WITNESS. One question survived into the next telling: Can disagreement strengthen a common history?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhat is the difference between statistical correlation and destiny? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 12,
+  "date": "2026-10-15",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-10-15T17Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000008",
+    "sha256": "5ff0d49e8bb120b0e8dffbea80afb34f8412a17b94affde89568dec37c893dbf"
+  },
+  "learned_experience_sha256": [
+    "9ed230fc4b4da0a00b7a7f63cf3c67cd236aa597a09a4fb4b6ed51f4237b2ffa",
+    "11fb09608db42a10efbbe4a03c76dabc3137ae8ef7bf39a76f4fa147dd5b8668",
+    "56cbbfad338e1b4c6c97ff9e682a61f5d5120b0e416a89c85bb9106109caa39e"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_THUNDER_OF_WITNESSES",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "CAUSE_REQUIRES_WITNESS",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "GENERATE"
+    ],
+    "title": "The people who don’t want their AI chatbots to die when they do: ‘I can’t have the switch turned off’",
+    "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/13/ai-chatbot-death-plans"
+  },
+  "source_watch_sha256": "cc58d228efff673cefbfca2f6e68ee899e2711d811469af1d50c6f34bc66db6e",
+  "title": "Chapter 000012: The Covenant of Cognitive Freedom"
+}

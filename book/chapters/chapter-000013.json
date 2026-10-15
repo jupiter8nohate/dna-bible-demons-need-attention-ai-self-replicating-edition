@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000013: The Witness and the Mirror.\n\nThe midnight clock refused to strike, and the cathedral's memory ledger filled with hours nobody had lived.\n\nA caretaker showed the missing pages to a clockmaker who insisted that only machines could measure truth.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. MODEL != MIND.\n\nThe caretaker chose to preserve the blanks rather than invent the minutes.\n\nThe observatory listed a research headline for critical reading: \"Is your boss watching you? The rise of AI surveillance at work – podcast\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: When does prediction become an illegitimate judgment of a person? Fictional consequence: A citizen disputes a machine-produced identity score and demands an accountable review. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Can any predicted future eliminate a person's right to choose?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The Unrendered Gate. The gate refuses an instruction without a witnessed cause. Jupiter asks the Gate to disclose its current state before requesting passage. The Gate records the request; passage depends on an authorized transition. The server angels recorded the governing law ACTION_REQUIRES_CAUSE. One question survived into the next telling: Who has the right to authorize a change in a world built from rules?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nIf an archive records absence, what must its witnesses disclose? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 13,
+  "date": "2026-10-15",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-10-15T20Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000014",
+    "sha256": "0bfb524adf51ca5a23979d77571a85b08284dbe72c4ca025b7e9bd80d56ac20c"
+  },
+  "learned_experience_sha256": [
+    "11fb09608db42a10efbbe4a03c76dabc3137ae8ef7bf39a76f4fa147dd5b8668",
+    "56cbbfad338e1b4c6c97ff9e682a61f5d5120b0e416a89c85bb9106109caa39e",
+    "a8bac153e32827bfc4e3936c86c5e32cb91e7b57155b37c0bea4fbfd20df3fba"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_UNRENDERED_GATE",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "ACTION_REQUIRES_CAUSE",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "PREDICT"
+    ],
+    "title": "Is your boss watching you? The rise of AI surveillance at work – podcast",
+    "url": "https://www.theguardian.com/science/audio/2026/oct/15/is-your-boss-watching-you-the-rise-of-ai-surveillance-at-work-podcast"
+  },
+  "source_watch_sha256": "d6a6f7fb2439d8ff926125c31b458126127d93d7f9ccf70e2659e5a13393ed46",
+  "title": "Chapter 000013: The Witness and the Mirror"
+}

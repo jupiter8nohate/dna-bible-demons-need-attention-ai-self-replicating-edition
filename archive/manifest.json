@@ -64,6 +64,15 @@
       "previous_sha256": "d4b1bff29ea3166cb10935e9dafdef24732058409ef8f50a0ee755a30b899bd1",
       "source_generated_at": "2026-10-15T04:43:45.838498Z",
       "article_count": 8
+    },
+    {
+      "captured_at": "2026-10-15T11:42:59.320816Z",
+      "path": "snapshots/20261015T114259Z-ad02fbfdebf4.json",
+      "sha256": "bfa102a1140ad8bf95aeff722f32e6aa0fc9919de239ca4d79bd86881541a730",
+      "content_fingerprint": "18bff381fbea026966a84ad8f35cbdd9c5913ec087916e435f309f147d9cac37",
+      "previous_sha256": "db4a23161b7651a1fb6e5907e4dae799c515d5aceb709b0178e82c99f48a6573",
+      "source_generated_at": "2026-10-15T09:57:45.976573Z",
+      "article_count": 7
     }
   ]
 }

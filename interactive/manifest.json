@@ -90,6 +90,13 @@
       "previous_sha256": "4e92d459e50b8cc9422c22b48adc7b049bb9e17a9edc279bd0670df050bf2d40",
       "sha256": "53bc55f31cd72a4eb0d89bc7d485a60c4cdd68049354a26a18424e55a6340a1c",
       "world_lens": "CLOCK_WITHOUT_MIDNIGHT"
+    },
+    {
+      "chapter": 14,
+      "path": "stories/story-000014.json",
+      "previous_sha256": "53bc55f31cd72a4eb0d89bc7d485a60c4cdd68049354a26a18424e55a6340a1c",
+      "sha256": "f5c7386d07a7fa74f19f9c45b6c64ab5640c69a42cb6349fc1268de692acdcda",
+      "world_lens": "MIRROR_OF_CONSENT"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

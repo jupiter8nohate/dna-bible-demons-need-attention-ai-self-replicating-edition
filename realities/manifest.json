@@ -111,6 +111,14 @@
       "path": "worlds/realm-000014.json",
       "previous_sha256": "d6d46a27f17eaa4c272d9de9364558cf169354d0f4e88f017b0b6ddff40e41aa",
       "sha256": "398e0cc514dceaf1f9b3daa1466034eb486b61883c3af0e6c38da64b272161dd"
+    },
+    {
+      "chapter": 15,
+      "chapter_sha256": "f0a12055676c63077548a05cea5df16560c18a3b7af683e5eb0c283ed28b24a7",
+      "lens_id": "NESTED_GARDEN",
+      "path": "worlds/realm-000015.json",
+      "previous_sha256": "398e0cc514dceaf1f9b3daa1466034eb486b61883c3af0e6c38da64b272161dd",
+      "sha256": "47d4fb20dd290ccff5ea8340392986686fd5baa9064d20752e04c407979a25cc"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

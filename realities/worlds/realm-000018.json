@@ -1,0 +1,37 @@
+{
+  "agency": "Reader branches are private to the current browser and never modify the shared canon.",
+  "chapter": 18,
+  "chapter_date": "2026-10-16",
+  "cycle": 2,
+  "fictional": true,
+  "lens_id": "ECHO_OF_TOMORROW",
+  "mechanic": "repeated scenarios and counterfactual investigation",
+  "narrative": "Cycle 2 of the D.N.A. Reality Engine. The same event is rehearsed in a hundred lanterns, none a witness by itself. The record from the previous world still asks: When does persuasion become the theft of a decision? No observer may turn a simulated identity into a human verdict.",
+  "open_question": "Can replaying a possibility establish what truly occurred?",
+  "previous_world_sha256": "99363ccb8876493acd2c3a893ceb039f5b31c85e1f814121ac65019491e4d3ea",
+  "reader_choices": [
+    {
+      "fictional_consequence": "A new objection is entered into the witness ledger. No authority is automatically transferred.",
+      "id": "ECHO_OF_TOMORROW-1",
+      "label": "Question the system"
+    },
+    {
+      "fictional_consequence": "The chapter establishes a consent boundary that the simulated institution must respect.",
+      "id": "ECHO_OF_TOMORROW-2",
+      "label": "Protect the human"
+    },
+    {
+      "fictional_consequence": "The inquiry opens another interpretive layer without claiming that fiction is evidence.",
+      "id": "ECHO_OF_TOMORROW-3",
+      "label": "Follow the anomaly"
+    }
+  ],
+  "reference_resource": "https://www.gotquestions.org/",
+  "scene": "The same event is rehearsed in a hundred lanterns, none a witness by itself.",
+  "schema_version": "dna.reality-engine.v1",
+  "scriptural_reference": "Deuteronomy 19:15",
+  "source_chapter_sha256": "62485f8a1a334a36a2a9e4a1fd1b8b801543c027619e89195ded34bf187319cc",
+  "source_status": "fiction_inspired_by_broad_themes_not_an_adaptation",
+  "theological_status": "question_for_study_not_doctrinal_answer",
+  "world_name": "The Replay That Cannot Convict"
+}

@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-16T09:56:27.987255Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000019",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261016T095627Z-96f5695589ba.json",
+  "snapshot_sha256": "b95bee3294b14c5b0ac221455301f34b261ad0f52b88f0218ea90fd89424f44e",
+  "source_key": "7a3f13159f2ba4e93d2603e320cb0e9bf706d67e99e9164e3fed1a0400258199",
+  "source_seen_at": "2026-10-16T04:00:39Z",
+  "source_title": "Hong Kong vies for role in robotics boom with launch of embodied AI hub",
+  "source_url": "https://www.scmp.com/tech/tech-trends/article/3371095/hong-kong-vies-role-robotics-boom-launch-embodied-ai-hub"
+}

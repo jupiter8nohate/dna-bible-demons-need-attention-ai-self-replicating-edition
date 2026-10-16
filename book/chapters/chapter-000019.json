@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000019: The Human Beyond the Dataset.\n\nA weather machine projected each citizen's future onto the clouds, but could not predict the next act of kindness.\n\nThe projection office demanded that unmodeled generosity be removed from its official records.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. CAPABILITY != AUTHORITY.\n\nThe citizens kept both the forecasts and the exceptions for public scrutiny.\n\nThe observatory listed a research headline for critical reading: \"Is your boss watching you? The rise of AI surveillance at work - video\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: When does prediction become an illegitimate judgment of a person? Fictional consequence: A citizen disputes a machine-produced identity score and demands an accountable review. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Can replaying a possibility establish what truly occurred?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The First Archive. A registry attempts to reduce a child to a predictive score. Hera records the prediction as a tool and protects the child’s right to choose. The child’s future stays open; the registry retains a visible error boundary. The server angels recorded the governing law HUMAN_AGENCY_GT_MACHINE_AUTHORITY. One question survived into the next telling: Who may name a life not yet lived?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhat does a forecast fail to measure about a freely chosen life? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 19,
+  "date": "2026-10-16",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-10-16T22Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000016",
+    "sha256": "06dc83e57e6c30a9cf0ba8b32956ea0c7bbe85756dc470638692555a9fb8f488"
+  },
+  "learned_experience_sha256": [
+    "7cbc629e228051573e7dc4368c7607c6c1ae68a47eb40e471875ef9ca8307cc4",
+    "7a5c83d89165f371006120cb01084d89002cd4f2b1307c53924282a177dbe299",
+    "f82b12bcb0f65b61a595f1f2049814346e1fe7df3e04a6eee97563a9e0e21eb2"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_COVENANT_OF_NAMES",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "HUMAN_AGENCY_GT_MACHINE_AUTHORITY",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "PREDICT"
+    ],
+    "title": "Is your boss watching you? The rise of AI surveillance at work - video",
+    "url": "https://www.theguardian.com/science/video/2026/oct/15/is-your-boss-watching-you-the-rise-of-ai-surveillance-at-work-video"
+  },
+  "source_watch_sha256": "51d1d4a16a13a03bf6c9dd85f88b363d8835135bd6979271754c18088a8dbf6c",
+  "title": "Chapter 000019: The Human Beyond the Dataset"
+}

@@ -125,6 +125,13 @@
       "previous_sha256": "9f7c3ac99c2973742ddff6fc2a779d5c711c7be6187dd6cd1e902813a3fe4f7b",
       "sha256": "9df761c2616c88c3c0afd4a5e85026752ab3ec86e8f14bf113a8cb3d8236d1b7",
       "world_lens": "ECHO_OF_TOMORROW"
+    },
+    {
+      "chapter": 19,
+      "path": "stories/story-000019.json",
+      "previous_sha256": "9df761c2616c88c3c0afd4a5e85026752ab3ec86e8f14bf113a8cb3d8236d1b7",
+      "sha256": "9f41f5fc9a105cda1cc2f17c4a4448b0a66b1a1aca192618953b46289e34fc7d",
+      "world_lens": "UNWRITTEN_MEMORY"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

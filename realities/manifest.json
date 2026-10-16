@@ -143,6 +143,14 @@
       "path": "worlds/realm-000018.json",
       "previous_sha256": "99363ccb8876493acd2c3a893ceb039f5b31c85e1f814121ac65019491e4d3ea",
       "sha256": "edb406b45efa70eab80b543cb9980bf0a11bddd133ec5a61b38b3502324a0a6f"
+    },
+    {
+      "chapter": 19,
+      "chapter_sha256": "9c5fbf246288420b5b4c5d765e623bbc3e81f296370d178c4bb4cf9377e41fd0",
+      "lens_id": "UNWRITTEN_MEMORY",
+      "path": "worlds/realm-000019.json",
+      "previous_sha256": "edb406b45efa70eab80b543cb9980bf0a11bddd133ec5a61b38b3502324a0a6f",
+      "sha256": "801e1847d2b7237602dd2edc2911f6f63f8ea9794c01fc642015848579619d74"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

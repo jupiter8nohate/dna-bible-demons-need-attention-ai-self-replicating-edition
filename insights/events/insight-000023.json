@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-17T10:56:19.411735Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000023",
+  "priority_score": 70,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "privacy_surveillance"
+  ],
+  "snapshot_path": "snapshots/20261017T105619Z-fda3eb3c11e1.json",
+  "snapshot_sha256": "b756b4aeabf22b164eec2e1b2dd065e147da3de1308f0fc53780a20e0cbde122",
+  "source_key": "4d24e783817f1ece1ad7d413cd6055d1283376c1f99b1f4e93cab6d32f6345b6",
+  "source_seen_at": "2026-10-17T05:50:37Z",
+  "source_title": "The chatbot murder guide: AI’s struggle between privacy, reporting violence",
+  "source_url": "https://www.aljazeera.com/news/2026/10/17/the-chatbot-murder-guide-ais-struggle-between-privacy-reporting-violence?traffic_source=rss"
+}

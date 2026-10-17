@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000023: The Phantom of the Attention Economy.\n\nThe Memory Theater sold recorded sensations as if every recording included the speaker's full consent.\n\nA witness demanded provenance for each voice and a way to refuse future performances.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. MODEL != MIND.\n\nThe audience learned to distinguish captured signals from permission to reuse them.\n\nThe observatory listed a research headline for critical reading: \"Hong Kong vies for role in robotics boom with launch of embodied AI hub\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: Which decisions must remain subject to informed human authorization? Fictional consequence: An autonomous machine can complete a task but its governing charter forbids self-granted authority. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: What evidence distinguishes observer from model?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The House of Revisions. An unseen editor attempts to change yesterday’s city map. Hera orders both versions preserved and the revision labeled. The inhabitants gain a public chronology of the attempted change. The server angels recorded the governing law MEMORY_PRESERVES_CONSEQUENCE. One question survived into the next telling: What justice is possible when memory can be edited?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWho controls the meaning of a memory after it is copied? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 23,
+  "date": "2026-10-17",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-10-17T14Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000019",
+    "sha256": "e489392baa445e4886d735e3f05c621775b84339c443255ac2da91a5856361b7"
+  },
+  "learned_experience_sha256": [
+    "a84de0ccbdf2a12ba4ce0c1119bab96806151eb19130618e34c1c2a8cf29f280",
+    "78b80f13a4ed73f481afcb895e1f58e7d113a4a93157dd49fbc98bf6b6288474",
+    "66dd6945f1933d667853142a5534d1e698329d6af1303ed114c61064467661f5"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_HOUSE_OF_REVISIONS",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "MEMORY_PRESERVES_CONSEQUENCE",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "ACT"
+    ],
+    "title": "Hong Kong vies for role in robotics boom with launch of embodied AI hub",
+    "url": "https://www.scmp.com/tech/tech-trends/article/3371095/hong-kong-vies-role-robotics-boom-launch-embodied-ai-hub"
+  },
+  "source_watch_sha256": "4c32336d991462ccf6a68d2c6f1f3ddecf1db790b57d3b17c822abafeb1a1632",
+  "title": "Chapter 000023: The Phantom of the Attention Economy"
+}

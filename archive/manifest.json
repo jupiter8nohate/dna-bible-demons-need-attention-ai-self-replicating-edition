@@ -163,6 +163,15 @@
       "previous_sha256": "b756b4aeabf22b164eec2e1b2dd065e147da3de1308f0fc53780a20e0cbde122",
       "source_generated_at": "2026-10-17T13:45:06.813627Z",
       "article_count": 6
+    },
+    {
+      "captured_at": "2026-10-17T17:18:35.440093Z",
+      "path": "snapshots/20261017T171835Z-815bdf394cea.json",
+      "sha256": "6e214549730e20a0664cf93d2d8cd451e0a9540393a10586c7c4ef2376e00e20",
+      "content_fingerprint": "89d5c16fc5a77ff2e2066adf22a1a8eea700e6e29d2b7ae5d5aae9b3915306c8",
+      "previous_sha256": "4c32336d991462ccf6a68d2c6f1f3ddecf1db790b57d3b17c822abafeb1a1632",
+      "source_generated_at": "2026-10-17T17:13:16.012743Z",
+      "article_count": 7
     }
   ]
 }

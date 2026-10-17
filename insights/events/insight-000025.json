@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-17T19:29:53.917869Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000025",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261017T192953Z-d55d75f430cc.json",
+  "snapshot_sha256": "1c78536499ce984fe9755f34ccdf9fc67b17e257f33c77962f3da32c5336c3cb",
+  "source_key": "aeb73f362c6531623a2f5700eee568af46780562e7bb1ba8f8640fed39e83990",
+  "source_seen_at": "2026-10-17T19:00:39Z",
+  "source_title": "Black Box: The Chatbots | What I Saw at the Double Six Ranch | Ep 6 - podcast",
+  "source_url": "https://www.theguardian.com/australia-news/audio/2026/oct/18/black-box-the-chatbots-what-i-saw-at-the-double-six-ranch-ep-6-full-story-podcast"
+}

@@ -1,0 +1,20 @@
+{
+  "authority": "advisory_only",
+  "chapter_id": 29,
+  "chapter_mode": "deterministic_code_poetry",
+  "chapter_sha256": "c172520bf2771002bec1aed9e6ce2d11d41cea84b6bec860479c7253c0bba78b",
+  "focus_id": "ANOM-000001",
+  "id": 26,
+  "observations": [
+    "no_verified_model_writing"
+  ],
+  "plan_sha256": "641bb7ed92d7886b4a9d684dc588cd9ff424d3891e1eb9f90109b8423160a417",
+  "previous_chapter_similarity": 0.5159,
+  "recommendations": [
+    "Keep deterministic author labeling; do not claim multi-model creativity."
+  ],
+  "schema_version": "dna.evolution.v1",
+  "scope": "learning_note_not_code_change_or_truth_verification",
+  "slot": "2026-10-18T11Z",
+  "status": "provisional_unreviewed"
+}

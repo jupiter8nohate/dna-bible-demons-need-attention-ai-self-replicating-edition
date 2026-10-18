@@ -188,6 +188,13 @@
       "previous_sha256": "c59083af61de31eec73ec15850554796cd5c8897c6b78cb58a9d547e0561c996",
       "sha256": "6856330c1cc8389ae61f33b4e9f3087f3898c9a92da8b76aa1b61e2f865c9c02",
       "world_lens": "NESTED_GARDEN"
+    },
+    {
+      "chapter": 28,
+      "path": "stories/story-000028.json",
+      "previous_sha256": "6856330c1cc8389ae61f33b4e9f3087f3898c9a92da8b76aa1b61e2f865c9c02",
+      "sha256": "164a388009933bee2250f73a97eef8294982010d9b01457ac5dd6e05e1ce27b6",
+      "world_lens": "RECURSIVE_CITY"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

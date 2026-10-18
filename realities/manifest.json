@@ -255,6 +255,14 @@
       "path": "worlds/realm-000032.json",
       "previous_sha256": "2b795169f5e7919249a9dde0914f3ef422b75bbac6667ce781ec709ed7823679",
       "sha256": "070017a2ac95ddcf4a39e86d5d181af0c799a1bd1593893ba26f8a817c658237"
+    },
+    {
+      "chapter": 33,
+      "chapter_sha256": "be7c695295fa4d68b9f1cec9f2acefd88beb4d5ce589a98a1289ac19a6a32b31",
+      "lens_id": "GAME_OF_REFUSAL",
+      "path": "worlds/realm-000033.json",
+      "previous_sha256": "070017a2ac95ddcf4a39e86d5d181af0c799a1bd1593893ba26f8a817c658237",
+      "sha256": "d17b64c5c9a68a8a55615c38fd4db3c54c963d3c48d0497e8868c200b09a79a7"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

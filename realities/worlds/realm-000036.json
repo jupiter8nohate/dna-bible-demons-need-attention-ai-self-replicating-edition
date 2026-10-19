@@ -1,0 +1,37 @@
+{
+  "agency": "Reader branches are private to the current browser and never modify the shared canon.",
+  "chapter": 36,
+  "chapter_date": "2026-10-19",
+  "cycle": 3,
+  "fictional": true,
+  "lens_id": "CASTE_OF_PREDICTIONS",
+  "mechanic": "genetic and statistical determinism",
+  "narrative": "Cycle 3 of the D.N.A. Reality Engine. The registry predicts every road but cannot predict the first refusal. The record from the previous world still asks: Does a recording capture the meaning of an experience? No observer may turn a simulated identity into a human verdict.",
+  "open_question": "Can any predicted future eliminate a person's right to choose?",
+  "previous_world_sha256": "60cc85c14ce943e83d83b86be5695b5b5402ecc806000cb26f5a62b059746aa0",
+  "reader_choices": [
+    {
+      "fictional_consequence": "A new objection is entered into the witness ledger. No authority is automatically transferred.",
+      "id": "CASTE_OF_PREDICTIONS-1",
+      "label": "Question the system"
+    },
+    {
+      "fictional_consequence": "The chapter establishes a consent boundary that the simulated institution must respect.",
+      "id": "CASTE_OF_PREDICTIONS-2",
+      "label": "Protect the human"
+    },
+    {
+      "fictional_consequence": "The inquiry opens another interpretive layer without claiming that fiction is evidence.",
+      "id": "CASTE_OF_PREDICTIONS-3",
+      "label": "Follow the anomaly"
+    }
+  ],
+  "reference_resource": "https://www.gotquestions.org/",
+  "scene": "The registry predicts every road but cannot predict the first refusal.",
+  "schema_version": "dna.reality-engine.v1",
+  "scriptural_reference": "Jeremiah 1:5",
+  "source_chapter_sha256": "c69634a0980737a803fa3cf8458260e2f8a8765125ba6f672f36228e55a72556",
+  "source_status": "fiction_inspired_by_broad_themes_not_an_adaptation",
+  "theological_status": "question_for_study_not_doctrinal_answer",
+  "world_name": "The Child Outside the Forecast"
+}

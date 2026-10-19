@@ -394,6 +394,18 @@
       "receipt_path": "receipts/cycle-000033.json",
       "receipt_sha256": "a69e5c96298c284c927b8df1788efbb33efac9fc9a55358e8c4ba81f01b93059",
       "sha256": "be7c695295fa4d68b9f1cec9f2acefd88beb4d5ce589a98a1289ac19a6a32b31"
+    },
+    {
+      "date": "2026-10-19",
+      "edition_slot": "2026-10-19T01Z",
+      "id": 34,
+      "mode": "deterministic_code_poetry",
+      "model": null,
+      "path": "chapters/chapter-000034.json",
+      "previous_sha256": "be7c695295fa4d68b9f1cec9f2acefd88beb4d5ce589a98a1289ac19a6a32b31",
+      "receipt_path": "receipts/cycle-000034.json",
+      "receipt_sha256": "0952c16bc7763efea675f8d3dbf58ac16ed3c0b043149a4abf01b75aff8c56f3",
+      "sha256": "edeceb6a67dd621f8c3a5ed863f6014aac1179ba1e6c70384a63f1c6666537d1"
     }
   ],
   "human_canon": "https://github.com/jupiter8nohate/computational-metacognitive-bilingualism",

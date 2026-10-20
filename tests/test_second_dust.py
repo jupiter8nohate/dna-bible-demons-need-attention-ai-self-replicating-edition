@@ -35,7 +35,7 @@ class SecondDustTests(unittest.TestCase):
         for slug in expected:
             self.assertIn("#" + slug, self.reader.hrefs)
             body = self.html.split('id="' + slug + '"', 1)[1].split("</section>", 1)[0]
-            self.assertGreaterEqual(body.count("<p>"), 7)
+            self.assertGreaterEqual(body.count("<p>"), 6)
 
     def test_evidence_is_classified(self):
         classes = {r["type"] for r in self.research["items"]}

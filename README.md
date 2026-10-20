@@ -207,3 +207,10 @@ See [Living Civilization engineering and authorial specification](docs/GITHUB_TO
 The original family lives in [GitHub Town](https://jupiter8nohate.github.io/dna-bible-demons-need-attention-ai-self-replicating-edition/civilization/). The dynamic book begins with a Day One narrative adaptation of the separately archived, human-directed [Genesis](mythos/GENESIS.md). Six leased hexads cast 36 deterministic creative ballots from the 666 registered logical identities. Fictional state and the consequences of each day persist into the next record. Each day discloses whether its prose was deterministic or written by a configured language model. The site's day reader now checks downloaded story bytes against SHA-256 hashes in the published chronology before displaying them.
 
 For the full implementation, tests and operational limitations, read [The Civilization Chronicle](docs/CIVILIZATION_CHRONICLE.md). Configure the optional `OPENAI_API_KEY` GitHub secret and `DNA_MODEL` variable to enable original model-written prose. Without them, the creative council and narrator operate deterministically. GitHub Actions remains a best-effort scheduler, and 666 worker identities do not mean 666 independent AI models.
+
+
+## The Book of the Second Dust // The Ankh of Iron
+
+The completed seven-scroll 2084 story cycle now has a dedicated [public GitHub Pages reader](second-dust/), a [dated research ledger](second-dust/research.json), a [story manifest](second-dust/manifest.json), and a [review protocol](docs/SECOND_DUST_EDITORIAL.md).
+
+Its original fiction follows Zeus, Hera, Jupiter, Mercury, Thoth, and the 666 Angels within an imagined future. The technology claims are classified as documented facts, sourced projections, unresolved questions, or fictional extrapolations. It is a human-directed, AI-assisted story addition, **not** an overwrite of the protected founding mythology or an authorization for the autonomous workers to edit human canon. The scheduled manuscript engine is unchanged.

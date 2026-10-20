@@ -1,0 +1,36 @@
+name: D.N.A Bible - Second Dust Validation
+
+on:
+  pull_request:
+    paths:
+      - 'second-dust/**'
+      - 'tests/test_second_dust.py'
+      - 'index.html'
+      - 'civilization/index.html'
+      - 'mythos/**'
+      - '.github/workflows/pages-publish.yml'
+      - '.github/workflows/second-dust-check.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'second-dust/**'
+      - 'tests/test_second_dust.py'
+      - '.github/workflows/second-dust-check.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify-second-dust:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Validate the seven scrolls and founding continuity
+        run: |
+          python3 -m unittest tests.test_second_dust -v
+          python3 scripts/mythos.py --verify
+      - name: Run repository regression tests
+        run: python3 -m unittest discover -s tests -v

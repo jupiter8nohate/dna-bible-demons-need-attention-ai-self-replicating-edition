@@ -1,0 +1,49 @@
+{
+  "schema_version": "dna.second-dust.research.v1",
+  "reviewed_at": "2026-10-20",
+  "purpose": "Dated research pointers distinguish documentary evidence, forecasts, unresolved questions, and deliberate fiction. Not a comprehensive literature review.",
+  "items": [
+    {
+      "claim_id": "DISHBRAIN-2022",
+      "type": "documented",
+      "description": "A peer-reviewed study reports cultured neural networks interacting with simulated Pong and changing performance under structured feedback. Its methods do not demonstrate a full human mind uploaded to a computer.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36228614/",
+      "date": "2022-10-12"
+    },
+    {
+      "claim_id": "NUS-WETWARE-2026",
+      "type": "documented",
+      "description": "NUS Medicine reports an August 2026 biological-computing prototype containing 20 CL1 units. This is a research prototype, not proof of conscious brain hosting.",
+      "source": "https://medicine.nus.edu.sg/news/nus-medicine-dayone-and-cortical-labs-unveil-biological-data-center-prototype-in-singapore/",
+      "date": "2026-08-17"
+    },
+    {
+      "claim_id": "ASRM-PGT-2025",
+      "type": "documented",
+      "description": "ASRM states that polygenic embryo screening is not ready for clinical use; this cannot be described as reliably engineering perfect children.",
+      "source": "https://www.asrm.org/news-and-events/asrm-news/press-releasesbulletins/asrm-ethics-and-practice-committees-release-new-report-concluding-polygenic-embryo-screening-is-not-ready-for-clinical-use/",
+      "date": "2025-12-08"
+    },
+    {
+      "claim_id": "IEA-ENERGY-2025",
+      "type": "documented_projection",
+      "description": "The IEA projects around 945 TWh of worldwide data-center electricity demand for 2030 in a base case. This is a forecast, not a measured 2030 value.",
+      "source": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "date": "2025-04-10"
+    },
+    {
+      "claim_id": "2084-WORLD",
+      "type": "fictional_extrapolation",
+      "description": "The year 2084's enhanced class, neural subscriptions, corporate immortality products, characters, and plot are original fiction, not established future events.",
+      "source": null,
+      "date": null
+    },
+    {
+      "claim_id": "CONSCIOUSNESS",
+      "type": "open_question",
+      "description": "Scientific research has not established that cultured neurons responding to digital feedback have a human-like conscious experience or are complete minds inside a game.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36228614/",
+      "date": "2022-10-12"
+    }
+  ]
+}

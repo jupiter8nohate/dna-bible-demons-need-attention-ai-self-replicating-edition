@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-20T06:07:47.662236Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000029",
+  "priority_score": 70,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "military_security"
+  ],
+  "snapshot_path": "snapshots/20261020T060747Z-68a656711dc7.json",
+  "snapshot_sha256": "b517f9f510ad169ee8b4e2a54049c699c21c79151944199880f82523c3cbc74b",
+  "source_key": "8771f5f8fa4a212171a47c44f5420766e4ecc8dac673f8d66dec51630ae414ce",
+  "source_seen_at": "2026-10-20T04:00:15Z",
+  "source_title": "‘These risks are real’: the threat of AI bioweapons – podcast",
+  "source_url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast"
+}

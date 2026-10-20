@@ -167,6 +167,12 @@
       "previous_sha256": "c2718bac376b2d596600cec127504f195359c9d3d5e70523fad091d72d61f00f",
       "sha256": "89611eb2c201447257c26117cb0569fb6366730714905f5f2d38335a105401a6",
       "source_key": "4de91e1540639e75e142820719b621dabff1d2d89f492543806b9fac4a9a4112"
+    },
+    {
+      "path": "events/insight-000029.json",
+      "previous_sha256": "89611eb2c201447257c26117cb0569fb6366730714905f5f2d38335a105401a6",
+      "sha256": "348cedd6f9d8d3acdad4a9baf6fb7ef51b8855e32b1b57523ba01748960cbe77",
+      "source_key": "8771f5f8fa4a212171a47c44f5420766e4ecc8dac673f8d66dec51630ae414ce"
     }
   ],
   "schema_version": "dna.insight-queue.v1"

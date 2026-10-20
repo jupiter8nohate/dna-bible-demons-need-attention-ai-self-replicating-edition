@@ -12,6 +12,7 @@ on:
       - 'static/**'
       - 'mythos/**'
       - 'civilization/**'
+      - 'second-dust/**'
       - '.github/workflows/pages-publish.yml'
 permissions:
   contents: read
@@ -38,6 +39,7 @@ jobs:
           persist-credentials: false
       - name: Verify published manuscript before site packaging
         run: |
+          python3 -m unittest tests.test_second_dust -v
           python3 scripts/engine.py --verify
           python3 scripts/collect.py --verify
           python3 scripts/reality.py --verify
@@ -53,7 +55,7 @@ jobs:
         run: |
           mkdir -p /tmp/dna-pages
           cp index.html /tmp/dna-pages/index.html
-          cp -R static book realities interactive archive anomaly insights covenant evolution mythos civilization /tmp/dna-pages/
+          cp -R static book realities interactive archive anomaly insights covenant evolution mythos civilization second-dust /tmp/dna-pages/
           if test -f health/status.json; then
             mkdir -p /tmp/dna-pages/health
             cp health/status.json /tmp/dna-pages/health/status.json

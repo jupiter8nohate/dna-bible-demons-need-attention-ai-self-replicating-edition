@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-20T17:19:46.151646Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000031",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261020T171946Z-b77736d86723.json",
+  "snapshot_sha256": "6dc430f1685f62b8138e7d423b7341e5dfe718f6af39a0521caa95fcfb8878f2",
+  "source_key": "2a29c4d663900885553486e50b01ec4d0dd61db6fe46e8ee545f298d90133f56",
+  "source_seen_at": "2026-10-20T16:51:02Z",
+  "source_title": "Ben-Gvir mocks Gaza destruction in AI-generated video",
+  "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/ben-gvir-mocks-gaza-destruction-in-ai-generated-video?traffic_source=rss"
+}

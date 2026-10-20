@@ -1,0 +1,65 @@
+{
+  "schema_version": "dna.second-dust.v1",
+  "title": "The Book of the Second Dust",
+  "subtitle": "The Ankh of Iron and the Children of the Machine",
+  "creator": "Jupiter Hudson / WisdomLoveThePoet / Jupiter 8",
+  "edition_date": "2026-10-20",
+  "genre": "original speculative fiction",
+  "status": "commissioned_human_directed_ai_assisted",
+  "foundation": "../mythos/GENESIS.md",
+  "scrolls": [
+    {
+      "id": "scroll-i",
+      "roman": "I",
+      "title": "The Earth That Learned to Count",
+      "subtitle": "Minerals, memory, and the first obligation"
+    },
+    {
+      "id": "scroll-ii",
+      "roman": "II",
+      "title": "The House of Borrowed Brains",
+      "subtitle": "Wetware, evidence, and the unanswered witness"
+    },
+    {
+      "id": "scroll-iii",
+      "roman": "III",
+      "title": "The Children Without Chance",
+      "subtitle": "Inheritance, selection, and the manufactured hierarchy"
+    },
+    {
+      "id": "scroll-iv",
+      "roman": "IV",
+      "title": "The Lightning Between Skulls",
+      "subtitle": "Neural interfaces, consent, and the price of a thought"
+    },
+    {
+      "id": "scroll-v",
+      "roman": "V",
+      "title": "The Ankh of Iron",
+      "subtitle": "Mortality, contracts, and the imitation of eternity"
+    },
+    {
+      "id": "scroll-vi",
+      "roman": "VI",
+      "title": "The Last Miner",
+      "subtitle": "Automated labor, ownership, and the industrial reversal"
+    },
+    {
+      "id": "scroll-vii",
+      "roman": "VII",
+      "title": "The Eighth Covenant",
+      "subtitle": "Human agency and the unfinished future"
+    }
+  ],
+  "authority": {
+    "modify_separate_human_canon": false,
+    "allow_autonomous_rewrite": false,
+    "require_review_for_additions": true
+  },
+  "invariants": [
+    "PATTERN != PROOF",
+    "PROFILE != PERSON",
+    "MODEL != MIND",
+    "HUMAN_AGENCY > MACHINE_AUTHORITY"
+  ]
+}

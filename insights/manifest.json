@@ -155,6 +155,18 @@
       "previous_sha256": "44260ce0571c608471ef362e4bea8561d5cd1ac474e2af7528fcd678a66048fc",
       "sha256": "433733cc6e4082b6e96b2760d3002fd8683d8025a0951eda8ad0ee0eeacaa8e3",
       "source_key": "484ecf4ffda8c3a5ecb361ac5817c4a5e1d689c46dfdc1ebe11a4a43319c0e10"
+    },
+    {
+      "path": "events/insight-000027.json",
+      "previous_sha256": "433733cc6e4082b6e96b2760d3002fd8683d8025a0951eda8ad0ee0eeacaa8e3",
+      "sha256": "c2718bac376b2d596600cec127504f195359c9d3d5e70523fad091d72d61f00f",
+      "source_key": "f5de104106419b7644fe57eecc9bf9cbd07d8653b3e6a8d2b5eef97d9e43119f"
+    },
+    {
+      "path": "events/insight-000028.json",
+      "previous_sha256": "c2718bac376b2d596600cec127504f195359c9d3d5e70523fad091d72d61f00f",
+      "sha256": "89611eb2c201447257c26117cb0569fb6366730714905f5f2d38335a105401a6",
+      "source_key": "4de91e1540639e75e142820719b621dabff1d2d89f492543806b9fac4a9a4112"
     }
   ],
   "schema_version": "dna.insight-queue.v1"

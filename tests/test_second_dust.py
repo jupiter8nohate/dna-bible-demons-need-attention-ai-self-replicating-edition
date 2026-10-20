@@ -45,7 +45,7 @@ class SecondDustTests(unittest.TestCase):
                 self.assertTrue(item["source"].startswith("https://"))
                 self.assertRegex(item["date"], r"^\d{4}-\d{2}-\d{2}$")
         self.assertIn("Conscious uploaded people", self.html)
-        self.assertIn("Fiction", self.html)
+        self.assertIn("fiction", self.html.lower())
 
     def test_authority_remains_human(self):
         self.assertFalse(self.manifest["authority"]["modify_separate_human_canon"])

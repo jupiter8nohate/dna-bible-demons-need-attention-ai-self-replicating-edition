@@ -334,6 +334,15 @@
       "previous_sha256": "2e21385c41f249d0e603c312d5422ad4a42df99625114775272afde496b122e4",
       "source_generated_at": "2026-10-21T04:52:25.435782Z",
       "article_count": 8
+    },
+    {
+      "captured_at": "2026-10-21T10:18:11.787955Z",
+      "path": "snapshots/20261021T101811Z-473dddc006ea.json",
+      "sha256": "abaa991b6cb65b0fc99b69faea8ecffd7f14d6825095125dc51545d42262f3a1",
+      "content_fingerprint": "d6bc28f018ef0bccc4bbfcf2a0707fe9b94e4ab9db029d8bec8243e9852e22fe",
+      "previous_sha256": "e87601a4bdc4f800c002c01f23ee7c5e0ae741cdf45a80284c4a48314f8cd332",
+      "source_generated_at": "2026-10-21T10:12:31.466337Z",
+      "article_count": 8
     }
   ]
 }

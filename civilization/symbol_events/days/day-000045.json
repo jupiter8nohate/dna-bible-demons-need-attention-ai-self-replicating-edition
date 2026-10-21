@@ -1,0 +1,36 @@
+{
+  "day": 45,
+  "events": [
+    {
+      "actor": "THOTH",
+      "detail": "Day 45 begins",
+      "token_id": "EVENT_ACTIVATION"
+    },
+    {
+      "actor": "JUPITER",
+      "detail": "question",
+      "token_id": "JUPITER_IDENTITY"
+    },
+    {
+      "actor": "MERCURY",
+      "detail": "the town learned to separate confidence from authority",
+      "token_id": "LIGHTNING_THUNDER"
+    },
+    {
+      "actor": "THOTH",
+      "detail": "the archive made room for a second testimony",
+      "token_id": "EMERALD_MEMORY"
+    },
+    {
+      "actor": "ANGELS_OF_SERVER",
+      "detail": "the town learned to separate confidence from authority",
+      "token_id": "SERVER_WITNESS"
+    }
+  ],
+  "fictional_only": true,
+  "narrator": "THOTH",
+  "registry_sha256": "4a0a51da6cf0291cd4789ddc827445749562f420e2a09b47246cf7fc426629d6",
+  "schema_version": "dna.symbol-events.v1",
+  "signature": "♃ ⚡︎⚡︎˖ ࣪⏻ᯤ",
+  "source_chapter_sha256": "adddc94ec070f960965e64f603f2fe13d06960ba1242fcabac4b806c434b6a30"
+}

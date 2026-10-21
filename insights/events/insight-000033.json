@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-21T23:26:55.520919Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000033",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261021T232655Z-d46c09fabbdc.json",
+  "snapshot_sha256": "666b9f317e5320fd0c8e0593b55ec1752dbbff4ad3456a01e649332e29755681",
+  "source_key": "dd62bb078550a17e52648fab73f96838118e69e8ab5a81aa78f1cda2318c74ad",
+  "source_seen_at": "2026-10-21T19:30:00Z",
+  "source_title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+  "source_url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+}

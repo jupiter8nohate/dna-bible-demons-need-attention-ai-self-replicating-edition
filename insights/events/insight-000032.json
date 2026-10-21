@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-21T15:22:10.984691Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000032",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261021T152210Z-6e12c8f2af1d.json",
+  "snapshot_sha256": "b2f857c123744365b7d118963c5dd70f2f7e4c1ff5985c5d084fd9122c0dfa35",
+  "source_key": "369e9fe44cde6862c771c646ffaf1a21ad3916e8c64c7d1f8a70cf6582a4f196",
+  "source_seen_at": "2026-10-21T13:22:51Z",
+  "source_title": "As fans reject AI-generated music, even boosters are drawing the line",
+  "source_url": "https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky"
+}

@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-22T15:23:12.087684Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000036",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261022T152312Z-00c85d4b0671.json",
+  "snapshot_sha256": "a81c5af856ceb3a83661de9d4a5d222e431bffc87c79d6aacd150fd30581a4ca",
+  "source_key": "78de0a5236401fb7ad30178166576eeda201552b562686a43b4e94ff9a49e7e0",
+  "source_seen_at": "2026-10-22T15:03:58Z",
+  "source_title": "Spotify’s current AI bet is about being the music service that agents choose",
+  "source_url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/"
+}

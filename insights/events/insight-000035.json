@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-22T05:02:35.250108Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000035",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261022T050235Z-9ce83f19a5e8.json",
+  "snapshot_sha256": "230c7fc85ab1285b32c4bbce8edd18423a78197bf3f7e903d1417cda291667f0",
+  "source_key": "d431dab99df9b45320d3b9ae6288eacf885e0144e63beb7dad80df36a3fb409e",
+  "source_seen_at": "2026-10-22T00:00:15Z",
+  "source_title": "China’s Unitree unveils ‘guardian’ robot that can disarm attackers, lift cars",
+  "source_url": "https://www.scmp.com/tech/tech-trends/article/3371683/chinese-firm-unveils-guardian-robot-can-disarm-attackers-lift-cars"
+}

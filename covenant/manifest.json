@@ -384,6 +384,13 @@
       "primary_id": "DNA-INSIGHT-000044",
       "sha256": "5dc488e18d6e1ebf33a31a3da5e4b2c5a06a1fd99dcc0babc06f659e649aa557",
       "slot": "2026-10-23T19Z"
+    },
+    {
+      "path": "plans/plan-000056.json",
+      "previous_sha256": "5dc488e18d6e1ebf33a31a3da5e4b2c5a06a1fd99dcc0babc06f659e649aa557",
+      "primary_id": "ANOM-000001",
+      "sha256": "fb50a3a9d3d40a1533efa5b0eeb30154cff46b22a5be4e4255cb8d417d3b8720",
+      "slot": "2026-10-23T22Z"
     }
   ],
   "schema_version": "dna.witness-loom.v1"

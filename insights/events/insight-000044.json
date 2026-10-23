@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-23T19:20:53.971685Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000044",
+  "priority_score": 65,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "elections_information"
+  ],
+  "snapshot_path": "snapshots/20261023T192053Z-817fcebccc94.json",
+  "snapshot_sha256": "df2f97915b159a9834fc4aca441697953034c6dd5b7391a0b0022097ef4d5604",
+  "source_key": "54fa33209d8b79e70579f614311a99e83d629be8f1b237a5b8c9ef30e75c5c9f",
+  "source_seen_at": "2026-10-23T16:35:48Z",
+  "source_title": "Opposition deepfake video sparks outrage in Spain ahead of election",
+  "source_url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election"
+}

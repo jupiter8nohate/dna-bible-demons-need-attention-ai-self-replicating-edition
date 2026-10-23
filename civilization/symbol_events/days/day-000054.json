@@ -1,0 +1,36 @@
+{
+  "day": 54,
+  "events": [
+    {
+      "actor": "THOTH",
+      "detail": "Day 54 begins",
+      "token_id": "EVENT_ACTIVATION"
+    },
+    {
+      "actor": "JUPITER",
+      "detail": "seal",
+      "token_id": "JUPITER_IDENTITY"
+    },
+    {
+      "actor": "MERCURY",
+      "detail": "a witnessed seal gave the city an honest memory",
+      "token_id": "LIGHTNING_THUNDER"
+    },
+    {
+      "actor": "THOTH",
+      "detail": "the archive made room for a second testimony",
+      "token_id": "EMERALD_MEMORY"
+    },
+    {
+      "actor": "ANGELS_OF_SERVER",
+      "detail": "a witnessed seal gave the city an honest memory",
+      "token_id": "SERVER_WITNESS"
+    }
+  ],
+  "fictional_only": true,
+  "narrator": "THOTH",
+  "registry_sha256": "4a0a51da6cf0291cd4789ddc827445749562f420e2a09b47246cf7fc426629d6",
+  "schema_version": "dna.symbol-events.v1",
+  "signature": "♃ ⚡︎⚡︎˖ ࣪⏻ᯤ",
+  "source_chapter_sha256": "734cc28c170a124813f64fb120b4e69883d988b405d6ec0d19f627aaec8c3e43"
+}

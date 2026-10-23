@@ -1,0 +1,37 @@
+{
+  "agency": "Reader branches are private to the current browser and never modify the shared canon.",
+  "chapter": 57,
+  "chapter_date": "2026-10-23",
+  "cycle": 5,
+  "fictional": true,
+  "lens_id": "GAME_OF_REFUSAL",
+  "mechanic": "games, consent and hidden rule changes",
+  "narrative": "Cycle 5 of the D.N.A. Reality Engine. A game begins before its players are told they may decline. The record from the previous world still asks: Who can challenge the identity a system assigns? No observer may turn a simulated identity into a human verdict.",
+  "open_question": "Can a decision be free if the rules are concealed?",
+  "previous_world_sha256": "277e2d0ff4415a4b41a8d367eef9072402ed8d4a18f629ad31b98df9e29f36a4",
+  "reader_choices": [
+    {
+      "fictional_consequence": "A new objection is entered into the witness ledger. No authority is automatically transferred.",
+      "id": "GAME_OF_REFUSAL-1",
+      "label": "Question the system"
+    },
+    {
+      "fictional_consequence": "The chapter establishes a consent boundary that the simulated institution must respect.",
+      "id": "GAME_OF_REFUSAL-2",
+      "label": "Protect the human"
+    },
+    {
+      "fictional_consequence": "The inquiry opens another interpretive layer without claiming that fiction is evidence.",
+      "id": "GAME_OF_REFUSAL-3",
+      "label": "Follow the anomaly"
+    }
+  ],
+  "reference_resource": "https://www.gotquestions.org/",
+  "scene": "A game begins before its players are told they may decline.",
+  "schema_version": "dna.reality-engine.v1",
+  "scriptural_reference": "Galatians 5:1",
+  "source_chapter_sha256": "efb433645817929fdd57ca042d7c9be1a3e8b4e996b95f9c0b2294c7c385e8e6",
+  "source_status": "fiction_inspired_by_broad_themes_not_an_adaptation",
+  "theological_status": "question_for_study_not_doctrinal_answer",
+  "world_name": "The Rules of the Unconsenting Player"
+}

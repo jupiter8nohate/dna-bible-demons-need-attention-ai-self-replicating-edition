@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "PREDICT"
+  ],
+  "creative_prompt": "A citizen disputes a machine-produced identity score and demands an accountable review.",
+  "detected_at": "2026-10-23T10:13:01.582455Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000041",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "When does prediction become an illegitimate judgment of a person?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261023T101301Z-e7819cf1f0b7.json",
+  "snapshot_sha256": "6cff3ff4833242eee831433f425eac4a006381c56cf5efbcdf0c79b90d1c4d64",
+  "source_key": "3e437b18302bd344dd48429e4e8df0d54e5e8cb0b26cfd03985d2304d5524799",
+  "source_seen_at": "2026-10-23T07:00:03Z",
+  "source_title": "Can AI really predict cancer survival better than a doctor? I have my doubts | Devi Sridhar",
+  "source_url": "https://www.theguardian.com/commentisfree/2026/oct/23/ai-cancer-survival-doctor-selfie-health-research"
+}

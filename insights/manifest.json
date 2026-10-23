@@ -233,6 +233,24 @@
       "previous_sha256": "dd7bdc44d760b036f60b031bd6e10a185eca9347f00b4285b19738273822dc32",
       "sha256": "8d41d71e679333808aa26bcc335c06cf2325e8ecc3b7d2ecab2870377fc6a4cf",
       "source_key": "fee5d6bca690475f3483909586dcbf48e438283492a4bc423eb3db250b0fc5f7"
+    },
+    {
+      "path": "events/insight-000040.json",
+      "previous_sha256": "8d41d71e679333808aa26bcc335c06cf2325e8ecc3b7d2ecab2870377fc6a4cf",
+      "sha256": "59c2a33f9a3ec94ba1aa9d5811311fe4cb617ef21dc7c61bee9549c5e49931da",
+      "source_key": "101f350c9f6b6f56baaa77696facd34978517a8afe831f6c0a1cd0da413ccf09"
+    },
+    {
+      "path": "events/insight-000041.json",
+      "previous_sha256": "59c2a33f9a3ec94ba1aa9d5811311fe4cb617ef21dc7c61bee9549c5e49931da",
+      "sha256": "eab2daf69b5c9130c85abee4bcb4536a207eb5bcd19c2b8bf0d089b64af9c634",
+      "source_key": "3e437b18302bd344dd48429e4e8df0d54e5e8cb0b26cfd03985d2304d5524799"
+    },
+    {
+      "path": "events/insight-000042.json",
+      "previous_sha256": "eab2daf69b5c9130c85abee4bcb4536a207eb5bcd19c2b8bf0d089b64af9c634",
+      "sha256": "50ee4bbf32f03bf0050c23a25ec7a6a61eab164aeed43c51c6a36587d6dce41e",
+      "source_key": "cf51e24baa15d2e11b32351f633dfb79f0ff024b050882412d7eeb548c125416"
     }
   ],
   "schema_version": "dna.insight-queue.v1"

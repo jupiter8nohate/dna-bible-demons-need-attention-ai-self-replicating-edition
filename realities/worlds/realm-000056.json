@@ -1,0 +1,37 @@
+{
+  "agency": "Reader branches are private to the current browser and never modify the shared canon.",
+  "chapter": 56,
+  "chapter_date": "2026-10-23",
+  "cycle": 5,
+  "fictional": true,
+  "lens_id": "MASKS_OF_THE_LEDGER",
+  "mechanic": "identity theft and profiling",
+  "narrative": "Cycle 5 of the D.N.A. Reality Engine. Every traveler receives a profile, but one refuses the borrowed mask. The record from the previous world still asks: Is a remembered image equivalent to an authenticated event? No observer may turn a simulated identity into a human verdict.",
+  "open_question": "Who can challenge the identity a system assigns?",
+  "previous_world_sha256": "c4708fec74af7c8939d63d841bfb482e807f18b622daaeec9c2f3879d5717dea",
+  "reader_choices": [
+    {
+      "fictional_consequence": "A new objection is entered into the witness ledger. No authority is automatically transferred.",
+      "id": "MASKS_OF_THE_LEDGER-1",
+      "label": "Question the system"
+    },
+    {
+      "fictional_consequence": "The chapter establishes a consent boundary that the simulated institution must respect.",
+      "id": "MASKS_OF_THE_LEDGER-2",
+      "label": "Protect the human"
+    },
+    {
+      "fictional_consequence": "The inquiry opens another interpretive layer without claiming that fiction is evidence.",
+      "id": "MASKS_OF_THE_LEDGER-3",
+      "label": "Follow the anomaly"
+    }
+  ],
+  "reference_resource": "https://www.gotquestions.org/",
+  "scene": "Every traveler receives a profile, but one refuses the borrowed mask.",
+  "schema_version": "dna.reality-engine.v1",
+  "scriptural_reference": "1 Samuel 16:7",
+  "source_chapter_sha256": "744d00a8e0126b150f0e618b9b20a2aeb018f3e3ce462e114fb05f4e7917513e",
+  "source_status": "fiction_inspired_by_broad_themes_not_an_adaptation",
+  "theological_status": "question_for_study_not_doctrinal_answer",
+  "world_name": "The Ledger of Borrowed Names"
+}

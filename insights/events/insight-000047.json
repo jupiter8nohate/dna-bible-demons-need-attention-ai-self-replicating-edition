@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-24T12:46:21.240103Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000047",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261024T124621Z-9db2b0e06523.json",
+  "snapshot_sha256": "8484006e67217e168940a3487c86a88c3b9e75f5897339ea4b55f40866f38fa1",
+  "source_key": "ad16cd871ffaa07b746013f5e06fc19f523dd99b07868f47fd3ef0a63a96f0e0",
+  "source_seen_at": "2026-10-24T09:29:37Z",
+  "source_title": "Just Eat apologises after AI-generated images blunder",
+  "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/just-eat-apologises-after-ai-generated-images-blunder?traffic_source=rss"
+}

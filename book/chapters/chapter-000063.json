@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000063: The Cathedral of Unanswered Questions.\n\nThe City of Nested Doors constructed a second city whenever its inhabitants asked a forbidden question.\n\nA mapmaker discovered that each copy preserved one question the previous city had censored.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. MODEL != MIND.\n\nShe drew routes between the questions, not merely between the doors.\n\nThe observatory listed a research headline for critical reading: \"Just Eat apologises after AI-generated images blunder\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: How can a society preserve the distinction between simulation and testimony? Fictional consequence: Two synthetic witnesses narrate incompatible histories; the archive preserves their sources. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Who has the authority to certify what another person experiences?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The House of Revisions. An unseen editor attempts to change yesterday’s city map. Hera orders both versions preserved and the revision labeled. The inhabitants gain a public chronology of the attempted change. The server angels recorded the governing law MEMORY_PRESERVES_CONSEQUENCE. One question survived into the next telling: What justice is possible when memory can be edited?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nCan a copied world retain a dissenting voice without absorbing it? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 63,
+  "date": "2026-10-24",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-10-24T16Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000047",
+    "sha256": "22d048c5c7a22ccf9ee49dbd24a78376f5d1b82ca2eb6a9897beb9791fde93ad"
+  },
+  "learned_experience_sha256": [
+    "ba9af786b1b556bec756c00493bc1b80437345b518db045ef63856aa178012fd",
+    "e28c6b807bb6491516b02b3b76397dbf2d977a7106d50e927a6ebe57558cbc70",
+    "08cc8eb6584767022d2cb314eaf37ef69366865021976e35dbd394c448b0f08a"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_HOUSE_OF_REVISIONS",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "MEMORY_PRESERVES_CONSEQUENCE",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "GENERATE"
+    ],
+    "title": "Just Eat apologises after AI-generated images blunder",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/just-eat-apologises-after-ai-generated-images-blunder?traffic_source=rss"
+  },
+  "source_watch_sha256": "5ce824efe6c2d0588a60da67aa7bef4f3fa5d0d1f549832cf428ca8d448ea046",
+  "title": "Chapter 000063: The Cathedral of Unanswered Questions"
+}

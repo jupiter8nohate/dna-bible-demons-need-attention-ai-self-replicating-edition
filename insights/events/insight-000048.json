@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-24T16:42:21.384759Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000048",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261024T164221Z-d793e65a3124.json",
+  "snapshot_sha256": "5ce824efe6c2d0588a60da67aa7bef4f3fa5d0d1f549832cf428ca8d448ea046",
+  "source_key": "ba1e969f5ed16b52b1196083849c9f216bf1930e1ba56ea1c7e8d4f49c425307",
+  "source_seen_at": "2026-10-24T14:00:00Z",
+  "source_title": "Here are the top AI agents that can live in your text messages",
+  "source_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/"
+}

@@ -541,6 +541,15 @@
       "previous_sha256": "8e5c01c01836c3de84fceec634c9e52637592983f7d639bea226568040ace9c3",
       "source_generated_at": "2026-10-25T14:25:22.657540Z",
       "article_count": 9
+    },
+    {
+      "captured_at": "2026-10-25T19:45:36.065260Z",
+      "path": "snapshots/20261025T194536Z-4d0eb73509e8.json",
+      "sha256": "254c94df99af1ee5f645fe68caf7e98a04af51ba958b534e1f1fbee8f8619866",
+      "content_fingerprint": "8e3bbed20fff609ddf94816722fb1002afbefc31fcb1b0b328694e6513e87953",
+      "previous_sha256": "ae85ad71342bf41edd5876700f502d8eddf56f6d1828aa6a941ccc05a2cdb737",
+      "source_generated_at": "2026-10-25T18:26:16.124785Z",
+      "article_count": 8
     }
   ]
 }

@@ -475,6 +475,13 @@
       "previous_sha256": "eddf02b01096792fc87652d2d760dffba583957cca7a13a7d720016417c378bd",
       "sha256": "1f1f2ea26ffe0fe2b9788b94121345192c7c0ce6e60bd0ac5b314b950741ec63",
       "world_lens": "MASKS_OF_THE_LEDGER"
+    },
+    {
+      "chapter": 69,
+      "path": "stories/story-000069.json",
+      "previous_sha256": "1f1f2ea26ffe0fe2b9788b94121345192c7c0ce6e60bd0ac5b314b950741ec63",
+      "sha256": "f3501a3dbb6f6300ad0dc377951fbd86be3922588f39ff26d0f3290256d59ca2",
+      "world_lens": "GAME_OF_REFUSAL"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

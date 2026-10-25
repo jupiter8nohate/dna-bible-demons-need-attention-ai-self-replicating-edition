@@ -314,6 +314,11 @@
       "path": "lessons/lesson-000063.json",
       "previous_sha256": "019ad3b4f558f54f7cf583d67afd02e658140f227310ef777603d20dff2b264e",
       "sha256": "05a8c368c54c9df81788babc675904e6e48f824effb6840a06c4b5fd53a877fb"
+    },
+    {
+      "path": "lessons/lesson-000064.json",
+      "previous_sha256": "05a8c368c54c9df81788babc675904e6e48f824effb6840a06c4b5fd53a877fb",
+      "sha256": "c725c3dd6b0423f08671b3b9b81cd93ab3cc17380b80600cdec64234e4bf387b"
     }
   ],
   "schema_version": "dna.evolution.v1",

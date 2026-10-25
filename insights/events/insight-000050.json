@@ -1,0 +1,32 @@
+{
+  "boundary_ids": [
+    "GENERATE",
+    "PREDICT"
+  ],
+  "creative_prompt": "A citizen disputes a machine-produced identity score and demands an accountable review.",
+  "detected_at": "2026-10-25T11:45:23.905451Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000050",
+  "priority_score": 66,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "When does prediction become an illegitimate judgment of a person?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "elections_information",
+    "military_security",
+    "privacy_surveillance"
+  ],
+  "snapshot_path": "snapshots/20261025T114523Z-4c38b5dd1f7a.json",
+  "snapshot_sha256": "8e5c01c01836c3de84fceec634c9e52637592983f7d639bea226568040ace9c3",
+  "source_key": "d3e7b9cbf9024513b14443150192ef86f6493c348bddd212d94d0b90a24669e7",
+  "source_seen_at": "2026-10-25T05:27:54Z",
+  "source_title": "Bots, deepfakes and surveillance: Israel’s election goes to war online",
+  "source_url": "https://www.aljazeera.com/news/2026/10/25/bots-deepfakes-and-surveillance-israels-election-goes-to-war-online?traffic_source=rss"
+}

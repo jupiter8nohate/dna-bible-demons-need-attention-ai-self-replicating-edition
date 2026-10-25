@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-25T22:39:06.292280Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000051",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261025T223906Z-8cffcceaa931.json",
+  "snapshot_sha256": "b1dfa9d6eecc2d9a7ce091bd924e16c8cbbd414d085a8220b91f0a9dfd1aae7a",
+  "source_key": "08ec5c76056e031d898a328e18faffa3e4b70d1ff2dec0f3d542f1078f5b897f",
+  "source_seen_at": "2026-10-25T21:31:16Z",
+  "source_title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+  "source_url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
+}

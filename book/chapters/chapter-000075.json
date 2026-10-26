@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000075: The Cathedral of Unanswered Questions.\n\nThe City of Nested Doors constructed a second city whenever its inhabitants asked a forbidden question.\n\nA mapmaker discovered that each copy preserved one question the previous city had censored.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. HUMAN_AGENCY > MACHINE_AUTHORITY.\n\nShe drew routes between the questions, not merely between the doors.\n\nThe observatory listed a research headline for critical reading: \"ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: Which decisions must remain subject to informed human authorization? Fictional consequence: An autonomous machine can complete a task but its governing charter forbids self-granted authority. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Who has the authority to certify what another person experiences?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The First Archive. A registry attempts to reduce a child to a predictive score. Hera records the prediction as a tool and protects the child’s right to choose. The child’s future stays open; the registry retains a visible error boundary. The server angels recorded the governing law HUMAN_AGENCY_GT_MACHINE_AUTHORITY. One question survived into the next telling: Who may name a life not yet lived?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nCan a copied world retain a dissenting voice without absorbing it? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 75,
+  "date": "2026-10-26",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-10-26T20Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000053",
+    "sha256": "a3ef5836d4ff6d56f0cccf00235afc166b00493cd42ea75405b43340f7b2ce93"
+  },
+  "learned_experience_sha256": [
+    "149d3fee2a1a424d83572af610ece912f02a7804f3538f2ddce99671dc7d6563",
+    "5b6477acd4b4a174e47d709d607893f6db55251d746cbc3e61e12747318d0f5a",
+    "0767a96067a19b2040dfb7ec86d8cb243e0823e5b4abc94fd5436518ebfef0ff"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_COVENANT_OF_NAMES",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "HUMAN_AGENCY_GT_MACHINE_AUTHORITY",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "ACT"
+    ],
+    "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+    "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/"
+  },
+  "source_watch_sha256": "4e0333257b0a86c125d7fbb3bc8b3ccd88361e69345a8d0b961a95df190facef",
+  "title": "Chapter 000075: The Cathedral of Unanswered Questions"
+}

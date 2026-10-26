@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-26T06:26:36.948394Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000052",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "military_security"
+  ],
+  "snapshot_path": "snapshots/20261026T062636Z-ade0ccda3bc0.json",
+  "snapshot_sha256": "acf29161cc0bda5fe8e4d298110a90a16fce9b78389eb5b87cb09fa0fe9f5f58",
+  "source_key": "0622d97261ee3a1bc07dd09853d5673b1b20797971791d033d9bc51dc9d52d63",
+  "source_seen_at": "2026-10-26T02:00:12Z",
+  "source_title": "Weapon or armour? The contentious debate over China’s open-weight AI",
+  "source_url": "https://www.scmp.com/tech/tech-trends/article/3371961/weapon-or-armour-contentious-debate-over-chinas-open-weight-ai"
+}

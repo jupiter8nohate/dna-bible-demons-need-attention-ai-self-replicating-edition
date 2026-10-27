@@ -538,6 +538,13 @@
       "previous_sha256": "00753edd573eb2c196fab807d2e4e15045544aa0358bb14fe8425104d0203d5c",
       "sha256": "b9e3ede8cb24cd6917171224bc36bea38d2931643f734be24d17c7e198e2ab78",
       "world_lens": "SEED_OF_INTENTION"
+    },
+    {
+      "chapter": 78,
+      "path": "stories/story-000078.json",
+      "previous_sha256": "b9e3ede8cb24cd6917171224bc36bea38d2931643f734be24d17c7e198e2ab78",
+      "sha256": "f50f595c201a18f53968a95595bb3be07786bf66c7056d7bea40422521659aca",
+      "world_lens": "ECHO_OF_TOMORROW"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

@@ -1,0 +1,30 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-27T13:21:45.768373Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000055",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "elections_information",
+    "military_security"
+  ],
+  "snapshot_path": "snapshots/20261027T132145Z-9485043c22df.json",
+  "snapshot_sha256": "fe2b791385c232f50c5c552559da6ab49dcfc2b068a5716c25a31ff7aa9ce32f",
+  "source_key": "ec4fabfdd8d1edd82a392f7829fa8d3a6ad381e4c2e98f55416deb170887e7a7",
+  "source_seen_at": "2026-10-27T10:00:10Z",
+  "source_title": "AI-driven disinformation running rampant on social media before US midterms, experts warn",
+  "source_url": "https://www.theguardian.com/us-news/2026/oct/27/ai-disinformation-social-media-midterm-elections"
+}

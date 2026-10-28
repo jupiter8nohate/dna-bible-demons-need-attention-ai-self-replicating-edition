@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-28T09:50:34.985484Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000058",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261028T095034Z-2ec693e8e896.json",
+  "snapshot_sha256": "c670e2388d37b0927c40cbcd9c4deb29f2680d58ef8d241d1bed0b7dfd5bbc63",
+  "source_key": "f53c7c72ecdfd9549fc202864317624b49b23eca45b6ef6a67471201cb75c090",
+  "source_seen_at": "2026-10-28T05:31:55Z",
+  "source_title": "‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws",
+  "source_url": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics"
+}

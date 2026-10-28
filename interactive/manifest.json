@@ -566,6 +566,13 @@
       "previous_sha256": "d9197367e4b2e8780b41d83774b5668e9792fc0e1303133d26b2fb8f7924ccc5",
       "sha256": "1203bee5054be608bdb134034ce0846e04c9656ba60d180711a25b7ccea14a1c",
       "world_lens": "GAME_OF_REFUSAL"
+    },
+    {
+      "chapter": 82,
+      "path": "stories/story-000082.json",
+      "previous_sha256": "1203bee5054be608bdb134034ce0846e04c9656ba60d180711a25b7ccea14a1c",
+      "sha256": "1139bb4c2ae07ce3afa10827f5f292e1cbcab7119c3984425c1f2dfc29d62d94",
+      "world_lens": "FLOOR_OF_WITNESSES"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

@@ -1,0 +1,36 @@
+{
+  "day": 84,
+  "events": [
+    {
+      "actor": "THOTH",
+      "detail": "Day 84 begins",
+      "token_id": "EVENT_ACTIVATION"
+    },
+    {
+      "actor": "JUPITER",
+      "detail": "open",
+      "token_id": "JUPITER_IDENTITY"
+    },
+    {
+      "actor": "MERCURY",
+      "detail": "a new route appeared without erasing the old one",
+      "token_id": "LIGHTNING_THUNDER"
+    },
+    {
+      "actor": "THOTH",
+      "detail": "the town learned to separate confidence from authority",
+      "token_id": "EMERALD_MEMORY"
+    },
+    {
+      "actor": "ANGELS_OF_SERVER",
+      "detail": "a new route appeared without erasing the old one",
+      "token_id": "SERVER_WITNESS"
+    }
+  ],
+  "fictional_only": true,
+  "narrator": "THOTH",
+  "registry_sha256": "4a0a51da6cf0291cd4789ddc827445749562f420e2a09b47246cf7fc426629d6",
+  "schema_version": "dna.symbol-events.v1",
+  "signature": "♃ ⚡︎⚡︎˖ ࣪⏻ᯤ",
+  "source_chapter_sha256": "d58ba28714970d8921f24fd9c1dabcf27094431d41fb8d457af6835f032e00f8"
+}

@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-10-29T16:15:12.384936Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000063",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261029T161512Z-765d23c36434.json",
+  "snapshot_sha256": "15ae24fba121716138a33f5eef0a6ea90244b526248869b343030e1317be6711",
+  "source_key": "bc01622ffa1cd4de3b05ba4c5907508807dcc82853efc973d00db0de2fa73b88",
+  "source_seen_at": "2026-10-29T14:35:26Z",
+  "source_title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+  "source_url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
+}

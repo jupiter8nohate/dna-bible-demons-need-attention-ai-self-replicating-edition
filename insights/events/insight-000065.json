@@ -1,0 +1,30 @@
+{
+  "boundary_ids": [
+    "PREDICT"
+  ],
+  "creative_prompt": "A citizen disputes a machine-produced identity score and demands an accountable review.",
+  "detected_at": "2026-10-29T21:14:05.472430Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000065",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "When does prediction become an illegitimate judgment of a person?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "cybercrime",
+    "military_security"
+  ],
+  "snapshot_path": "snapshots/20261029T211405Z-97266a8a87f5.json",
+  "snapshot_sha256": "e6f51a46323d0bb8e6f2ec0adaf392b29795370a355b58cca0dcf886cf427705",
+  "source_key": "b138df71b1659a331df57557fadbaccf2f664a17f01bf57cf5daac594248b660",
+  "source_seen_at": "2026-10-29T17:00:00Z",
+  "source_title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+  "source_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+}

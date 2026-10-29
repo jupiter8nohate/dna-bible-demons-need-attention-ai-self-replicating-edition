@@ -1,0 +1,37 @@
+{
+  "agency": "Reader branches are private to the current browser and never modify the shared canon.",
+  "chapter": 88,
+  "chapter_date": "2026-10-29",
+  "cycle": 8,
+  "fictional": true,
+  "lens_id": "RECURSIVE_CITY",
+  "mechanic": "observers inside a modeled world",
+  "narrative": "Cycle 8 of the D.N.A. Reality Engine. The city's map contains a second map drawn by someone who never entered. The record from the previous world still asks: Can a convincing simulation demand obedience? No observer may turn a simulated identity into a human verdict.",
+  "open_question": "Does describing a world grant the right to govern its inhabitants?",
+  "previous_world_sha256": "936f86e8bafb3d8b2b717715c8e7f2743d5e5d4dab30e391c9aae894d94544ab",
+  "reader_choices": [
+    {
+      "fictional_consequence": "A new objection is entered into the witness ledger. No authority is automatically transferred.",
+      "id": "RECURSIVE_CITY-1",
+      "label": "Question the system"
+    },
+    {
+      "fictional_consequence": "The chapter establishes a consent boundary that the simulated institution must respect.",
+      "id": "RECURSIVE_CITY-2",
+      "label": "Protect the human"
+    },
+    {
+      "fictional_consequence": "The inquiry opens another interpretive layer without claiming that fiction is evidence.",
+      "id": "RECURSIVE_CITY-3",
+      "label": "Follow the anomaly"
+    }
+  ],
+  "reference_resource": "https://www.gotquestions.org/",
+  "scene": "The city's map contains a second map drawn by someone who never entered.",
+  "schema_version": "dna.reality-engine.v1",
+  "scriptural_reference": "Proverbs 18:13",
+  "source_chapter_sha256": "d86e3fd01827f6f5f1991fd55936a3205c26672978347f375d1bcbb4160b8c09",
+  "source_status": "fiction_inspired_by_broad_themes_not_an_adaptation",
+  "theological_status": "question_for_study_not_doctrinal_answer",
+  "world_name": "The City Beneath the City"
+}

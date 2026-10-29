@@ -1,0 +1,36 @@
+{
+  "day": 85,
+  "events": [
+    {
+      "actor": "THOTH",
+      "detail": "Day 85 begins",
+      "token_id": "EVENT_ACTIVATION"
+    },
+    {
+      "actor": "JUPITER",
+      "detail": "open",
+      "token_id": "JUPITER_IDENTITY"
+    },
+    {
+      "actor": "MERCURY",
+      "detail": "a new route appeared without erasing the old one",
+      "token_id": "LIGHTNING_THUNDER"
+    },
+    {
+      "actor": "THOTH",
+      "detail": "a new route appeared without erasing the old one",
+      "token_id": "EMERALD_MEMORY"
+    },
+    {
+      "actor": "ANGELS_OF_SERVER",
+      "detail": "a new route appeared without erasing the old one",
+      "token_id": "SERVER_WITNESS"
+    }
+  ],
+  "fictional_only": true,
+  "narrator": "THOTH",
+  "registry_sha256": "4a0a51da6cf0291cd4789ddc827445749562f420e2a09b47246cf7fc426629d6",
+  "schema_version": "dna.symbol-events.v1",
+  "signature": "♃ ⚡︎⚡︎˖ ࣪⏻ᯤ",
+  "source_chapter_sha256": "c4cb037d83f69604181010c6290373582793dd3462f6426d8b885e11c6071132"
+}

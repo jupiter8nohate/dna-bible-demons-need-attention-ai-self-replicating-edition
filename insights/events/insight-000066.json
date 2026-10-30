@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-30T14:19:35.927193Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000066",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261030T141935Z-d69881ce1a44.json",
+  "snapshot_sha256": "01893a8da19b249341a2bf7cd71b351a191dea7c63628ff9584b4f93def963c4",
+  "source_key": "92917d16ee744358d02b361f464134606fccfac0ad76b87f567159602c344fc7",
+  "source_seen_at": "2026-10-29T11:00:31Z",
+  "source_title": "Computerized clairvoyance: psychics push back against AI-generated readings",
+  "source_url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings"
+}

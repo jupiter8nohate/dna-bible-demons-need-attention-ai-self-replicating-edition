@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000091: The Human Beyond the Dataset.\n\nA weather machine projected each citizen's future onto the clouds, but could not predict the next act of kindness.\n\nThe projection office demanded that unmodeled generosity be removed from its official records.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. PATTERN != PROOF.\n\nThe citizens kept both the forecasts and the exceptions for public scrutiny.\n\nThe observatory listed a research headline for critical reading: \"Computerized clairvoyance: psychics push back against AI-generated readings\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: How can a society preserve the distinction between simulation and testimony? Fictional consequence: Two synthetic witnesses narrate incompatible histories; the archive preserves their sources. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Can replaying a possibility establish what truly occurred?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The First Archive. A registry attempts to reduce a child to a predictive score. Hera records the prediction as a tool and protects the child’s right to choose. The child’s future stays open; the registry retains a visible error boundary. The server angels recorded the governing law HUMAN_AGENCY_GT_MACHINE_AUTHORITY. One question survived into the next telling: Who may name a life not yet lived?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhat does a forecast fail to measure about a freely chosen life? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 91,
+  "date": "2026-10-30",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-10-30T14Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000066",
+    "sha256": "6019e5bab9d47d1b1e7afecb349f69a91f3b9eccedfcf70ca7c435b266028aaa"
+  },
+  "learned_experience_sha256": [
+    "2ed198f609acba84c4e248d878257ac0ad89a15a0ef44efe41f19a69687c2ddf",
+    "f8df01a660906c37d76b2fbac5edf189e0b5c0707d2f31f3b7d267869c6b0cf9",
+    "90f355b318a249f14b8f5c74af8b4d19d13216c3408f027027a6873c502bbb6c"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_COVENANT_OF_NAMES",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "HUMAN_AGENCY_GT_MACHINE_AUTHORITY",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "GENERATE"
+    ],
+    "title": "Computerized clairvoyance: psychics push back against AI-generated readings",
+    "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings"
+  },
+  "source_watch_sha256": "01893a8da19b249341a2bf7cd71b351a191dea7c63628ff9584b4f93def963c4",
+  "title": "Chapter 000091: The Human Beyond the Dataset"
+}

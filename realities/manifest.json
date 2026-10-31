@@ -743,6 +743,14 @@
       "path": "worlds/realm-000093.json",
       "previous_sha256": "8f8a6083caf3201c017c66d604a2643a5209e7fbe6ee37a01ba5e026ce30acfa",
       "sha256": "e6e8cadc6a282769caf1f8ffed758096c71b7239ce473f39cf7116c2ac6809af"
+    },
+    {
+      "chapter": 94,
+      "chapter_sha256": "f6cdaa95b6d574c157c556e6a0eba1b3d4f0e047f2a2140f6bb07a945b6c6bc2",
+      "lens_id": "FLOOR_OF_WITNESSES",
+      "path": "worlds/realm-000094.json",
+      "previous_sha256": "e6e8cadc6a282769caf1f8ffed758096c71b7239ce473f39cf7116c2ac6809af",
+      "sha256": "70914b83ce9bac5fafc3826b64e83b2afa76548ef897f349f0e07c17630ffe6f"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

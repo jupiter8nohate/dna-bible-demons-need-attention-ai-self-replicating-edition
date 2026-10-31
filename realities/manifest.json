@@ -767,6 +767,14 @@
       "path": "worlds/realm-000096.json",
       "previous_sha256": "6244ed9a4eda9cf438dc9432d5a65e16868de44d896ab165cabf1c494c149344",
       "sha256": "c39db1bf94b1be317fa0158a7dfaf959df07fb94b53339c4887c2e1dff8ca9e7"
+    },
+    {
+      "chapter": 97,
+      "chapter_sha256": "44142d2c0b8c4ff1f4e3a0fe9cfb4d6c1aaa3648b0680677519371d16979e8ef",
+      "lens_id": "CLOCK_WITHOUT_MIDNIGHT",
+      "path": "worlds/realm-000097.json",
+      "previous_sha256": "c39db1bf94b1be317fa0158a7dfaf959df07fb94b53339c4887c2e1dff8ca9e7",
+      "sha256": "b593683c0678286668bc1de2b4a690ae9d5bd4d12645739f0f3726b89655a437"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

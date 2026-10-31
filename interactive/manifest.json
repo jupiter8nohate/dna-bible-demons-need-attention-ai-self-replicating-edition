@@ -657,6 +657,13 @@
       "previous_sha256": "871194538935b8ad48b8c5c9c886dfb5731633d106d65992ad4c7149363d3a0f",
       "sha256": "556a194e05d9d4970808b08925e5d9de19e5ebe3707ca233b3a8d420fc2f4f74",
       "world_lens": "FLOOR_OF_WITNESSES"
+    },
+    {
+      "chapter": 95,
+      "path": "stories/story-000095.json",
+      "previous_sha256": "556a194e05d9d4970808b08925e5d9de19e5ebe3707ca233b3a8d420fc2f4f74",
+      "sha256": "62626aee97faac45dd73baf9919a4d29a0215348cf65ae0968290af9ae72f00b",
+      "world_lens": "SENSORY_ECHO"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

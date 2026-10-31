@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-10-31T12:47:28.060234Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000070",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261031T124727Z-f33f0fb3db02.json",
+  "snapshot_sha256": "040a392c10b754dbe3db8aca508806bcdedb509f3415882d02d2d4714df7e9f0",
+  "source_key": "aa9a4da2b7657b1edae16269a9b4a2d7186f0d6157694e60d0ec890cf590c75d",
+  "source_seen_at": "2026-10-31T12:00:42Z",
+  "source_title": "Is AI your new wingman? How chatbots are transforming dating",
+  "source_url": "https://www.theguardian.com/lifeandstyle/2026/oct/31/ai-your-wingman-chatbots-transforming-dating"
+}

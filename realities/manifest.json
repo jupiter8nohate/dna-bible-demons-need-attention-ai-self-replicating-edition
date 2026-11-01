@@ -799,6 +799,14 @@
       "path": "worlds/realm-000100.json",
       "previous_sha256": "eaecaec947466f5e6d126f888648804a08e0c3e2a93fc86a4d9ca794f328a8b8",
       "sha256": "49c470c6e11137ec2f36ddc1ea9af44f606078d75e211ec80039a3d6beb2bdec"
+    },
+    {
+      "chapter": 101,
+      "chapter_sha256": "e8cfcf24971131dff99ccd2bd0e52b2ceb405c368461385cfefec9ce842c5cd7",
+      "lens_id": "SEED_OF_INTENTION",
+      "path": "worlds/realm-000101.json",
+      "previous_sha256": "49c470c6e11137ec2f36ddc1ea9af44f606078d75e211ec80039a3d6beb2bdec",
+      "sha256": "b868f8eb58dc7b5b8e1d6ba6aeffb35192d03b6206fa51b91b7fe3dd5d1a945d"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

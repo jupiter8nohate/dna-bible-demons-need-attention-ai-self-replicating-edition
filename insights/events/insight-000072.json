@@ -1,0 +1,30 @@
+{
+  "boundary_ids": [
+    "PREDICT"
+  ],
+  "creative_prompt": "A citizen disputes a machine-produced identity score and demands an accountable review.",
+  "detected_at": "2026-11-02T06:25:41.108351Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000072",
+  "priority_score": 65,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "When does prediction become an illegitimate judgment of a person?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "justice_policing",
+    "privacy_surveillance"
+  ],
+  "snapshot_path": "snapshots/20261102T062541Z-39229b846fcc.json",
+  "snapshot_sha256": "9433ad5eea06027dc6d0f0d0be6356337ef8d16ceac33c506867cf69fa79f31b",
+  "source_key": "e3fa89265477feb96fda163c35421b8c942aaa62be639a347300812ea4cd14de",
+  "source_seen_at": "2026-11-02T06:12:52Z",
+  "source_title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
+  "source_url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial"
+}

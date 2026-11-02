@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000105: The Right to Refuse the Machine.\n\nThe Rule House admitted visitors only after offering them a game whose instructions changed mid-play.\n\nAn apprentice stopped the contest and demanded a visible record of every revision.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. HUMAN_AGENCY > MACHINE_AUTHORITY.\n\nThe house could keep its puzzles, but it could no longer disguise the rule changes.\n\nThe observatory listed a research headline for critical reading: \"Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: Which decisions must remain subject to informed human authorization? Fictional consequence: An autonomous machine can complete a task but its governing charter forbids self-granted authority. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Who can challenge the identity a system assigns?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The Emerald Library. A spectacular headline arrives with no independent confirmation. Thoth transforms its unanswered question into fiction while marking the source uncertain. A new story exists without claiming that the report was proven. The server angels recorded the governing law PATTERN_NEQ_PROOF. One question survived into the next telling: How should imagination treat evidence it cannot verify?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhen does consent expire if the rules change? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 105,
+  "date": "2026-11-02",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-02T23Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000073",
+    "sha256": "17eed779952fa94f9cb28c42c305d83321fac01079c37c81d27a0f9d5e922ef1"
+  },
+  "learned_experience_sha256": [
+    "71f6a4635fa1bae8d1c1d0c04955caffed37a078996f745e7fb5b00e4242c5da",
+    "ca287610f9a9d2f53497336c1c6d65bd5d4ef71a301143e24c7dc971322a62c4",
+    "0b30667846a8a9291b2e3e94782a17fc31af4350313c7e86ba2ac100d55b801e"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_EMERALD_INQUIRY",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "PATTERN_NEQ_PROOF",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "ACT"
+    ],
+    "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+    "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
+  },
+  "source_watch_sha256": "ad5819e2d4bee0452705245872a479caf45e18441ef57f77edef1cc621216fbd",
+  "title": "Chapter 000105: The Right to Refuse the Machine"
+}

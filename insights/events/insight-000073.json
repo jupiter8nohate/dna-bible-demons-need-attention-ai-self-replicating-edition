@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-02T23:55:44.753813Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000073",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261102T235544Z-fabdc5ec442d.json",
+  "snapshot_sha256": "ad5819e2d4bee0452705245872a479caf45e18441ef57f77edef1cc621216fbd",
+  "source_key": "e0d31c17157775e2a5d9811755c9d014ef161759c233342868b0302376aa0637",
+  "source_seen_at": "2026-11-02T18:32:21Z",
+  "source_title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+  "source_url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
+}

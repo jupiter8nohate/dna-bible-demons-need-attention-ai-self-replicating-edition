@@ -467,6 +467,36 @@
       "previous_sha256": "d674b12d313ff39b206c5a18f3550a7267e29213e1a6a90812ea35eb29a3c466",
       "sha256": "70d8c4fcd5db8d92cdfdd868286c936ac500463eb7b19a91d421f22a61478db3",
       "source_key": "b314cbc6665b0c27cf4d1fcf1f0e476da31a81272d041f87f6eec352ddbd95f5"
+    },
+    {
+      "path": "events/insight-000079.json",
+      "previous_sha256": "70d8c4fcd5db8d92cdfdd868286c936ac500463eb7b19a91d421f22a61478db3",
+      "sha256": "552cc088e7f27838c69f9c174bec26434dac537b4438322850899f18ce3cf8a5",
+      "source_key": "1d05d70d72b18b1fb1d7eae6df5086aea6548dcfdd0ca76457349e61dcff39f4"
+    },
+    {
+      "path": "events/insight-000080.json",
+      "previous_sha256": "552cc088e7f27838c69f9c174bec26434dac537b4438322850899f18ce3cf8a5",
+      "sha256": "e5f4140a630ad45f6d2bcc811405c7f60f33ef5882cc8b74b06d5a8abb5d30ba",
+      "source_key": "30cc767d8a64837350ff443cff0af08dccef557b7882dec9c0b92b02941272bd"
+    },
+    {
+      "path": "events/insight-000081.json",
+      "previous_sha256": "e5f4140a630ad45f6d2bcc811405c7f60f33ef5882cc8b74b06d5a8abb5d30ba",
+      "sha256": "fcdff0402bb83084e4ba373010a5f11ab2d6844df6ccb0d56ac25af8cce6ce85",
+      "source_key": "9db55803402ec47c3ec5f83c6c75c8f75200284d10d4c8331b0b1e7c14a91475"
+    },
+    {
+      "path": "events/insight-000082.json",
+      "previous_sha256": "fcdff0402bb83084e4ba373010a5f11ab2d6844df6ccb0d56ac25af8cce6ce85",
+      "sha256": "db67c1d9e2d6ab038f5cccd711fff6154be8eb56ece633f85768d2b36e5a3bf6",
+      "source_key": "e613aa74f6beccec4a2592b6c047473ee44912c0dcba26351748397729efb5cc"
+    },
+    {
+      "path": "events/insight-000083.json",
+      "previous_sha256": "db67c1d9e2d6ab038f5cccd711fff6154be8eb56ece633f85768d2b36e5a3bf6",
+      "sha256": "eb0cafbc3be0e510d023c01df7c96120ffc5a5f8cb14da3c08c09453d53b2ecf",
+      "source_key": "e79288c48dc9eade2335d1a82596ffc515c39a4ed6ed42c55e0453f67f0b7141"
     }
   ],
   "schema_version": "dna.insight-queue.v1"

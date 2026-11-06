@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-11-06T23:16:31.446409Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000086",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261106T231631Z-c7f6e3208d75.json",
+  "snapshot_sha256": "ef1e44b58c55456fb63161d411dec4065d7c8a61280d86476c8b2ea4d2802c75",
+  "source_key": "18337340b1f56f81b7e3c21e4363718eed5b1e23777a30283a12b2a3f8bd6061",
+  "source_seen_at": "2026-11-06T13:55:43Z",
+  "source_title": "Teachers and parents: what are your experiences of AI-generated emails?",
+  "source_url": "https://www.theguardian.com/technology/2026/nov/06/teachers-and-parents-what-are-your-experiences-of-ai-generated-emails"
+}

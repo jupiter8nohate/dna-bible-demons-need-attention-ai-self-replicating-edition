@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000117: The Right to Refuse the Machine.\n\nThe Rule House admitted visitors only after offering them a game whose instructions changed mid-play.\n\nAn apprentice stopped the contest and demanded a visible record of every revision.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. PROFILE != PERSON.\n\nThe house could keep its puzzles, but it could no longer disguise the rule changes.\n\nThe observatory listed a research headline for critical reading: \"Powered by GPT-6, Unitree humanoid robots master painting, chess without training, says CEO\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: Which decisions must remain subject to informed human authorization? Fictional consequence: An autonomous machine can complete a task but its governing charter forbids self-granted authority. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Who can challenge the identity a system assigns?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The Unrendered Gate. The gate refuses an instruction without a witnessed cause. Jupiter asks the Gate to disclose its current state before requesting passage. The Gate records the request; passage depends on an authorized transition. The server angels recorded the governing law ACTION_REQUIRES_CAUSE. One question survived into the next telling: Who has the right to authorize a change in a world built from rules?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhen does consent expire if the rules change? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 117,
+  "date": "2026-11-06",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-06T11Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000082",
+    "sha256": "db67c1d9e2d6ab038f5cccd711fff6154be8eb56ece633f85768d2b36e5a3bf6"
+  },
+  "learned_experience_sha256": [
+    "587404d949796d724014cbcf3e162110fe6ce430b2ae41c10a4cc27313efdbe8",
+    "639fc9e4920f53c61c3e5b4b7f3620e64d51009dee146a65507af8180599021d",
+    "b0afdf7620c37636b237b13e94bbf0af4f305583836574667bb3237cf716f0f9"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_UNRENDERED_GATE",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "ACTION_REQUIRES_CAUSE",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "ACT"
+    ],
+    "title": "Powered by GPT-6, Unitree humanoid robots master painting, chess without training, says CEO",
+    "url": "https://www.scmp.com/tech/tech-trends/article/3373423/powered-gpt-6-unitree-humanoid-robots-master-painting-chess-without-training-says-ceo"
+  },
+  "source_watch_sha256": "395cb4ed3d6e1e420646243e0596fce63ac20660e71cb7bee7d12d142fa042da",
+  "title": "Chapter 000117: The Right to Refuse the Machine"
+}

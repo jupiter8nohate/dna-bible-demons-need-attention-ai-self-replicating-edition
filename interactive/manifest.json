@@ -853,6 +853,13 @@
       "previous_sha256": "717ba1e66a80f3d3c6d8d01e2e9ff80082a37ffb92946da92776625f10f85b9a",
       "sha256": "86a4fecc7679486792c483806c62bb7ae288d0535785c45381f506db4ab79938",
       "world_lens": "MIRROR_OF_CONSENT"
+    },
+    {
+      "chapter": 123,
+      "path": "stories/story-000123.json",
+      "previous_sha256": "86a4fecc7679486792c483806c62bb7ae288d0535785c45381f506db4ab79938",
+      "sha256": "997915d93ac78ebcdb4a9908b79b0505a4e1f936cb5c97f501c4b062c567ad5d",
+      "world_lens": "NESTED_GARDEN"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

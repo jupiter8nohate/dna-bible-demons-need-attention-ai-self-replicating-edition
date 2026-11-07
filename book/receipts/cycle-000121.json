@@ -1,0 +1,19 @@
+{
+  "agent_kind": "bounded_deterministic_workers",
+  "ballots_sha256": "00c010826ff6fe5a955919be473a1d6a5821b7a5c66aaf867f2c182b1b5b9f94",
+  "cycle": 121,
+  "day": "2026-11-07",
+  "format": "deterministic_seed_v1",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "meaning": "Reproducible software results, not 666 independent model inferences",
+  "reconstruction": "scripts.engine.run_agents(cycle, source_count)",
+  "roster_sha256": "ad3829a29efa07e2f56b02d52baefb90faa197daa24b4e42fdba362ede31c77f",
+  "source_count": 8
+}

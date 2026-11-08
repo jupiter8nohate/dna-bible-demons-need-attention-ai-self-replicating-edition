@@ -973,6 +973,15 @@
       "previous_sha256": "378160b917202168a74308dd667da7786b6a5949792bcba0187b8c92f128ea1e",
       "source_generated_at": "2026-11-08T07:26:59.135084Z",
       "article_count": 9
+    },
+    {
+      "captured_at": "2026-11-08T15:22:45.304138Z",
+      "path": "snapshots/20261108T152245Z-943915301803.json",
+      "sha256": "6905f75b164b0246332f5f068b79bc498186700cab67661d6e49aa707100b147",
+      "content_fingerprint": "f3c53d449df4b54d5d3d8cc5454c653e1c58e1d639a2c3dfa09e405d9c7ffc63",
+      "previous_sha256": "3a46c89a37eec865491f6976c996d82d9c3760438ae6435ef8005bff03ca5dd6",
+      "source_generated_at": "2026-11-08T15:18:02.310000Z",
+      "article_count": 8
     }
   ]
 }

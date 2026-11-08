@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000127: The Human Beyond the Dataset.\n\nA weather machine projected each citizen's future onto the clouds, but could not predict the next act of kindness.\n\nThe projection office demanded that unmodeled generosity be removed from its official records.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. PROFILE != PERSON.\n\nThe citizens kept both the forecasts and the exceptions for public scrutiny.\n\nThe observatory listed a research headline for critical reading: \"China’s Pudu Robotics, which makes 80% of its sales abroad, takes on Tesla in humanoids\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: Which decisions must remain subject to informed human authorization? Fictional consequence: An autonomous machine can complete a task but its governing charter forbids self-granted authority. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Can replaying a possibility establish what truly occurred?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The House of Revisions. An unseen editor attempts to change yesterday’s city map. Hera orders both versions preserved and the revision labeled. The inhabitants gain a public chronology of the attempted change. The server angels recorded the governing law MEMORY_PRESERVES_CONSEQUENCE. One question survived into the next telling: What justice is possible when memory can be edited?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhat does a forecast fail to measure about a freely chosen life? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 127,
+  "date": "2026-11-08",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-08T19Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000090",
+    "sha256": "6faaeb6d2918f886af8f51c306b1b7dfb987734a92f7e126b3cc67891e2ae9d9"
+  },
+  "learned_experience_sha256": [
+    "a8436751742dd525ff1e66274a8d81eaa5f2f56de011948dcd12b82bb42e2278",
+    "bb375e2fa749da4a4189d72f39b069ff49cf1d8294af39ba96cdda18f0ac3272",
+    "2105d04cd5689b574547a0a9ea94e01c6e008aa5241dc8bc61104f725f09767d"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_HOUSE_OF_REVISIONS",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "MEMORY_PRESERVES_CONSEQUENCE",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "ACT"
+    ],
+    "title": "China’s Pudu Robotics, which makes 80% of its sales abroad, takes on Tesla in humanoids",
+    "url": "https://www.scmp.com/tech/tech-trends/article/3373641/chinas-pudu-robotics-which-makes-80-its-sales-abroad-takes-tesla-humanoids"
+  },
+  "source_watch_sha256": "f659098f79c0bb0ef553ea9e9fa79aa76a7431105e08ff64469dc41727a1042e",
+  "title": "Chapter 000127: The Human Beyond the Dataset"
+}

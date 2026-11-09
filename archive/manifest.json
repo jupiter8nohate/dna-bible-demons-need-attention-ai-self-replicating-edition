@@ -1000,6 +1000,15 @@
       "previous_sha256": "f659098f79c0bb0ef553ea9e9fa79aa76a7431105e08ff64469dc41727a1042e",
       "source_generated_at": "2026-11-09T00:57:18.926340Z",
       "article_count": 7
+    },
+    {
+      "captured_at": "2026-11-09T17:39:46.603952Z",
+      "path": "snapshots/20261109T173946Z-a91ddcf295d1.json",
+      "sha256": "1ab4a9c0dfa15e081e631fbb3399d7cf1521a7f9f870d03f94e84b1c49a18323",
+      "content_fingerprint": "38c0424149b73236218140ab356fa2014fe7f5d2fd50a61c489a2b3b1c276750",
+      "previous_sha256": "7396638ea7c172a41d3803155049a1ea6a1e4b7449b8a44887754771685df664",
+      "source_generated_at": "2026-11-09T08:00:59.050754Z",
+      "article_count": 8
     }
   ]
 }

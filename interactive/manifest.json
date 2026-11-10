@@ -916,6 +916,13 @@
       "previous_sha256": "f116ebc5d70caa1fcba95f77b4668f025e93245ce65f470a284ef9f603e95a73",
       "sha256": "5ab5886a1832f3d83b8800a1013403c488da5b84c68b37f1c53cd8e3a20508fa",
       "world_lens": "SENSORY_ECHO"
+    },
+    {
+      "chapter": 132,
+      "path": "stories/story-000132.json",
+      "previous_sha256": "5ab5886a1832f3d83b8800a1013403c488da5b84c68b37f1c53cd8e3a20508fa",
+      "sha256": "4eb9756e3e5504799eb2f5082b4f4970285c4fa058fcedd776ec84cfc965e9b0",
+      "world_lens": "CASTE_OF_PREDICTIONS"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

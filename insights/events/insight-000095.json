@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-10T17:57:32.344454Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000095",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "military_security"
+  ],
+  "snapshot_path": "snapshots/20261110T175732Z-b1821ca15bda.json",
+  "snapshot_sha256": "35a369a505ce6811647ed3655e95bc2bc6af2a06e2535e90a383920c6fa8c662",
+  "source_key": "94172b3b33d907838393862e147693309efefc5f9f1d26493f57badb6a58c015",
+  "source_seen_at": "2026-11-10T12:15:32Z",
+  "source_title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+  "source_url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/"
+}

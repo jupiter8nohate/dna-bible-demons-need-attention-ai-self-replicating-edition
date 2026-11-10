@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-11-10T23:32:02.778703Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000096",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "military_security"
+  ],
+  "snapshot_path": "snapshots/20261110T233202Z-ac17044b4f6c.json",
+  "snapshot_sha256": "73830b0a729ddf54383d5b6216aa5a20e352bcfea8204e825fe631be386917f2",
+  "source_key": "c67f8109386fc65fb9706b09d94ca1bcfd760293b3a83a86883117c3385738b0",
+  "source_seen_at": "2026-11-10T17:56:12Z",
+  "source_title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+  "source_url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
+}

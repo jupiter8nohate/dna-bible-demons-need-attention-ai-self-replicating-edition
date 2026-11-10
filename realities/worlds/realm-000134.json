@@ -1,0 +1,37 @@
+{
+  "agency": "Reader branches are private to the current browser and never modify the shared canon.",
+  "chapter": 134,
+  "chapter_date": "2026-11-10",
+  "cycle": 12,
+  "fictional": true,
+  "lens_id": "MIRROR_OF_CONSENT",
+  "mechanic": "constructed consensus and chosen truth",
+  "narrative": "Cycle 12 of the D.N.A. Reality Engine. The mirrors agree on one face; the person chooses a different name. The record from the previous world still asks: What survives when the surrounding world forgets? No observer may turn a simulated identity into a human verdict.",
+  "open_question": "Who has the authority to certify what another person experiences?",
+  "previous_world_sha256": "7dfee9ed6422493ad8738f2141f166e441494dba41a1f018ba40ff1dbc97264e",
+  "reader_choices": [
+    {
+      "fictional_consequence": "A new objection is entered into the witness ledger. No authority is automatically transferred.",
+      "id": "MIRROR_OF_CONSENT-1",
+      "label": "Question the system"
+    },
+    {
+      "fictional_consequence": "The chapter establishes a consent boundary that the simulated institution must respect.",
+      "id": "MIRROR_OF_CONSENT-2",
+      "label": "Protect the human"
+    },
+    {
+      "fictional_consequence": "The inquiry opens another interpretive layer without claiming that fiction is evidence.",
+      "id": "MIRROR_OF_CONSENT-3",
+      "label": "Follow the anomaly"
+    }
+  ],
+  "reference_resource": "https://www.gotquestions.org/",
+  "scene": "The mirrors agree on one face; the person chooses a different name.",
+  "schema_version": "dna.reality-engine.v1",
+  "scriptural_reference": "John 8:32",
+  "source_chapter_sha256": "26265808de956b1ec4ca755b3ff23c8359f603cb12c84ab28dd4a8d333300ab5",
+  "source_status": "fiction_inspired_by_broad_themes_not_an_adaptation",
+  "theological_status": "question_for_study_not_doctrinal_answer",
+  "world_name": "The Mirror of Consent"
+}

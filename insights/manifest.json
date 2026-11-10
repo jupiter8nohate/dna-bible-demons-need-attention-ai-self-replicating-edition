@@ -569,6 +569,18 @@
       "previous_sha256": "d2bfd46dc5214baf1ad21b6f687482d29def1784c8205245fe8640348172a400",
       "sha256": "6b966ac57b9b1ebc3df1fa988f572d33e3a7d8a41aa75b91fa18fd9498618d7a",
       "source_key": "94172b3b33d907838393862e147693309efefc5f9f1d26493f57badb6a58c015"
+    },
+    {
+      "path": "events/insight-000096.json",
+      "previous_sha256": "6b966ac57b9b1ebc3df1fa988f572d33e3a7d8a41aa75b91fa18fd9498618d7a",
+      "sha256": "767fedfe1d70fcccba5af02883f8215b8785fc3d2bd412ba882a20982641d499",
+      "source_key": "c67f8109386fc65fb9706b09d94ca1bcfd760293b3a83a86883117c3385738b0"
+    },
+    {
+      "path": "events/insight-000097.json",
+      "previous_sha256": "767fedfe1d70fcccba5af02883f8215b8785fc3d2bd412ba882a20982641d499",
+      "sha256": "d3234941608bac168288e25f0764feb77125490a1c4f1003e4a7e439e89c243f",
+      "source_key": "d949e6f92cd9d4166d37eaad6bde8772d2205aef9c0e6a368f8e22e4aa27c0f9"
     }
   ],
   "schema_version": "dna.insight-queue.v1"

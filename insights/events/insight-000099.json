@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-11T06:45:23.002745Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000099",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261111T064522Z-9efb70fec58c.json",
+  "snapshot_sha256": "1555ea50be871273b9695b4b0be740c4c8a21809921433880296c96beedc40ae",
+  "source_key": "b2f23fe60f3a3e036ba4c8c44f9cc350cb414110e15bc361428fca0e2ccc6386",
+  "source_seen_at": "2026-11-11T00:19:13Z",
+  "source_title": "Robot vessels take on the dangerous work of mine hunting",
+  "source_url": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss"
+}

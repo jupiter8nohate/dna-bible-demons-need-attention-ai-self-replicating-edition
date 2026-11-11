@@ -951,6 +951,13 @@
       "previous_sha256": "495c083d9be18958af33f5778c8620e4e43fa19d7f774d02b29ac975fba9a77c",
       "sha256": "3f8f4144f8957228662f40f910b2aa4e7177df35887378d65636bfb714048b8c",
       "world_lens": "RECURSIVE_CITY"
+    },
+    {
+      "chapter": 137,
+      "path": "stories/story-000137.json",
+      "previous_sha256": "3f8f4144f8957228662f40f910b2aa4e7177df35887378d65636bfb714048b8c",
+      "sha256": "c0255e30a6e016babf7504ea20d5d235322fd03c978ffb47bdf6e0dfd6c76a8e",
+      "world_lens": "SEED_OF_INTENTION"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

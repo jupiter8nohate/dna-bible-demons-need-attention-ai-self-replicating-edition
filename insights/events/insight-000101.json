@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-11-11T15:25:05.161492Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000101",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261111T152505Z-5cb668cc66db.json",
+  "snapshot_sha256": "07cbe7ed229392f35d1b884eabb15c9ebe37766bce6c349549a9ac3a254e5ee5",
+  "source_key": "f2638f7d630ee77c1a693e06b517594b632f6fd63e2dc38fe9f2a4ae10f91fd2",
+  "source_seen_at": "2026-11-11T11:33:24Z",
+  "source_title": "New Indian mega library rocked by scandal over 'AI-generated books'",
+  "source_url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss"
+}

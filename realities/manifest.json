@@ -1111,6 +1111,14 @@
       "path": "worlds/realm-000139.json",
       "previous_sha256": "6e1ec4369b1e4594e451b2e1398f48d983f5e030ecacc256f270ef0de7659425",
       "sha256": "46eaf400d1f350460b3c741bbcb026d461058eeef53877cc4080a782b2b899f1"
+    },
+    {
+      "chapter": 140,
+      "chapter_sha256": "86944f131d00a67c0ef7be8de3a68c8b11e31a411a30be435fe45634eefed4e0",
+      "lens_id": "MASKS_OF_THE_LEDGER",
+      "path": "worlds/realm-000140.json",
+      "previous_sha256": "46eaf400d1f350460b3c741bbcb026d461058eeef53877cc4080a782b2b899f1",
+      "sha256": "713b578bb318a4a193a7c33782d7694e027a19a8d2d758a2dc611a22dddcb0ed"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

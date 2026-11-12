@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-12T20:56:09.011221Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000107",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261112T205608Z-14d55434782a.json",
+  "snapshot_sha256": "4f0f4f8c80b56829302228e57de8d078d6490f6f421ec856dcdff829c517e0ff",
+  "source_key": "5e287749a052919098f3627ae362c411129cdb934558dd7b9854c2daaeec1c6e",
+  "source_seen_at": "2026-11-12T19:11:00Z",
+  "source_title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+  "source_url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+}

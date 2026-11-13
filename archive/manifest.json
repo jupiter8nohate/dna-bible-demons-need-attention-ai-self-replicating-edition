@@ -1099,6 +1099,15 @@
       "previous_sha256": "94c679bdcef66a6ec8729a462fb200e8f097689c0179d33365d94d369e75d07f",
       "source_generated_at": "2026-11-12T20:51:56.372669Z",
       "article_count": 8
+    },
+    {
+      "captured_at": "2026-11-13T09:43:08.646172Z",
+      "path": "snapshots/20261113T094308Z-e8c18cc22afc.json",
+      "sha256": "d9acfe2c54535242dcbdd9616b04c9dde571759b51996d44b825a96a7a05d128",
+      "content_fingerprint": "a6a058ef355137a1e04f048a30dd95af1cf0c332989338145aed758863568dd4",
+      "previous_sha256": "4f0f4f8c80b56829302228e57de8d078d6490f6f421ec856dcdff829c517e0ff",
+      "source_generated_at": "2026-11-13T09:37:21.382453Z",
+      "article_count": 7
     }
   ]
 }

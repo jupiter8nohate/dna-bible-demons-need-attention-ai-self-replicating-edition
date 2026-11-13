@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-13T09:43:08.720395Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000108",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261113T094308Z-e8c18cc22afc.json",
+  "snapshot_sha256": "d9acfe2c54535242dcbdd9616b04c9dde571759b51996d44b825a96a7a05d128",
+  "source_key": "33bf12a1540d754c209061770c68031857633d11f05f24c1d78285bebdc8f6db",
+  "source_seen_at": "2026-11-13T05:35:13Z",
+  "source_title": "Have we finally found a valid use case for AI? Meet Pino the autonomous virtual kiwi | First Dog on the Moon",
+  "source_url": "https://www.theguardian.com/commentisfree/picture/2026/nov/13/have-we-finally-found-a-valid-use-case-for-ai-meet-pino-the-autonomous-virtual-kiwi"
+}

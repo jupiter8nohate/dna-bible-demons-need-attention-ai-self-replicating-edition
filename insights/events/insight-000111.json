@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-11-13T23:41:17.039664Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000111",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261113T234116Z-1d48234f82e0.json",
+  "snapshot_sha256": "a54109ceb07ff9b8b9c584a2a572dc76bb22c08ab72448feda4326b869780446",
+  "source_key": "c62951c6db31e5c189e66dcc79990d64446586df3e0b2f986ec78a850c8e1474",
+  "source_seen_at": "2026-11-13T17:53:05Z",
+  "source_title": "How it feels to battle with a flood of AI-generated complaints | Letters",
+  "source_url": "https://www.theguardian.com/technology/2026/nov/13/how-it-feels-to-battle-with-a-flood-of-ai-generated-complaints"
+}

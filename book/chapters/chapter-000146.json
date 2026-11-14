@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000146: The Sovereignty of the Unclassified.\n\nAt the entrance to the Mirror Registry, everyone received a name selected by a predictive oracle.\n\nOne visitor returned the certificate unsigned and asked who had granted the oracle jurisdiction.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. PATTERN != PROOF.\n\nThe registry recorded the refusal as a valid event, not a diagnostic error.\n\nThe observatory listed a research headline for critical reading: \"Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: When does prediction become an illegitimate judgment of a person? Fictional consequence: A citizen disputes a machine-produced identity score and demands an accountable review. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: What survives when the surrounding world forgets?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at GitHub City Pages. A painted lightning storm is mistaken for a storm beyond the page. Jupiter separates the rendered sky from the machinery keeping it visible. Citizens preserve the beauty of their fiction without confusing it with the external world. The server angels recorded the governing law RENDER_NEQ_RUNTIME. One question survived into the next telling: Can a rendered world be meaningful without pretending to be the entire world?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhat distinguishes a useful model from an imposed identity? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 146,
+  "date": "2026-11-14",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-14T14Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000104",
+    "sha256": "b5040a533661f919a8b64eac47516362af0cdf98ac0bddc9b9ea7e0b6e4d62e6"
+  },
+  "learned_experience_sha256": [
+    "4094cefb517ea95fb5c5634e6c71efcf55a936eeadafd7a1819857ff43f800a5",
+    "1c2130cef08bb54f4903b78e644dcff2980f6c1151943d73a287d8a628c003a8",
+    "c966d8d518489fda406fb90b52f1687a457dde42a50faa56bdc7d011e0e8230a"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_CITY_OF_TWO_SKIES",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "RENDER_NEQ_RUNTIME",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "PREDICT"
+    ],
+    "title": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
+    "url": "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai"
+  },
+  "source_watch_sha256": "fb665ba9102abfb2d95f71d26b6368dee4f9a79b1cc2414cd4701c14b48587d2",
+  "title": "Chapter 000146: The Sovereignty of the Unclassified"
+}

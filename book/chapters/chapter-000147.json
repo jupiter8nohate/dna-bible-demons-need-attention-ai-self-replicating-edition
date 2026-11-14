@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000147: The Cathedral of Unanswered Questions.\n\nThe City of Nested Doors constructed a second city whenever its inhabitants asked a forbidden question.\n\nA mapmaker discovered that each copy preserved one question the previous city had censored.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. PROFILE != PERSON.\n\nShe drew routes between the questions, not merely between the doors.\n\nThe observatory listed a research headline for critical reading: \"Robot tells Al Jazeera AI is ‘too useful to disappear’\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: Which decisions must remain subject to informed human authorization? Fictional consequence: An autonomous machine can complete a task but its governing charter forbids self-granted authority. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Who has the authority to certify what another person experiences?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The First Archive. A registry attempts to reduce a child to a predictive score. Hera records the prediction as a tool and protects the child’s right to choose. The child’s future stays open; the registry retains a visible error boundary. The server angels recorded the governing law HUMAN_AGENCY_GT_MACHINE_AUTHORITY. One question survived into the next telling: Who may name a life not yet lived?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nCan a copied world retain a dissenting voice without absorbing it? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 147,
+  "date": "2026-11-14",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-14T19Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000105",
+    "sha256": "1bac007b9e37462e8482aa6190046bbba1c0c02e041127f3dceaaa8ea26ea2e7"
+  },
+  "learned_experience_sha256": [
+    "1c2130cef08bb54f4903b78e644dcff2980f6c1151943d73a287d8a628c003a8",
+    "c966d8d518489fda406fb90b52f1687a457dde42a50faa56bdc7d011e0e8230a",
+    "7c7c15e4f4cf29c69131cb9be3ef5e72a9b1517af25b4c5f608d70fd313c5b7c"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_COVENANT_OF_NAMES",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "HUMAN_AGENCY_GT_MACHINE_AUTHORITY",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "ACT"
+    ],
+    "title": "Robot tells Al Jazeera AI is ‘too useful to disappear’",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/robot-tells-al-jazeera-ai-is-too-useful-to?traffic_source=rss"
+  },
+  "source_watch_sha256": "fb665ba9102abfb2d95f71d26b6368dee4f9a79b1cc2414cd4701c14b48587d2",
+  "title": "Chapter 000147: The Cathedral of Unanswered Questions"
+}

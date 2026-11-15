@@ -1180,6 +1180,15 @@
       "previous_sha256": "74b58ab2d8485296bc21ad2ff5be8fa32f56ce369e073c22b0a6879388ec8821",
       "source_generated_at": "2026-11-15T17:46:32.553632Z",
       "article_count": 7
+    },
+    {
+      "captured_at": "2026-11-15T22:58:19.219482Z",
+      "path": "snapshots/20261115T225819Z-ebbd3778e08f.json",
+      "sha256": "dd98dfde2b22f4b927790e0f711bc3ffcfec4278f20fb5224a0b12147ee52c0b",
+      "content_fingerprint": "b9fd6df59a18d281e418fa17af9bdb884ac91533e7025a48e41a6092590aa1f8",
+      "previous_sha256": "760fe2e505dd82468ca446685fa625911ff68ed81856a4b8977d00f2b07583cc",
+      "source_generated_at": "2026-11-15T22:53:20.608323Z",
+      "article_count": 6
     }
   ]
 }

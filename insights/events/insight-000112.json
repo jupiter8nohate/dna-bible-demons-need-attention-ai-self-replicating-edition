@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-16T22:18:48.747120Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000112",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "cybercrime"
+  ],
+  "snapshot_path": "snapshots/20261116T221848Z-091c4a18e3a6.json",
+  "snapshot_sha256": "6d064b52f45257c854a9edd3d313f044a3c52cb59874854ee604d27730e0ca52",
+  "source_key": "04075f0baa85bb63e6bf184166f020b2bd6fe93fc0e3194a3f849a5c25c76f5d",
+  "source_seen_at": "2026-11-16T17:36:43Z",
+  "source_title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+  "source_url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/"
+}

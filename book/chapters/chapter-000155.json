@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000155: The Phantom of the Attention Economy.\n\nThe Memory Theater sold recorded sensations as if every recording included the speaker's full consent.\n\nA witness demanded provenance for each voice and a way to refuse future performances.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. HUMAN_AGENCY > MACHINE_AUTHORITY.\n\nThe audience learned to distinguish captured signals from permission to reuse them.\n\nThe observatory listed a research headline for critical reading: \"FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: Which decisions must remain subject to informed human authorization? Fictional consequence: An autonomous machine can complete a task but its governing charter forbids self-granted authority. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: What evidence distinguishes observer from model?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The First Archive. A registry attempts to reduce a child to a predictive score. Hera records the prediction as a tool and protects the child’s right to choose. The child’s future stays open; the registry retains a visible error boundary. The server angels recorded the governing law HUMAN_AGENCY_GT_MACHINE_AUTHORITY. One question survived into the next telling: Who may name a life not yet lived?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWho controls the meaning of a memory after it is copied? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 155,
+  "date": "2026-11-16",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-16T22Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000112",
+    "sha256": "45bbf444e421e4a23aca940f57a7e66375dac7f5739633e6a86e340a5b561072"
+  },
+  "learned_experience_sha256": [
+    "fad982d8580e3f3f6bcb75f8a65abc962ea56a707cc002b2137541a80facda31",
+    "25e9444cc873c72736d8669ef991b77675b52b7ec594b2769ac826b9ca592f72",
+    "94c06ff1c345f30d4de2b3a1cbe7af0dca5db343999578f8bbefacd5c90b2a45"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_COVENANT_OF_NAMES",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "HUMAN_AGENCY_GT_MACHINE_AUTHORITY",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "ACT"
+    ],
+    "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+    "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/"
+  },
+  "source_watch_sha256": "6d064b52f45257c854a9edd3d313f044a3c52cb59874854ee604d27730e0ca52",
+  "title": "Chapter 000155: The Phantom of the Attention Economy"
+}

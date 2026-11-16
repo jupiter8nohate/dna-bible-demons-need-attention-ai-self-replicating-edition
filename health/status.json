@@ -1,21 +1,21 @@
 {
   "anomaly_records": 2,
   "archive_snapshots": 132,
-  "chapters": 152,
+  "chapters": 153,
   "freshness_target_hours": 3,
-  "hours_since_last_chapter": 0.974,
-  "interactive_stories": 152,
-  "last_chapter_at": "2026-11-15T22:00:00Z",
+  "hours_since_last_chapter": 0.861,
+  "interactive_stories": 153,
+  "last_chapter_at": "2026-11-16T02:00:00Z",
   "last_prose_mode": "deterministic_code_poetry",
   "limitation": "GitHub-derived self-report; not independent external monitoring or competitor benchmarking.",
   "model_generation_verified": false,
-  "observed_at": "2026-11-15T22:58:25.410711Z",
-  "recent_text_similarity": 0.6183,
+  "observed_at": "2026-11-16T02:51:38.042136Z",
+  "recent_text_similarity": 0.5284,
   "repetition_warning": false,
   "research_insights": 111,
   "schema_version": "dna.operational-health.v1",
   "status": "operational",
   "worker_type": "bounded_deterministic_software",
   "workers_per_cycle": 666,
-  "worlds": 152
+  "worlds": 153
 }

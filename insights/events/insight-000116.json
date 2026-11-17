@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-17T22:59:01.047982Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000116",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "military_security"
+  ],
+  "snapshot_path": "snapshots/20261117T225900Z-93f45346cf48.json",
+  "snapshot_sha256": "40ba9143f87c5b6d933774116ed7865e8a688219e3620c4f04b985aec1ba899e",
+  "source_key": "597ba1940b56481d206d4a6287c38516a09ac34186d7f3e203ae8a9d392b6159",
+  "source_seen_at": "2026-11-17T17:20:41Z",
+  "source_title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+  "source_url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
+}

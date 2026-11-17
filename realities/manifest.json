@@ -1255,6 +1255,14 @@
       "path": "worlds/realm-000157.json",
       "previous_sha256": "59139106a04257b5f5ef15083aa301807d1fb9b670fe222438c0912406aad80c",
       "sha256": "9fb5673f249c68d6707b400f5b6cf94420c9f645b3ed8e0becd9c7809a3b7468"
+    },
+    {
+      "chapter": 158,
+      "chapter_sha256": "46cb3296ae86663c5a08382d14b3b27dc1f711cfed1ee5fcdd19fbc0550cda01",
+      "lens_id": "MIRROR_OF_CONSENT",
+      "path": "worlds/realm-000158.json",
+      "previous_sha256": "9fb5673f249c68d6707b400f5b6cf94420c9f645b3ed8e0becd9c7809a3b7468",
+      "sha256": "c80a3e0255b4e3a06824b522f83f017299988200120fcdb0b634226775c7eab8"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

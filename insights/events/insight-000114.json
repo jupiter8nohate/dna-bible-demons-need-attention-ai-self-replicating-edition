@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-11-17T14:39:31.700206Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000114",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "elections_information"
+  ],
+  "snapshot_path": "snapshots/20261117T143931Z-ba5fbdaaa8d0.json",
+  "snapshot_sha256": "f75e2fbf77812e57d627a2058c1226ec4e305ee84a8c38b8f65405e74057e5ec",
+  "source_key": "627115a4f71c40ea5368999355d894d7149f16476b2441551e4f5133c61c3fe3",
+  "source_seen_at": "2026-11-17T14:00:00Z",
+  "source_title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+  "source_url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/"
+}

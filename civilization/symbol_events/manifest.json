@@ -917,6 +917,12 @@
       "path": "days/day-000153.json",
       "previous_sha256": "1a7fee1cd64bc7855069959e736b17672f00c863b8e48f8a6592cc1cc66c72b2",
       "sha256": "2232d63239a2f048038db03438bfb57c5c013fe373e55a4227edf2fa584d0ae6"
+    },
+    {
+      "day": 154,
+      "path": "days/day-000154.json",
+      "previous_sha256": "2232d63239a2f048038db03438bfb57c5c013fe373e55a4227edf2fa584d0ae6",
+      "sha256": "8745bf9db7faaa41f9d46c384210b73534866acd03064133f155ef97ae3aad8d"
     }
   ],
   "schema_version": "dna.symbol-events.v1"

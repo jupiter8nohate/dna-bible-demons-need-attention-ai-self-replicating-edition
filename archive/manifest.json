@@ -1243,6 +1243,15 @@
       "previous_sha256": "40ba9143f87c5b6d933774116ed7865e8a688219e3620c4f04b985aec1ba899e",
       "source_generated_at": "2026-11-18T04:27:58.056479Z",
       "article_count": 8
+    },
+    {
+      "captured_at": "2026-11-18T14:16:17.805449Z",
+      "path": "snapshots/20261118T141617Z-be2f0f79680a.json",
+      "sha256": "660ed1e79b0d67daf7721d2290e50c2e61702ce95704003c60e86b3b08e4603c",
+      "content_fingerprint": "7dc67715f6180d5b3f73d23c0788b6a7dc43d741d7b98393d6f95ebe322fd6f6",
+      "previous_sha256": "c47e09341b1d5747310fb7af8415ad50514ab5a46604eae41a8480010cce9f75",
+      "source_generated_at": "2026-11-18T14:06:25.377548Z",
+      "article_count": 8
     }
   ]
 }

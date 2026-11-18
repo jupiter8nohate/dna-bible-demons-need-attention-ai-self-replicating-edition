@@ -1234,6 +1234,15 @@
       "previous_sha256": "f75e2fbf77812e57d627a2058c1226ec4e305ee84a8c38b8f65405e74057e5ec",
       "source_generated_at": "2026-11-17T22:56:06.442936Z",
       "article_count": 8
+    },
+    {
+      "captured_at": "2026-11-18T04:33:02.151250Z",
+      "path": "snapshots/20261118T043302Z-e093ce8a5024.json",
+      "sha256": "c47e09341b1d5747310fb7af8415ad50514ab5a46604eae41a8480010cce9f75",
+      "content_fingerprint": "757bea69b74fbd7481a5be7d9ecbe9ef0fc905cff75f5ec8e4f642b8dab89cf8",
+      "previous_sha256": "40ba9143f87c5b6d933774116ed7865e8a688219e3620c4f04b985aec1ba899e",
+      "source_generated_at": "2026-11-18T04:27:58.056479Z",
+      "article_count": 8
     }
   ]
 }

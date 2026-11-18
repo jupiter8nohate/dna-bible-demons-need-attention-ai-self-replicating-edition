@@ -1084,6 +1084,13 @@
       "primary_id": "ANOM-000001",
       "sha256": "8b7410bc7fadd388d7239d4538ca794e77016f800a936d325e3e5075e0af98db",
       "slot": "2026-11-17T22Z"
+    },
+    {
+      "path": "plans/plan-000156.json",
+      "previous_sha256": "8b7410bc7fadd388d7239d4538ca794e77016f800a936d325e3e5075e0af98db",
+      "primary_id": "ANOM-000001",
+      "sha256": "5fc72388ddc1db312991891fbc5f96e76307e23725c089620cf48630a5178c6f",
+      "slot": "2026-11-18T04Z"
     }
   ],
   "schema_version": "dna.witness-loom.v1"

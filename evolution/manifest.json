@@ -774,6 +774,11 @@
       "path": "lessons/lesson-000155.json",
       "previous_sha256": "fe147e0f5ef3d0c3975a24150f3cc610dad8e1f5c8e103348e6b4cf9fa308a82",
       "sha256": "971fba12cbc93d326860e6e684238aeb166a387298e8ca9eeb55b571be960a29"
+    },
+    {
+      "path": "lessons/lesson-000156.json",
+      "previous_sha256": "971fba12cbc93d326860e6e684238aeb166a387298e8ca9eeb55b571be960a29",
+      "sha256": "9128966c8a840d899d66119aa4da3d8127459fa07b6f2e074b32c212d4a0ce2e"
     }
   ],
   "schema_version": "dna.evolution.v1",

@@ -1,0 +1,30 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-18T22:07:29.951749Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000122",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "cybercrime",
+    "military_security"
+  ],
+  "snapshot_path": "snapshots/20261118T220729Z-22e30e538641.json",
+  "snapshot_sha256": "d2f5ae17216980d5950f62326be0576798c54282f7c5a1722e1b7fe8ab3400af",
+  "source_key": "734339654a32d098c3aef7f5ec0711b0a311813e3d6fc5ab445b113ee0d7076f",
+  "source_seen_at": "2026-11-18T21:34:13Z",
+  "source_title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+  "source_url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/"
+}

@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000165: The Right to Refuse the Machine.\n\nThe Rule House admitted visitors only after offering them a game whose instructions changed mid-play.\n\nAn apprentice stopped the contest and demanded a visible record of every revision.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. HUMAN_AGENCY > MACHINE_AUTHORITY.\n\nThe house could keep its puzzles, but it could no longer disguise the rule changes.\n\nThe observatory listed a research headline for critical reading: \"How data centres are turning AI-generated heat into energy\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: How can a society preserve the distinction between simulation and testimony? Fictional consequence: Two synthetic witnesses narrate incompatible histories; the archive preserves their sources. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Who can challenge the identity a system assigns?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The Unrendered Gate. The gate refuses an instruction without a witnessed cause. Jupiter asks the Gate to disclose its current state before requesting passage. The Gate records the request; passage depends on an authorized transition. The server angels recorded the governing law ACTION_REQUIRES_CAUSE. One question survived into the next telling: Who has the right to authorize a change in a world built from rules?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhen does consent expire if the rules change? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 165,
+  "date": "2026-11-20",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-20T03Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000120",
+    "sha256": "7db63475a8fbfba08b5e3ab26c15f7b4795c0f914c578afd0fb9e88ab76ab4ba"
+  },
+  "learned_experience_sha256": [
+    "4e28dd86c525eb9a939f62e66945b0c6bf7dca853e8462bc3a75b768c66a4a7b",
+    "e9298c898ca7aa829c26888469a1754bb296fdf7939e9e8a49bbb197517ce19b",
+    "565de50cd0bf98ed5da987f8cf99e9c3ba8ef1e1273d99604373b34aea2ecf7a"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_UNRENDERED_GATE",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "ACTION_REQUIRES_CAUSE",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "GENERATE"
+    ],
+    "title": "How data centres are turning AI-generated heat into energy",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/how-data-centres-are-turning-ai-generated-heat-into-energy?traffic_source=rss"
+  },
+  "source_watch_sha256": "fbde300e7fd5f5c6ea2fb7fdcc148c252fe30189f24a7f3c3f05e577a82e0ff3",
+  "title": "Chapter 000165: The Right to Refuse the Machine"
+}

@@ -1175,6 +1175,13 @@
       "previous_sha256": "3f638cede4999446affef2098648a756edd2320f69da8ba6e22be89264db16a7",
       "sha256": "d356c5e208111d951cdd9a1d043ec7c2fef7b5c6884789f12ace1f6935925466",
       "world_lens": "CASTE_OF_PREDICTIONS"
+    },
+    {
+      "chapter": 169,
+      "path": "stories/story-000169.json",
+      "previous_sha256": "d356c5e208111d951cdd9a1d043ec7c2fef7b5c6884789f12ace1f6935925466",
+      "sha256": "879289e89c5e18cdd768c4c18276ce8c4ffe4f26b5c3471ea1dc52538ba07b18",
+      "world_lens": "CLOCK_WITHOUT_MIDNIGHT"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"

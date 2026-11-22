@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-22T16:25:42.911702Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000132",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261122T162542Z-0ec04f4db099.json",
+  "snapshot_sha256": "7fa51c7788376aca0386542a723e26118ac628fd8d43f13839e7c348fb633ab6",
+  "source_key": "80f4f624edf5b767cd72f90b6206f6160e3dcaf2e1c31e833d837b1d68c44008",
+  "source_seen_at": "2026-11-22T11:44:50Z",
+  "source_title": "Why have UN efforts to regulate ‘killer robots’ stalled?",
+  "source_url": "https://www.aljazeera.com/news/2026/11/22/why-have-un-efforts-to-regulate-killer-robots-stalled?traffic_source=rss"
+}

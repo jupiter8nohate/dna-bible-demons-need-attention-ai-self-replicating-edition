@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "PREDICT"
+  ],
+  "creative_prompt": "A citizen disputes a machine-produced identity score and demands an accountable review.",
+  "detected_at": "2026-11-22T00:27:15.170683Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000130",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "When does prediction become an illegitimate judgment of a person?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "privacy_surveillance"
+  ],
+  "snapshot_path": "snapshots/20261122T002715Z-6f89a841aba6.json",
+  "snapshot_sha256": "d58205b8387b382a593308df6efc973f325a3df8ec8899ec057e0e947699e0ed",
+  "source_key": "7289e21f33e265e97a89457e8874498959fdf3c193ec812177245344db63d11e",
+  "source_seen_at": "2026-11-21T21:37:10Z",
+  "source_title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+  "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+}

@@ -1,0 +1,37 @@
+{
+  "agency": "Reader branches are private to the current browser and never modify the shared canon.",
+  "chapter": 171,
+  "chapter_date": "2026-11-22",
+  "cycle": 15,
+  "fictional": true,
+  "lens_id": "NESTED_GARDEN",
+  "mechanic": "nested levels of invented experience",
+  "narrative": "Cycle 15 of the D.N.A. Reality Engine. A doorway opens inside another doorway, each carrying a different rulebook. The record from the previous world still asks: Who has the authority to certify what another person experiences? No observer may turn a simulated identity into a human verdict.",
+  "open_question": "Can a convincing simulation demand obedience?",
+  "previous_world_sha256": "05763e63be290afe6a191bfd20fce03d5b4d6e6c1c2d0f1f3a69f272f8e824d2",
+  "reader_choices": [
+    {
+      "fictional_consequence": "A new objection is entered into the witness ledger. No authority is automatically transferred.",
+      "id": "NESTED_GARDEN-1",
+      "label": "Question the system"
+    },
+    {
+      "fictional_consequence": "The chapter establishes a consent boundary that the simulated institution must respect.",
+      "id": "NESTED_GARDEN-2",
+      "label": "Protect the human"
+    },
+    {
+      "fictional_consequence": "The inquiry opens another interpretive layer without claiming that fiction is evidence.",
+      "id": "NESTED_GARDEN-3",
+      "label": "Follow the anomaly"
+    }
+  ],
+  "reference_resource": "https://www.gotquestions.org/",
+  "scene": "A doorway opens inside another doorway, each carrying a different rulebook.",
+  "schema_version": "dna.reality-engine.v1",
+  "scriptural_reference": "1 Thessalonians 5:21",
+  "source_chapter_sha256": "0e697dab1686b120dd58dc80e9c12f511a966432f352907a829260752385f0b2",
+  "source_status": "fiction_inspired_by_broad_themes_not_an_adaptation",
+  "theological_status": "question_for_study_not_doctrinal_answer",
+  "world_name": "The Garden of Inner Worlds"
+}

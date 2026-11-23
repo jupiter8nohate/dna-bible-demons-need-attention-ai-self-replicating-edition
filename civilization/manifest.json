@@ -1367,6 +1367,14 @@
       "previous_sha256": "5dc7e88c749cfc0e81056373ede52a9d02c0d4d04fd508e75b84764f41cbe67c",
       "sha256": "997ddb552f31b95acc50ecd980309b4c04bf6924d782b019709573d42dddc81f",
       "slot": "2026-11-22T22Z"
+    },
+    {
+      "creative_mode": "deterministic_fiction",
+      "day": 172,
+      "path": "days/day-000172.json",
+      "previous_sha256": "997ddb552f31b95acc50ecd980309b4c04bf6924d782b019709573d42dddc81f",
+      "sha256": "a9727a1b16b1d6209f98c7e140d7c3b5aad4eebd9bf4e7ef0a9e5f1ed03e5597",
+      "slot": "2026-11-23T03Z"
     }
   ],
   "schema_version": "dna.github-town-civilization.v1"

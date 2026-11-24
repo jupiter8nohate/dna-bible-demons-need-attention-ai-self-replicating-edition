@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-11-24T23:05:56.362759Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000139",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261124T230556Z-e76813ea742a.json",
+  "snapshot_sha256": "20dd9a02fb5fa4568f48922842e139d8ddb3a225f7c5ca3ea83b6ddea2e2b44e",
+  "source_key": "e612b5415dc5213a765ebf462acc657b3551a5d3094d882f82270c36935a8e3c",
+  "source_seen_at": "2026-11-24T17:34:34Z",
+  "source_title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+  "source_url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
+}

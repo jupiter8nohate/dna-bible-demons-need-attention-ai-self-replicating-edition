@@ -1431,6 +1431,14 @@
       "path": "worlds/realm-000179.json",
       "previous_sha256": "0dd49d1f5c0eff41d147397ba8d4050d180d9bfb4a3bbac1a695d2d84b333891",
       "sha256": "932ccd5d706e6f4cefeacd4a7b1d3b21cfa2c4b6214cac3fe2928974c0b22f25"
+    },
+    {
+      "chapter": 180,
+      "chapter_sha256": "f46d564552f073d03cfe1af2c714fc4d7a3278ef50d4a731c5a1736dd7040ba3",
+      "lens_id": "CASTE_OF_PREDICTIONS",
+      "path": "worlds/realm-000180.json",
+      "previous_sha256": "932ccd5d706e6f4cefeacd4a7b1d3b21cfa2c4b6214cac3fe2928974c0b22f25",
+      "sha256": "f89eb1ac2303900185649596f0ef940bc4461ac51412923c8eeb262c7d67de58"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

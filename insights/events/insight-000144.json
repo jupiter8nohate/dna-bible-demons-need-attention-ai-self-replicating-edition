@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-26T20:16:33.346888Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000144",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261126T201633Z-47fd4e42c912.json",
+  "snapshot_sha256": "16b48296f61ab0f88da3855984f37069dfefd3355fd15b9d1fbfa28414037d60",
+  "source_key": "6d6e04f3f6b077a77630423d9f9d559c772c7df200812196f889a7c975dad5de",
+  "source_seen_at": "2026-11-26T11:23:41Z",
+  "source_title": "Employers: do you have concerns about the rollout of Muse and other AI agents?",
+  "source_url": "https://www.theguardian.com/technology/2026/nov/26/employers-do-you-have-concerns-about-the-rollout-of-muse-and-other-ai-agents"
+}

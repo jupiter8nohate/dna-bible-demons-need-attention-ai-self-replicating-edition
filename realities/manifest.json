@@ -1463,6 +1463,14 @@
       "path": "worlds/realm-000183.json",
       "previous_sha256": "2344c1a066219c718c984e9a19703eac75a811e20ae40bcb0a596c0ab970abba",
       "sha256": "63599d98fecb063c298343838746c2ceab2aae2c6da5831735fddd24152301a9"
+    },
+    {
+      "chapter": 184,
+      "chapter_sha256": "1e1f8508ce8355776a02b7130449dbe005bb335e0b344aa606e23d23430311ab",
+      "lens_id": "RECURSIVE_CITY",
+      "path": "worlds/realm-000184.json",
+      "previous_sha256": "63599d98fecb063c298343838746c2ceab2aae2c6da5831735fddd24152301a9",
+      "sha256": "6f1dc77fed9a5c1aa0bce85e2f4c1a906644bea7251f12e2c0999dedfe09f173"
     }
   ],
   "schema_version": "dna.reality-engine.v1"

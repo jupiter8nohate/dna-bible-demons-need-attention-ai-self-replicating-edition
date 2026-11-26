@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000182: The Sovereignty of the Unclassified.\n\nAt the entrance to the Mirror Registry, everyone received a name selected by a predictive oracle.\n\nOne visitor returned the certificate unsigned and asked who had granted the oracle jurisdiction.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. PROFILE != PERSON.\n\nThe registry recorded the refusal as a valid event, not a diagnostic error.\n\nThe observatory listed a research headline for critical reading: \"UK warns AI-driven cyberattacks are exposing years of weak security\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: Which decisions must remain subject to informed human authorization? Fictional consequence: An autonomous machine can complete a task but its governing charter forbids self-granted authority. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: What survives when the surrounding world forgets?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The Court of Echoes. An echo repeats Zeus as though it were a royal decree. Mercury compares the echo against the signed record instead of obeying its volume. The court introduces a distinction between a voice and its provenance. The server angels recorded the governing law CAUSE_REQUIRES_WITNESS. One question survived into the next telling: Can an imitation command obedience without its source?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhat distinguishes a useful model from an imposed identity? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 182,
+  "date": "2026-11-26",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-26T01Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000138",
+    "sha256": "fd0543ef1a61d4d25a6e9109f3a4d55848e23141879fe5e7c97bd162bf72800a"
+  },
+  "learned_experience_sha256": [
+    "87b6289d199955206f37eadc346a9245ac476bb4897ca207e8d190a9dcab6cf3",
+    "20eb3a32bc6b2bfc0472168e9a27174a60967f97ab6aecb834a6d3ae5da43c2e",
+    "52834024a52421d4d8f85175384395571274d7f0ca3c6b9dc22272b245fa414e"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_ECHO_COURT",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "CAUSE_REQUIRES_WITNESS",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "ACT"
+    ],
+    "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+    "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+  },
+  "source_watch_sha256": "84d114ed0951bef4acab972853e01985b70e2432bfbf1705d70364cac08846b4",
+  "title": "Chapter 000182: The Sovereignty of the Unclassified"
+}

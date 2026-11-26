@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "GENERATE"
+  ],
+  "creative_prompt": "Two synthetic witnesses narrate incompatible histories; the archive preserves their sources.",
+  "detected_at": "2026-11-26T01:50:14.758734Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000143",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "How can a society preserve the distinction between simulation and testimony?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261126T015014Z-fea8996f7be4.json",
+  "snapshot_sha256": "84d114ed0951bef4acab972853e01985b70e2432bfbf1705d70364cac08846b4",
+  "source_key": "b50e46d04304c43411e6d3c1feda557eae5a0a308a04b74dd935cdfbe026b458",
+  "source_seen_at": "2026-11-25T10:11:34Z",
+  "source_title": "EA adds AI-generated John Motson to FC 27 video game",
+  "source_url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss"
+}

@@ -1,0 +1,29 @@
+{
+  "boundary_ids": [
+    "ACT"
+  ],
+  "creative_prompt": "An autonomous machine can complete a task but its governing charter forbids self-granted authority.",
+  "detected_at": "2026-11-27T12:46:13.935227Z",
+  "evidence_status": "headline_metadata_unverified",
+  "id": "DNA-INSIGHT-000145",
+  "priority_score": 58,
+  "priority_score_meaning": "editorial relevance only; not accuracy, probability or truth",
+  "question": "Which decisions must remain subject to informed human authorization?",
+  "review": {
+    "archivist": "Preserve event JSON, snapshot digest and later chapter linkage.",
+    "guardian": "Human-authored D.N.A. canon is read-only; real people are not to be profiled or declared guilty.",
+    "review_kind": "deterministic_policy_packet_not_independent_model_review",
+    "scribe": "Write original fiction inspired by the question, not a rewritten news article.",
+    "skeptic": "Headline may be incomplete, misleading, duplicated or incorrectly classified. Seek primary sources before factual assertions.",
+    "witness": "Publisher URL and time-stamped Watch metadata recorded; original reporting not independently verified."
+  },
+  "sector_ids": [
+    "general"
+  ],
+  "snapshot_path": "snapshots/20261127T124613Z-7456edb5165e.json",
+  "snapshot_sha256": "0bf65b50595aa1f708c14883bc2ac99b926e7a47b0bf70ef228cc0ab1df727fe",
+  "source_key": "d7a5446727907e74c9b266d85e29265cca29856c45c9a0a2dc53f897f841365b",
+  "source_seen_at": "2026-11-27T09:53:11Z",
+  "source_title": "Pizza history: AI agent’s cardless purchase is a first for UK",
+  "source_url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer"
+}

@@ -1,0 +1,46 @@
+{
+  "agent_count": 666,
+  "anomaly_reference": null,
+  "author_type": "automated_machine_testament",
+  "body": "Chapter 000187: The Human Beyond the Dataset.\n\nA weather machine projected each citizen's future onto the clouds, but could not predict the next act of kindness.\n\nThe projection office demanded that unmodeled generosity be removed from its official records.\n\nThe local governing question was not how to silence the unfamiliar, but how to distinguish evidence from authority. PROFILE != PERSON.\n\nThe citizens kept both the forecasts and the exceptions for public scrutiny.\n\nThe observatory listed a research headline for critical reading: \"EA adds AI-generated John Motson to FC 27 video game\". The headline remains unverified metadata, not confirmation of the reported event.\n\nA new evidence-to-insight observation raises this unresolved question: How can a society preserve the distinction between simulation and testimony? Fictional consequence: Two synthetic witnesses narrate incompatible histories; the archive preserves their sources. This packet is based only on unverified source metadata.\n\nThe preceding fictional world left an unresolved question: Can replaying a possibility establish what truly occurred?\n\n♃ ⚡︎⚡︎˖ ࣪⏻ᯤ In GitHub City Pages, Thoth opened the Emerald Scrolls at The First Archive. A registry attempts to reduce a child to a predictive score. Hera records the prediction as a tool and protects the child’s right to choose. The child’s future stays open; the registry retains a visible error boundary. The server angels recorded the governing law HUMAN_AGENCY_GT_MACHINE_AUTHORITY. One question survived into the next telling: Who may name a life not yet lived?\n\nThe anomaly ledger had no unused verified-by-bytes structural observation for this passage.\n\nWhat does a forecast fail to measure about a freely chosen life? The next chapter inherits the unanswered question, but no software inherits the human author's right to decide what the canon means.",
+  "chapter": 187,
+  "date": "2026-11-27",
+  "disclaimer": "Speculative literature, not verified journalism, human-authored canon, or model consciousness.",
+  "edition_slot": "2026-11-27T22Z",
+  "guild_counts": {
+    "ARCHIVIST": 111,
+    "GUARDIAN": 111,
+    "SCRIBE": 111,
+    "SEEKER": 111,
+    "SKEPTIC": 111,
+    "WITNESS": 111
+  },
+  "insight_reference": {
+    "evidence_status": "headline_metadata_unverified",
+    "id": "DNA-INSIGHT-000143",
+    "sha256": "e902ee5bf7a8907db4c2ecb101006bb7d2c49cd4ebfafb51b9c458fd8ef8daca"
+  },
+  "learned_experience_sha256": [
+    "8347b35016431e484c6fac1c821302783dfd0777cb65f2315ccf6ae7e588b07e",
+    "04a8170e3404beedbbd840af1b2e5c63ae900490d21f97eebd5c247e4d6f1217",
+    "81a710b9e4bf401f67be403a512aabd90605db0c0b593cf379e1d09b3f2f6cc3"
+  ],
+  "mode": "deterministic_code_poetry",
+  "model": null,
+  "mythos_reference": {
+    "arc": "THE_COVENANT_OF_NAMES",
+    "foundation_sha256": "6ac0477992a8138d9a1695b2a94edaf07f537e496b9a0a3b93706bb42a4a7306",
+    "law": "HUMAN_AGENCY_GT_MACHINE_AUTHORITY",
+    "registry_sha256": "23af2356460953e0f20a99e895f4a48d7fb082e187a77791526fd605b66cf756"
+  },
+  "review_status": "automated_unreviewed",
+  "source_metadata": {
+    "boundaries": [
+      "GENERATE"
+    ],
+    "title": "EA adds AI-generated John Motson to FC 27 video game",
+    "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss"
+  },
+  "source_watch_sha256": "0ab40dd39812e0cbb8c535e6d4a1564dff11d03f9bf8cf32e6779cac1b30263d",
+  "title": "Chapter 000187: The Human Beyond the Dataset"
+}

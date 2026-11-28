@@ -1308,6 +1308,13 @@
       "previous_sha256": "124312f0072bcc386fda4ab7262b60a9a509f214f5677e2ca1bc4d2928feb775",
       "sha256": "2ab60c219d3385ae9fb34dc2c2a7c1ff7484e5dd8ad7411768988cc378a4828a",
       "world_lens": "UNWRITTEN_MEMORY"
+    },
+    {
+      "chapter": 188,
+      "path": "stories/story-000188.json",
+      "previous_sha256": "2ab60c219d3385ae9fb34dc2c2a7c1ff7484e5dd8ad7411768988cc378a4828a",
+      "sha256": "c5b7437f1dbcfa0d2d9017facaa31c798794fbf504f49769e39a3dbc60cae214",
+      "world_lens": "MASKS_OF_THE_LEDGER"
     }
   ],
   "schema_version": "dna.interactive-manuscript.v1"
